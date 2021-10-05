@@ -10,10 +10,7 @@
 
 <link type="text/css" rel="stylesheet" href="//www.mtu.edu/mtu_resources/styles/n/normalize.css" />
 <!-- <link type="text/css" rel="stylesheet" href="//www.mtu.edu/mtu_resources/styles/n/base.css" /> -->
-<link type="text/css" rel="stylesheet" href="//www.mtu.edu/mtu_resources/styles/n/base.css?v=21.011415" />
-
-<!--[if lte IE 9]>
-	<script src="/_resources/js/html5.js"></script><![endif]-->
+<link type="text/css" rel="stylesheet" href="//www.mtu.edu/mtu_resources/styles/n/base.css?v=21.092810" />
 
 <!-- this is the headcode include -->
 <link rel="stylesheet" href="/_resources/css/oustyles.css" />
@@ -41,7 +38,7 @@ if(window.devicePixelRatio > 1.5) {
 } else {
 	dataLayer.push({'retina':'false'});
 }
-dataLayer.push({'internalExternal' : 'external'});
+dataLayer.push({'internalExternal' : 'internal'});
 </script>
 
 <!-- Google Tag Manager -->
@@ -53,7 +50,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 
 
-   </head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" rel="preload" as="style" />   </head>
    <body itemscope="" itemtype="http://schema.org/CollegeOrUniversity">
       <div class="stick"><svg xmlns:xlink="http://www.w3.org/1999/xlink" id="logo-svg" style="display: none;">
    <symbol xmlns="http://www.w3.org/2000/svg" id="mtu-logo-combo" version="1.1" class="mtu-logo" x="0px" y="0px" viewBox="0 200.716 982.034 198.568">
@@ -125,7 +124,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<div role="search" aria-label="search functions" class="search-box" aria-hidden="true">
+<div role="search" aria-label="search functions" class="search-box" aria-hidden="true" id="search-box-container">
 	<div class="search-wrap">
 		<div class="field-wrap">
 			<form method="get" action="//www.mtu.edu/search/" id="cse-search-box">
@@ -173,15 +172,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                <li role="none" class="sub nav-section-head"><button role="menuitem" aria-haspopup="true" aria-expanded="false">
                      									Info For . . .
                      								</button><ul>
-                     <li><a aria-label="Current Students" href="/current/">Students</a></li>
-                     <li><a aria-label="Faculty and Staff" href="/faculty-staff/">Faculty/Staff</a></li>
-                     <li><a aria-label="Alumni Association" href="/alumni/">Alumni</a></li>
-                     <li><a aria-label="Parents and Family" href="/parentsfamily/">Parents</a></li>
+                     <li><a href="/current/" aria-label="Michigan Tech Students">Students</a></li>
+                     <li><a href="/faculty-staff/" aria-label="Michigan Tech Faculty/Staff">Faculty/Staff</a></li>
+                     <li><a href="/alumni/" aria-label="Michigan Tech Alumni Association">Alumni</a></li>
+                     <li><a href="/parentsfamily/" aria-label="Michigan Tech Parents and Family">Parents</a></li>
                   </ul>
                </li>
             </ul>
             <ul class="search-quick">
-               <li class="search-trigger"><a role="button" href="https://www.mtu.edu/search/" title="Search" aria-expanded="false" aria-label="Expand Search Fields"><span class="show-for-sr text-white">Search</span></a></li>
+               <li class="search-trigger"><a role="button" href="https://www.mtu.edu/search/" title="Search" aria-expanded="false" aria-controls="search-box-container" aria-label="Expand Search Fields"><span class="show-for-sr text-white">Search</span></a></li>
                <li class="sub quick-links"><a role="button" href="/a2z/" title="Quick Links" aria-haspopup="true" aria-expanded="false" class="quick-links-toggle">
                      									Quick Links
                      									<button class="mobile-nav-open-sub text-white">Open sub-menu</button></a><ul class="quick-links-nav" aria-label="Quick links">
@@ -189,36 +188,41 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                      <li><a href="https://www.banweb.mtu.edu/" class="link-banweb">Banweb</a></li>
                      <li><a href="/maps/" class="link-map">Campus Map</a></li>
                      <li><a href="https://mtu.instructure.com/" class="link-canvas">Canvas</a></li>
-                     <li><a href="https://mail.google.com/a/mtu.edu/" class="link-email">Email</a></li>
-                     <li><a href="https://www.banweb.mtu.edu/owassb/symptom_form.p_portal" class="link-flex-portal">Flex Portal</a></li>
+                     <li><a href="https://www.mtu.edu/email/" class="link-email">Email</a></li>
                      <li><a href="https://mymichigantech.mtu.edu/" class="link-mymt">MyMichiganTech</a></li>
                   </ul>
                </li>
-            </ul><ul class="category-nav-bar" aria-label="Main Navigation"><li class="main-nav-item sub"><button role="menuitem" aria-haspopup="true" aria-expanded="false">Graduate</button><ul><li><a href="/cs/graduate/"><span>Program Information</span></a></li><li><a href="/cs/graduate/research-positions/"><span>Student Research Positions</span></a></li><li><a href="/computing/graduate/computer-science/"><span>Computer Science—MS, PhD</span></a></li><li><a href="/computing/graduate/cybersecurity/"><span>Cybersecurity—MS</span></a></li><li><a href="/computing/graduate/computer-science/accelerated/"><span>Computer Science Accelerated Master's</span></a></li><li><a href="/cse/"><span>Computational Science and Engineering—PhD</span></a></li><li><a href="/cs/graduate/advising/"><span>Advising</span></a></li><li><a href="/cs/graduate/directory/"><span>Graduate Student Directory</span></a></li><li><a href="https://www.banweb.mtu.edu/pls/owa/stu_ctg_utils.p_online_all_courses_gr#CS"><span>Departmental Courses</span></a></li></ul></li><li class="main-nav-item sub"><button role="menuitem" aria-haspopup="true" aria-expanded="false">Undergraduate</button><ul><li><a href="/computing/undergraduate/computer-science/"><span>Computer Science—BS</span></a></li><li><a href="/computing/undergraduate/cybersecurity/"><span>Cybersecurity—BS</span></a></li><li><a href="/computing/undergraduate/software/"><span>Software Engineering—BS</span></a></li><li><a href="/computing/undergraduate/minors/"><span>Computing Minors</span></a></li><li><a href="/cs/undergraduate/transfer-students/"><span>Transfer Students</span></a></li><li><a href="/cs/undergraduate/placement/"><span>CS Knowledge Assessment</span></a></li><li><a href="/cs/undergraduate/advising/"><span>Advising</span></a></li><li><a href="https://www.banweb.mtu.edu/pls/owa/stu_ctg_utils.p_online_all_courses_ug#CS"><span>Departmental Courses</span></a></li><li><a href="/cs/undergraduate/accreditation/"><span>Accreditation</span></a></li></ul></li><li class="main-nav-item sub"><button role="menuitem" aria-haspopup="true" aria-expanded="false">Research</button><ul><li><a href="/cs/research/focus/"><span>Research Focus</span></a></li><li><a href="/cs/research/projects/"><span>Funded Projects</span></a></li><li><a href="/icc/"><span>Institute of Computing and Cybersystems</span></a></li><li><a href="/cs/pdfs/computer-science-research-report.pdf"><span>Research Report</span></a></li><li><a href="/cs/research/papers/"><span>Technical Reports</span></a></li></ul></li><li class="main-nav-item"><a href="/computing/labs-facilities/">Labs and Facilities</a></li><li class="main-nav-item sub"><button role="menuitem" aria-haspopup="true" aria-expanded="false">Department</button><ul><li><a href="/cs/department/about/"><span>About</span></a></li><li><a href="/cs/cs-events/"><span>CS Events</span></a></li><li class=" active-in"><a href="/cs/department/people/"><span>Faculty Directory</span></a></li><li><a href="/cs/department/advisory-board/"><span>External Advisory Board</span></a></li><li><a href="/cs/department/alumni/"><span>Alumni</span></a></li><li><a href="/computing/about/employment/"><span>Employment</span></a></li><li><a href="/cs/graduate/research-positions/"><span>Student Research Positions</span></a></li><li><a href="/cs/department/contact/"><span>Contact Us</span></a></li></ul></li><li class="main-nav-item"><a href="/cs/giving/">Giving Opportunities</a></li><li class="main-nav-item yellow"><a href="/applynow/">Apply Now</a></li></ul>         </div>
+            </ul><ul class="category-nav-bar" aria-label="Main Navigation"><li class="main-nav-item sub"><button role="menuitem" aria-haspopup="true" aria-expanded="false">Undergraduate</button><ul><li><a href="/computing/undergraduate/computer-science/"><span>Computer Science—BS</span></a></li><li><a href="/applied-computing/undergraduate/cybersecurity/"><span>Cybersecurity—BS</span></a></li><li><a href="/computing/undergraduate/software/"><span>Software Engineering—BS</span></a></li><li><a href="/computing/undergraduate/minors/"><span>Computing Minors</span></a></li><li><a href="/cs/undergraduate/transfer-students/"><span>Transfer Students</span></a></li><li><a href="/cs/undergraduate/placement/"><span>CS Knowledge Assessment</span></a></li><li><a href="/cs/undergraduate/advising/"><span>Advising</span></a></li><li><a href="https://www.banweb.mtu.edu/pls/owa/stu_ctg_utils.p_online_all_courses_ug#CS"><span>Departmental Courses</span></a></li><li><a href="/cs/undergraduate/accreditation/"><span>Accreditation</span></a></li></ul></li><li class="main-nav-item sub"><button role="menuitem" aria-haspopup="true" aria-expanded="false">Graduate</button><ul><li><a href="/cs/graduate/"><span>Program Overview</span></a></li><li><a href="/cs/graduate/advising/"><span>Advising</span></a></li><li><a href="https://www.banweb.mtu.edu/pls/owa/stu_ctg_utils.p_online_all_courses_gr#CS"><span>CS Department Courses</span></a></li><li><a href="/computing/graduate/computer-science/"><span>Computer Science&mdash;MS, PhD</span></a></li><li><a href="/applied-computing/graduate/cybersecurity/"><span>Cybersecurity&mdash;MS</span></a></li><li><a href="/computing/graduate/computer-science/accelerated/"><span>Computer Science Accelerated Master's</span></a></li><li><a href="/cse/"><span>Computational Science and Engineering&mdash;PhD</span></a></li><li><a href="/cs/graduate/directory/"><span>Graduate Student Directory</span></a></li><li><a href="/computing/about/employment/"><span>Graduate Research Positions</span></a></li></ul></li><li class="main-nav-item sub"><button role="menuitem" aria-haspopup="true" aria-expanded="false">Research</button><ul><li><a href="/cs/research/focus/"><span>Research Focus</span></a></li><li><a href="/cs/research/projects/"><span>Funded Projects</span></a></li><li><a href="/cs/research/focus/artificial-intelligence-machine-learning/"><span>Artificial Intelligence and Machine Learning</span></a></li><li><a href="/icc/"><span>Institute of Computing and Cybersystems</span></a></li><li><a href="/cs/pdfs/computer-science-research-report.pdf"><span>Research Report</span></a></li><li><a href="/cs/research/papers/"><span>Technical Reports</span></a></li><li><a href="/cs/research/focus/architecture/"><span>Architecture</span></a></li><li><a href="/cs/research/focus/education-society-profession/"><span>Education, Society, and Profession</span></a></li><li><a href="/cs/research/focus/programming-software-engineering/"><span>Programming Languages and Software Engineering</span></a></li><li><a href="/cs/research/focus/security-privacy/"><span>Security and Privacy</span></a></li><li><a href="/cs/research/focus/systems-networking/"><span>Systems and Networking</span></a></li></ul></li><li class="main-nav-item"><a href="/computing/facilities/">Facilities</a></li><li class="main-nav-item sub"><button role="menuitem" aria-haspopup="true" aria-expanded="false">Department</button><ul><li><a href="/cs/department/about/"><span>About</span></a></li><li><a href="/cs/department/chair-message/"><span>Message from the Chair</span></a></li><li><a href="/cs/department/advisory-board/"><span>External Advisory Board</span></a></li><li><a href="/cs/department/alumni/"><span>Alumni</span></a></li><li><a href="/computing/employment/"><span>Employment</span></a></li><li><a href="/cs/cs-events/"><span>CS Events</span></a></li><li class=" active-in"><a href="/cs/department/people/"><span>Faculty Directory</span></a></li><li><a href="/cs/department/contact/"><span>Contact Us</span></a></li></ul></li><li class="main-nav-item"><a href="/cs/giving/">Giving Opportunities</a></li><li class="main-nav-item yellow"><a href="/applynow/">Apply Now</a></li></ul>         </div>
       </nav>
    </div>
-</header>         <div class="sitetitle">
-            <div><span><a href="/cs/">Computer Science</a></span></div>
-            <div id="breadcrumbs" role="navigation" aria-label="breadcrumbs" class="breadcrumbs">
-               <ul>
-                  <li><a href="/">Michigan Tech</a></li>
-                  <li><a href="/computing/index.html">Computing</a></li>
-                  <li><a href="/cs/">Computer Science</a></li>
-                  <li class="active" aria-current="page">Faculty Directory</li>
-               </ul>
-            </div>         </div>
+</header>         <div class="background-light-gray">
+            <div class="site-title-wrapper">
+               <div class="site-title">
+                  <div class="title"><span><a href="/cs/">Computer Science</a></span></div>
+                  <div id="breadcrumbs" role="navigation" aria-label="breadcrumbs" class="breadcrumbs">
+                     <ul>
+                        <li><a href="/">Michigan Tech</a></li>
+                        <li><a href="/computing/index.html">Computing</a></li>
+                        <li><a href="/cs/">Computer Science</a></li>
+                        <li class="active" aria-current="page">Faculty Directory</li>
+                     </ul>
+                  </div>
+               </div>            </div>
+         </div>
          <div id="main" role="main" class="main">
             <section id="body_section" class="body-section" aria-label="main content">
                <div class="full-width">
                   <div class="clearer"></div>
                   <div class="left leftnav">
-                     <div id="toggle-left"><img class="more-menu left" aria-hidden="true" role="presentation" src="/_resources/images/icons/hamburger.svg" alt="Open"><span class="left"> Also in this section</span></div>
-                     <ul id="main_links" role="navigation" aria-label="left">
-                        <li class="nav-title active"><span>Department</span><div class="sublinks">
-                              <ul class="firstlevel"><li><a  href="/cs/department/about/">About</a></li><li><a  href="/cs/cs-events/">CS Events</a></li><li class="active"><a  href="/cs/department/people/">Faculty Directory</a></li><li><a  href="/cs/department/advisory-board/">External Advisory Board</a></li><li><a  href="/cs/department/alumni/">Alumni</a></li><li><a  href="/computing/about/employment/">Employment</a></li><li><a  href="/cs/graduate/research-positions/">Student Research Positions</a></li><li><a  href="/cs/department/contact/">Contact Us</a></li></ul>
-                           </div>
-                        </li>
-                     </ul>
+                     <div id="toggle-left"><img class="more-menu left" height="16" width="20" aria-hidden="true" role="presentation" src="/_resources/images/icons/hamburger.svg" alt="Open"><button class="left not-button"> Also in this section</button></div>
+                     <nav>
+                        <ul id="main_links" aria-label="left">
+                           <li class="nav-title active"><span class="nav-title-heading">Department</span><div class="sublinks">
+                                 <ul class="firstlevel"><li><a  href="/cs/department/about/">About</a></li><li><a  href="/cs/department/chair-message/">Message from the Chair</a></li><li><a  href="/cs/department/advisory-board/">External Advisory Board</a></li><li><a  href="/cs/department/alumni/">Alumni</a></li><li><a  href="/computing/employment/">Employment</a></li><li><a  href="/cs/cs-events/">CS Events</a></li><li class="active"><a  href="/cs/department/people/">Faculty Directory</a></li><li><a  href="/cs/department/contact/">Contact Us</a></li></ul>
+                              </div>
+                           </li>
+                        </ul>
+                     </nav>
                      <div class="callout">                        		
                         	
                      </div>
@@ -226,8 +230,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <h1 class="pagetitle">Faculty Directory</h1>
                   <div id="content" class="content">
                      <article id="content_body" aria-label="content" class="main-content">
+                        <h2 class="graybar">Primary Program Faculty</h2>
+                        
                         <div class="dept_unit">
-                           <div><!-- FROM CACHE resets at Sat, 16 Jan 2021 00:52:08 -- cache/%2Fcs%2Fdepartment%2Fpeople%2F-ad0b94712e227bf8518d467c10b291fc&number=24.txt --><!-- /cs/department/people/faculty/asilioglu/ -->							
+                           <div><!-- FROM CACHE resets at Tue, 05 Oct 2021 21:46:15 -- cache/%2Fcs%2Fdepartment%2Fpeople%2F-ad0b94712e227bf8518d467c10b291fc&number=24.txt --><!-- /cs/department/people/faculty/asilioglu/ -->							
 <div class="person">
   <div class="photo"><a href="/cs/department/people/faculty/asilioglu/">  <img height="230" width="170" loading="lazy" alt="Gorkem Asilioglu"  src="/cs/department/people/faculty/asilioglu/images/gorkem-asilioglu-personnel.jpg" class="img"  />  </a>   
 	  	  
@@ -242,7 +248,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class='email-address'><a href="mailto:galolu@mtu.edu">galolu@mtu.edu</a></li>		  <li class='phone-number'><a href="tel:9064871643">906-487-1643</a></li> 		  		<li class='place'>Rekhi Hall 308</li> 
+		  <li class="email-address"><a href="mailto:galolu@mtu.edu">galolu@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064871643">906-487-1643</a></li> 		  		<li class='place'>Rekhi Hall 308</li> 
         	   </ul>
 	          </div>
             <div class="left specialties"><h3>Links of Interest</h3>
@@ -287,7 +293,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class='email-address'><a href="mailto:bcbettin@mtu.edu">bcbettin@mtu.edu</a></li>		  		  		<li class='place'>Rekhi 202</li> 
+		  <li class="email-address"><a href="mailto:bcbettin@mtu.edu">bcbettin@mtu.edu</a></li>		  		  		<li class='place'>Rekhi 202</li> 
         	   </ul>
 	          </div>
             		</div>	    
@@ -330,7 +336,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class='email-address'><a href="mailto:lebrown@mtu.edu">lebrown@mtu.edu</a></li>		  <li class='phone-number'><a href="tel:9064873472">906-487-3472</a></li> 		  		<li class='place'>Rekhi Hall 307</li> 
+		  <li class="email-address"><a href="mailto:lebrown@mtu.edu">lebrown@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064873472">906-487-3472</a></li> 		  		<li class='place'>Rekhi Hall 307</li> 
         	   </ul>
 	          </div>
             <div class="left specialties"><h3>Links of Interest</h3>
@@ -385,7 +391,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class='email-address'><a href="mailto:bchen@mtu.edu">bchen@mtu.edu</a></li>		  <li class='phone-number'><a href="tel:9064873149">906-487-3149</a></li> 		  		<li class='place'>Rekhi 301</li> 
+		  <li class="email-address"><a href="mailto:bchen@mtu.edu">bchen@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064873149">906-487-3149</a></li> 		  		<li class='place'>Rekhi 301</li> 
         	   </ul>
 	          </div>
             <div class="left specialties"><h3>Links of Interest</h3>
@@ -393,6 +399,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
          
          <li>
             <a href="https://pages.mtu.edu/~bchen/">Faculty Website</a>
+         </li>
+         
+         <li>
+            <a href="https://snp.cs.mtu.edu">MTU Security and Privacy (SnP) lab</a>
          </li>
          
       </ul>
@@ -430,7 +440,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class='email-address'><a href="mailto:aebnenas@mtu.edu">aebnenas@mtu.edu</a></li>		  <li class='phone-number'><a href="tel:9064874372">906-487-4372</a></li> 		  		<li class='place'>Rekhi Hall 206</li> 
+		  <li class="email-address"><a href="mailto:aebnenas@mtu.edu">aebnenas@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064874372">906-487-4372</a></li> 		  		<li class='place'>Rekhi Hall 206</li> 
         	   </ul>
 	          </div>
             <div class="left specialties"><h3>Links of Interest</h3>
@@ -468,80 +478,81 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="clearer"></div>
 </div>
 				
-<!-- /cs/department/people/faculty/thavens/ -->							
+<!-- /cs/department/people/faculty/havens/ -->							
 <div class="person">
-  <div class="photo"><a href="/cs/department/people/faculty/thavens/">  <img height="230" width="170" loading="lazy" alt="Timothy Havens"  src="/computing/about/faculty/havens/images/timothy-havens-2019-personnel.jpg" class="img"  />  </a>   
-	  <!-- Connect --><ul class="social-icons no-bullet"><li><a class="linkedin" aria-label="LinkedIn Timothy Havens" href="https://www.linkedin.com/in/timothy-havens-5618907/"><span>LinkedIn></span></a></li></ul>	  
+  <div class="photo"><a href="/cs/department/people/faculty/havens/">  <img height="230" width="170" loading="lazy" alt="Timothy Havens"  src="/cs/department/people/faculty/havens/images/tim-havens-4-5x4-5-personnel170.jpg" class="img"  />  </a>   
+	  <!-- Connect --><ul class="social-icons no-bullet"><li><a class="linkedin" aria-label="LinkedIn Timothy Havens" href="https://www.linkedin.com/in/timothy-havens-5618907/"><span>LinkedIn</span></a></li></ul>	  
   </div>
   <div class="person_bio">
     <div class="personal">
-      <h2> <a href="/cs/department/people/faculty/thavens/">Timothy Havens</a></h2>
+      <h2> <a href="/cs/department/people/faculty/havens/">Timothy C. Havens</a></h2>
 
-      <ul class="none"><li>Associate Dean for Research, College of Computing</li><li>William and Gloria Jackson Associate
-      Professor of Computer Systems</li><li>Director, Institute of Computing and Cybersystems</li><li>
-   </li>      </ul>    </div>
+      <ul class="none"><li>William and Gloria Jackson Professor of Computer Systems</li><li>Associate Dean for Research, College of Computing</li><li>Director, Institute of Computing and Cybersystems</li>      </ul>    </div>
       
 	
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class='email-address'><a href="mailto:thavens@mtu.edu">thavens@mtu.edu</a></li>		  <li class='phone-number'><a href="tel:9064873115">906-487-3115</a></li> 		  		<li class='place'>EERC 504</li> 
+		  <li class="email-address"><a href="mailto:thavens@mtu.edu">thavens@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064873115">906-487-3115</a></li> 		  		<li class='place'>EERC 504</li> 
         	   </ul>
 	          </div>
-            <div class="left specialties"><h3>Links of Interest</h3>
+            <div class="left specialties"><h3>Links of Interest</h3><ul class="none">
+<li><a href="http://www.timhavens.com/">Faculty Webpage</a></li>
+</ul></div>		</div>	    
+	   <div class="right specialties"><h3>Areas of Interest</h3><ul>
+<li>Pattern Recognition and Machine Learning</li>
+<li>Signal and Image Processing</li>
+<li>Sensor and Data Fusion</li>
+<li>Heterogeneous Data Mining</li>
+<li>Explosive Hazard Detection</li>
+</ul></div>  </div>
+  <div class="clearer"></div>
+</div>
+				
+<!-- /cs/department/people/faculty/dukka-kc/ -->							
+<div class="person">
+  <div class="photo"><a href="/cs/department/people/faculty/dukka-kc/">  <img height="230" width="170" loading="lazy" alt="Dukka KC"  src="/cs/department/people/faculty/dukka-kc/images/dukka-kc.jpg" class="img"  />  </a>   
+	  <!-- Connect --><ul class="social-icons no-bullet"><li><a class="linkedin" aria-label="LinkedIn Dukka KC" href="https://www.linkedin.com/in/dukka-kc-ph-d-40871510"><span>LinkedIn</span></a></li></ul>	  
+  </div>
+  <div class="person_bio">
+    <div class="personal">
+      <h2> <a href="/cs/department/people/faculty/dukka-kc/">Dukka B KC</a></h2>
+
+      <ul class="none"><li>Associate Professor, Computer Science</li>      </ul>    </div>
+      
+	
+     	<div class="left">      <div class="contact">
       <ul class="none">
-         
-         <li>
-            <a title="Link to Tim Havens' Faculty Webpage" href="http://www.timhavens.com/"> Faculty Web Page</a>
-         </li>
-         
-      </ul>
+       
+		  <li class="email-address"><a href="mailto:dbkc@mtu.edu">dbkc@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064871657">906-487-1657</a></li> 		  		<li class='place'>Rekhi Hall 212</li> 
+        	   </ul>
+	   		<a class="noicon" href="/safeplace/"><img loading="lazy" src="/_resources/images/sitewide/safe-place-logo.jpg" alt="Huskies Safe Place" class="safeplace-logo"></a>
+	          </div>
+            <div class="left specialties"><h3>Links of Interest</h3>
+      <p>
+         <a href="/icc/index.html">Institute of Computing and Cybersystems</a>
+      </p>
    </div>		</div>	    
-	   <div class="right specialties"><h3>Areas of Interest</h3>
+	   <div class="right specialties"><h3>Research Interests</h3>
       <ul>
          
-         <li>Pattern Recognition and Machine Learning</li>
+         <li>Bioinformatics</li>
          
-         <li>Signal and Image Processing</li>
+         <li>Data Science</li>
          
-         <li>Sensor and Data Fusion</li>
+         <li>Machine Learning/Deep Learning</li>
          
-         <li>Heterogeneous Data Mining</li>
-         
-         <li>Explosive Hazard Detection</li>
+         <li>High-performance Computing</li>
          
       </ul>
    </div>  </div>
   <div class="clearer"></div>
 </div>
 				
-<!-- /cs/department/people/faculty/hiebel/ -->							
-<div class="person">
-  <div class="photo"><a href="/cs/department/people/faculty/hiebel/">  <img height="230" width="170" loading="lazy" alt="Jason Hiebel"  src="/cs/department/people/faculty/hiebel/images/jason-hiebel-personnel170.jpg" class="img"  />  </a>   
-	  	  
-  </div>
-  <div class="person_bio">
-    <div class="personal">
-      <h2> <a href="/cs/department/people/faculty/hiebel/">Jason Hiebel</a></h2>
-
-      <ul class="none"><li>Adjunct Assistant Professor, Department of Computer Science</li>      </ul>    </div>
-      
-	
-     	<div class="left">      <div class="contact">
-      <ul class="none">
-       
-		  <li class='email-address'><a href="mailto:jshiebel@mtu.edu">jshiebel@mtu.edu</a></li>		  <li class='phone-number'><a href="tel:9064872384">906-487-2384</a></li> 		  		<li class='place'>Rekhi 322</li> 
-        	   </ul>
-	          </div>
-            		</div>	    
-	     </div>
-  <div class="clearer"></div>
-</div>
-				
 <!-- /cs/department/people/faculty/kuhl/ -->							
 <div class="person">
-  <div class="photo"><a href="/cs/department/people/faculty/kuhl/">  <img height="230" width="170" loading="lazy" alt="Scott Kuhl"  src="/cs/department/people/faculty/kuhl/images/kuhl-personnel.jpg" class="img"  />  </a>   
-	  	  
+  <div class="photo"><a href="/cs/department/people/faculty/kuhl/">  <img height="230" width="170" loading="lazy" alt="Scott Kuhl"  src="/cs/department/people/faculty/kuhl/images/scott-kuhl-20190402-crop-800px.jpg" class="img"  />  </a>   
+	  <!-- Connect --><ul class="social-icons no-bullet"><li><a class="linkedin" aria-label="LinkedIn Scott Kuhl" href="https://www.linkedin.com/in/skuhl/"><span>LinkedIn</span></a></li></ul>	  
   </div>
   <div class="person_bio">
     <div class="personal">
@@ -555,8 +566,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class='email-address'><a href="mailto:kuhl@mtu.edu">kuhl@mtu.edu</a></li>		  <li class='phone-number'><a href="tel:9064872798">906-487-2798</a></li> 		  		<li class='place'>Rekhi Hall 210</li> 
+		  <li class="email-address"><a href="mailto:kuhl@mtu.edu">kuhl@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064872798">906-487-2798</a></li> 		  		<li class='place'>Rekhi Hall 210</li> 
         	   </ul>
+	   		<a class="noicon" href="/safeplace/"><img loading="lazy" src="/_resources/images/sitewide/safe-place-logo.jpg" alt="Huskies Safe Place" class="safeplace-logo"></a>
 	          </div>
             <div class="left specialties"><h3>Links of Interest</h3>
       <ul class="none">
@@ -591,6 +603,53 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="clearer"></div>
 </div>
 				
+<!-- /cs/department/people/faculty/lei/ -->							
+<div class="person">
+  <div class="photo"><a href="https://pages.mtu.edu/~xinyulei/">   <img height="230" width="170" loading="lazy" alt="Xinyu Lei"  src="/cs/department/people/faculty/lei/images/xinyu-lei-faculty-candidate-042221-personnel170.jpg" class="img"  />  </a>   
+	  	  
+  </div>
+  <div class="person_bio">
+    <div class="personal">
+      <h2> <a href="https://pages.mtu.edu/~xinyulei/">Xinyu Lei</a></h2>
+
+      <ul class="none"><li>Assistant Professor, Computer Science</li>      </ul>    </div>
+      
+	
+     	<div class="left">      <div class="contact">
+      <ul class="none">
+       
+		  <li class="email-address"><a href="mailto:xinyulei@mtu.edu">xinyulei@mtu.edu</a></li>		  		  		<li class='place'>Rekhi Hall 306</li> 
+        	   </ul>
+	          </div>
+            <div class="left specialties"><h3>Links of Interest</h3>
+      <ul class="none">
+         
+         <li>
+            <a href="https://pages.mtu.edu/~xinyulei">Faculty Web Page</a>
+         </li>
+         
+      </ul>
+   </div>		</div>	    
+	   <div class="right specialties"><h3>Research Focus</h3>
+      <ul>
+         
+         <li>
+            
+            <p>Machine Learning</p>
+            
+         </li>
+         
+         <li>
+            
+            <p>Cybersecurity</p>
+            
+         </li>
+         
+      </ul>
+   </div>  </div>
+  <div class="clearer"></div>
+</div>
+				
 <!-- /cs/department/people/faculty/mayo/ -->							
 <div class="person">
   <div class="photo"><a href="/cs/department/people/faculty/mayo/">  <img height="230" width="170" loading="lazy" alt="Jean Mayo"  src="/cs/department/people/faculty/mayo/images/mayo-personnel.jpg" class="img"  />  </a>   
@@ -606,7 +665,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class='email-address'><a href="mailto:jmayo@mtu.edu">jmayo@mtu.edu</a></li>		  <li class='phone-number'><a href="tel:9064873157">906-487-3157</a></li> 		  		<li class='place'>Rekhi Hall 304</li> 
+		  <li class="email-address"><a href="mailto:jmayo@mtu.edu">jmayo@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064873157">906-487-3157</a></li> 		  		<li class='place'>Rekhi Hall 304</li> 
         	   </ul>
 	          </div>
             <div class="left specialties"><h3>Links of Interest</h3>
@@ -640,12 +699,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				
 <!-- /cs/department/people/faculty/nekrich/ -->							
 <div class="person">
-  <div class="photo"><a href="https://pages.mtu.edu/~yakov/">   <img height="230" width="170" loading="lazy" alt="Yakov Nekrich"  src="/cs/department/people/faculty/nekrich/images/yakovmtu-personnel170.jpg" class="img"  />  </a>   
+  <div class="photo"><a href="/cs/department/people/faculty/nekrich/">  <img height="230" width="170" loading="lazy" alt="Yakov Nekrich"  src="/cs/department/people/faculty/nekrich/images/yakovmtu-personnel170.jpg" class="img"  />  </a>   
 	  	  
   </div>
   <div class="person_bio">
     <div class="personal">
-      <h2> <a href="https://pages.mtu.edu/~yakov/">Yakov Nekrich</a></h2>
+      <h2> <a href="/cs/department/people/faculty/nekrich/">Yakov Nekrich</a></h2>
 
       <ul class="none"><li>Associate Professor, Computer Science</li>      </ul>    </div>
       
@@ -653,7 +712,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class='email-address'><a href="mailto:yakov@mtu.edu">yakov@mtu.edu</a></li>		  <li class='phone-number'><a href="tel:9064872271">906-487-2271</a></li> 		  		<li class='place'>Rekhi Hall 311</li> 
+		  <li class="email-address"><a href="mailto:yakov@mtu.edu">yakov@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064872271">906-487-2271</a></li> 		  		<li class='place'>Rekhi Hall 311</li> 
         	   </ul>
 	          </div>
             <div class="left specialties"><h3>Areas of Expertise</h3>
@@ -722,7 +781,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class='email-address'><a href="mailto:nilufer@mtu.edu">nilufer@mtu.edu</a></li>		  <li class='phone-number'><a href="tel:9064871641">906-487-1641</a></li> 		  		<li class='place'>Rekhi Hall 309</li> 
+		  <li class="email-address"><a href="mailto:nilufer@mtu.edu">nilufer@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064871641">906-487-1641</a></li> 		  		<li class='place'>Rekhi Hall 309</li> 
         	   </ul>
 	          </div>
             <div class="left specialties"><h3>Links of Interest</h3>
@@ -769,7 +828,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class='email-address'><a href="mailto:soner@mtu.edu">soner@mtu.edu</a></li>		  <li class='phone-number'><a href="tel:9064872123">906-487-2123</a></li> 		  		<li class='place'>Rekhi Hall 303</li> 
+		  <li class="email-address"><a href="mailto:soner@mtu.edu">soner@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064872123">906-487-2123</a></li> 		  		<li class='place'>Rekhi Hall 303</li> 
         	   </ul>
 	          </div>
             <div class="left specialties"><h3>Links of Interest</h3>
@@ -798,7 +857,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- /cs/department/people/faculty/ott/ -->							
 <div class="person">
   <div class="photo"><a href="/cs/department/people/faculty/ott/">  <img height="230" width="170" loading="lazy" alt="Linda Ott"  src="/cs/department/people/faculty/ott/images/ott-personnel.jpg" class="img"  />  </a>   
-	  	  
+	  <!-- Connect --><ul class="social-icons no-bullet"><li><a class="linkedin" aria-label="LinkedIn Linda Ott" href="https://www.linkedin.com/in/lindamott/"><span>LinkedIn</span></a></li></ul>	  
   </div>
   <div class="person_bio">
     <div class="personal">
@@ -810,30 +869,24 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class='email-address'><a href="mailto:linda@mtu.edu">linda@mtu.edu</a></li>		  <li class='phone-number'><a href="tel:9064872315">906-487-2315</a></li> 		  		<li class='place'>Rekhi 211</li> 
+		  <li class="email-address"><a href="mailto:linda@mtu.edu">linda@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064872315">906-487-2315</a></li> 		  		<li class='place'>Rekhi 211</li> 
         	   </ul>
 	          </div>
             <div class="left specialties"><h3>Links of Interest</h3>
+      <p> </p>
+      
       <ul class="none">
          
          <li>
-            <a href="https://pages.mtu.edu/~linda/">Faculty Web Page</a>
+            <a href="https://ncwit.org/ncwit-program/pacesetters-program/">NCWIT Pacesetters</a>
          </li>
          
          <li>
-            <a href="http://www.ncwit.org/programs-campaigns/pacesetters" target="_blank">NCWIT Pacesetters</a>
+            <a href="https://www.aspirations.org/" target="_blank" rel="noopener">NCWIT Aspirations in Computing</a>
          </li>
          
          <li>
-            <a href="https://www.ncwit.org/programs-campaigns/aspirations-computing" target="_blank">NCWIT Aspirations in Computing</a>
-         </li>
-         
-         <li>
-            <a href="http://www.micwic.org/" target="_blank">Michigan Celebration of Women in Computing</a>
-         </li>
-         
-         <li>
-            <a href="https://pages.mtu.edu/~linda/Soft.html">Software Measurement</a>
+            <a href="http://www.micwic.org/" target="_blank" rel="noopener">Michigan Celebration of Women in Computing</a>
          </li>
          
       </ul>
@@ -873,7 +926,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class='email-address'><a href="mailto:pastel@mtu.edu">pastel@mtu.edu</a></li>		  <li class='phone-number'><a href="tel:9064871639">906-487-1639</a></li> 		  		<li class='place'>Rekhi Hall 204</li> 
+		  <li class="email-address"><a href="mailto:pastel@mtu.edu">pastel@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064871639">906-487-1639</a></li> 		  		<li class='place'>Rekhi Hall 204</li> 
         	   </ul>
 	          </div>
             <div class="left specialties"><h3>Links of Interest</h3>
@@ -914,7 +967,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class='email-address'><a href="mailto:junqiaoq@mtu.edu">junqiaoq@mtu.edu</a></li>		  		  		<li class='place'>Rekhi 310</li> 
+		  <li class="email-address"><a href="mailto:junqiaoq@mtu.edu">junqiaoq@mtu.edu</a></li>		  		  		<li class='place'>Rekhi 310</li> 
         	   </ul>
 	          </div>
             <div class="left specialties"><h3>Links of Interest</h3>
@@ -951,7 +1004,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class='email-address'><a href="mailto:shene@mtu.edu">shene@mtu.edu</a></li>		  <li class='phone-number'><a href="tel:9064873392">906-487-3392</a></li> 		  		<li class='place'>Rekhi Hall 305</li> 
+		  <li class="email-address"><a href="mailto:shene@mtu.edu">shene@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064873392">906-487-3392</a></li> 		  		<li class='place'>Rekhi Hall 305</li> 
         	   </ul>
 	          </div>
             <div class="left specialties"><h3>Links of Interest</h3>
@@ -998,7 +1051,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class='email-address'><a href="mailto:ureel@mtu.edu">ureel@mtu.edu</a></li>		  <li class='phone-number'><a href="tel:9064871816">906-487-1816</a></li> 		  		<li class='place'>Rekhi Hall 209</li> 
+		  <li class="email-address"><a href="mailto:ureel@mtu.edu">ureel@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064871816">906-487-1816</a></li> 		  		<li class='place'>Rekhi Hall 209</li> 
         	   </ul>
 	          </div>
             <div class="left specialties"><h3>Links of Interest</h3>
@@ -1043,7 +1096,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class='email-address'><a href="mailto:vertanen@mtu.edu">vertanen@mtu.edu</a></li>		  <li class='phone-number'><a href="tel:9064872331">906-487-2331</a></li> 		  		<li class='place'>Rekhi Hall 208</li> 
+		  <li class="email-address"><a href="mailto:vertanen@mtu.edu">vertanen@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064872331">906-487-2331</a></li> 		  		<li class='place'>Rekhi Hall 208</li> 
         	   </ul>
 	          </div>
             <div class="left specialties"><h3>Links of Interest</h3>
@@ -1077,43 +1130,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="clearer"></div>
 </div>
 				
-<!-- /cs/department/people/faculty/walker/ -->							
-<div class="person">
-  <div class="photo"><a href="/cs/department/people/faculty/walker/">  <img height="230" width="170" loading="lazy" alt="James Walker"  src="/cs/department/people/faculty/walker/images/walker-personnel.jpg" class="img"  />  </a>   
-	  	  
-  </div>
-  <div class="person_bio">
-    <div class="personal">
-      <h2> <a href="/cs/department/people/faculty/walker/">James W. Walker</a></h2>
-
-      <ul class="none"><li>Lecturer, Computer Science</li><li>Faculty Advisor, IT Oxygen Enterprise</li>      </ul>    </div>
-      
-	
-     	<div class="left">      <div class="contact">
-      <ul class="none">
-       
-		  <li class='email-address'><a href="mailto:jwwalker@mtu.edu">jwwalker@mtu.edu</a></li>		  <li class='phone-number'><a href="tel:9064872183">906-487-2183</a></li> 		  		<li class='place'>Rekhi 306</li> 
-        	   </ul>
-	          </div>
-            <div class="left specialties"><h3>Links of Interest</h3>
-      <p>
-         <a href="http://itoxygen.com/">IT Oxygen Website</a>
-      </p>
-   </div>		</div>	    
-	   <div class="right specialties"><h3>Areas of Expertise</h3>
-      <ul>
-         
-         <li>Virtual Reality</li>
-         
-         <li>CS Education</li>
-         
-         <li>Software Engineering</li>
-         
-      </ul>
-   </div>  </div>
-  <div class="clearer"></div>
-</div>
-				
 <!-- /cs/department/people/faculty/wallace/ -->							
 <div class="person">
   <div class="photo"><a href="/cs/department/people/faculty/wallace/">  <img height="230" width="170" loading="lazy" alt="Charles Wallace"  src="/cs/department/people/faculty/wallace/images/crw-sigcse-small.jpg" class="img"  />  </a>   
@@ -1131,7 +1147,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class='email-address'><a href="mailto:wallace@mtu.edu">wallace@mtu.edu</a></li>		  <li class='phone-number'><a href="tel:9064873431">906-487-3431</a></li> 		  		<li class='place'>Rekhi Hall 205</li> 
+		  <li class="email-address"><a href="mailto:wallace@mtu.edu">wallace@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064873431">906-487-3431</a></li> 		  		<li class='place'>Rekhi Hall 205</li> 
         	   </ul>
 	          </div>
             <div class="left specialties"><h3>Links of Interest</h3>
@@ -1178,7 +1194,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class='email-address'><a href="mailto:zlwang@mtu.edu">zlwang@mtu.edu</a></li>		  <li class='phone-number'><a href="tel:9064872187">906-487-2187</a></li> 		  		<li class='place'>Rekhi Hall 207</li> 
+		  <li class="email-address"><a href="mailto:zlwang@mtu.edu">zlwang@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064872187">906-487-2187</a></li> 		  		<li class='place'>Rekhi Hall 207</li> 
         	   </ul>
 	          </div>
             <div class="left specialties"><h3>Links of Interest</h3>
@@ -1206,12 +1222,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				
 <!-- /cs/department/people/faculty/yuan/ -->							
 <div class="person">
-  <div class="photo"><a href="/cs/department/people/faculty/yuan/">  <img height="230" width="170" loading="lazy" alt="Xiaoyong (Brian) Yuan"  src="/computing/about/faculty/yuan/images/xiaoyongyuan.jpg" class="img"  />  </a>   
+  <div class="photo"><a href="/cs/department/people/faculty/yuan/">  <img height="230" width="170" loading="lazy" alt="Brian Yuan"  src="/cs/department/people/faculty/yuan/images/brian-yuan-5x6-personnel170.jpg" class="img"  />  </a>   
 	  	  
   </div>
   <div class="person_bio">
     <div class="personal">
-      <h2> <a href="/cs/department/people/faculty/yuan/">Xiaoyong (Brian) Yuan</a></h2>
+      <h2> <a href="/cs/department/people/faculty/yuan/">Brian Yuan</a></h2>
 
       <ul class="none"><li>Assistant Professor, Applied Computing</li><li>Assistant Professor, Computer Science</li>      </ul>    </div>
       
@@ -1219,33 +1235,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class='email-address'><a href="mailto:xyyuan@mtu.edu">xyyuan@mtu.edu</a></li>		  <li class='phone-number'><a href="tel:9064874303">906-487-4303</a></li> 		  		<li class='place'>Rekhi Hall 111</li> 
+		  <li class="email-address"><a href="mailto:xyyuan@mtu.edu">xyyuan@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064874303">906-487-4303</a></li> 		  		<li class='place'>Rekhi Hall 111</li> 
         	   </ul>
 	          </div>
-            <div class="left specialties"><h3>Links of Interest</h3>
-      <ul class="none">
-         
-         <li> 
-            <a style="margin: 0px; background: 0px 0px; padding: 0px; border: none; color: #315196; font-weight: 600; text-decoration: none; text-shadow: none; box-shadow: none;" href="https://pages.mtu.edu/~xyyuan" data-ae_domsib="1" data-ae_domuel="body&amp;gt;*:nth-child(2)&amp;gt;*:nth-child(6)&amp;gt;*:nth-child(1)&amp;gt;*:nth-child(1)&amp;gt;*:nth-child(3)&amp;gt;*:nth-child(1)&amp;gt;*:nth-child(2)&amp;gt;*:nth-child(1)&amp;gt;*:nth-child(2)&amp;gt;*:nth-child(3)&amp;gt;*:nth-child(2)&amp;gt;*:nth-child(1)&amp;gt;*:nth-child(1)" data-ae_styles="display;inline;position;static;float;none;clear;none;overflow;visible;column-count;auto;column-width;auto;column-span;none;contain;none">Faculty Web Page</a>
-         </li>
-         
-      </ul>
-   </div>		</div>	    
-	   <div class="right specialties"><h3>Areas of Expertise
-       
-   </h3>
-      <ul>
-         
-         <li>Machine Learning</li>
-         
-         <li>Security and Privacy</li>
-         
-         <li>Cloud Computing
-            <br /> 
-         </li>
-         
-      </ul>
-   </div>  </div>
+            		</div>	    
+	     </div>
   <div class="clearer"></div>
 </div>
 				
@@ -1264,7 +1258,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class='email-address'><a href="mailto:jyue@mtu.edu">jyue@mtu.edu</a></li>		  <li class='phone-number'><a href="tel:9064871726">906-487-1726</a></li> 		  		<li class='place'>Rekhi Hall 203</li> 
+		  <li class="email-address"><a href="mailto:jyue@mtu.edu">jyue@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064871726">906-487-1726</a></li> 		  		<li class='place'>Rekhi Hall 203</li> 
         	   </ul>
 	          </div>
             <div class="left specialties"><h3>Links of Interest</h3>
@@ -1305,7 +1299,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class='email-address'><a href="mailto:ruihong@mtu.edu">ruihong@mtu.edu</a></li>		  <li class='phone-number'><a href="tel:9064871638">906-487-1638</a></li> 		  		<li class='place'>Rekhi Hall 302</li> 
+		  <li class="email-address"><a href="mailto:ruihong@mtu.edu">ruihong@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064871638">906-487-1638</a></li> 		  		<li class='place'>Rekhi Hall 302</li> 
         	   </ul>
 	          </div>
             		</div>	    
@@ -1330,29 +1324,55 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         </div>
                         
                         
-                        <div class="top-title">
-                           <h2>Adjunct and Research Faculty</h2>
-                        </div>
+                        <h2 class="graybar">Allied Faculty</h2>
                         
                         <div class="dept_unit">
-                           <div><!-- FROM CACHE resets at Sat, 16 Jan 2021 00:52:08 -- cache/%2Fcs%2Fdepartment%2Fpeople%2F-7232bb188c172719e6b83fd5e28011b3&number=5.txt --><!-- /cs/department/people/adjunct-research/carr/ -->							
+                           <div><!-- FROM CACHE resets at Tue, 05 Oct 2021 21:46:15 -- cache/%2Fcs%2Fdepartment%2Fpeople%2F-77f78ba2a873905f857f69027319926b&number=13.txt --><!-- /cs/department/people/allied-faculty/paheding/ -->							
 <div class="person">
-  <div class="photo"> <img height="230" width="170" loading="lazy" alt="Steven Carr"  src="/cs/department/people/adjunct-research/carr/images/steven-carr-personnel170.jpg" class="img"  />    
+  <div class="photo"><a href="/cs/department/people/allied-faculty/paheding/">  <img height="230" width="170" loading="lazy" alt="Sidike Paheding"  src="/applied-computing/about/faculty/ac-faculty/paheding/images/sidike-paheding-8x9-personnel170.jpg" class="img"  />  </a>   
 	  	  
   </div>
   <div class="person_bio">
     <div class="personal">
-      <h2> Steven Carr</h2>
+      <h2> <a href="/cs/department/people/allied-faculty/paheding/">Sidike Paheding</a></h2>
 
-      <ul class="none"><li>Adjunct, Computer Science, Michigan Technological University</li><li>Department Chair and
-      Professor, Western Michigan University</li><li>
-   </li>      </ul>    </div>
+      <ul class="none"><li>Assistant Professor, Applied Computing</li><li>Affiliated Assistant Professor, Computer Science</li><li>Affiliated Faculty, Computational Science &amp; Engineering; ICC Center for Data Sciences</li>      </ul>    </div>
       
 	
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class='email-address'><a href="mailto:steve.carr@wmich.edu">steve.carr@wmich.edu</a></li>		  <li class='phone-number'><a href="tel:2692763101">269-276-3101</a></li> 		  		 
+		  <li class="email-address"><a href="mailto:spahedin@mtu.edu">spahedin@mtu.edu</a></li>		  		  		<li class='place'>EERC 417</li> 
+        	   </ul>
+	          </div>
+            		</div>	    
+	   <div class="right"><div class="specialties"><h3>Areas of Expertise:</h3><ul>
+<li>Machine Learning</li>
+<li>Deep Learning</li>
+<li>Computer Vision</li>
+<li>Image and Video Processing</li>
+<li>Hyperspectral Image Analysis</li>
+<li>Remote Sensing</li>
+</ul></div></div>  </div>
+  <div class="clearer"></div>
+</div>
+				
+<!-- /cs/department/people/allied-faculty/al-ratrout/ -->							
+<div class="person">
+  <div class="photo"><a href="/cs/department/people/allied-faculty/al-ratrout/">  <img height="230" width="170" loading="lazy" alt="Serein Al-Ratrout"  src="/cs/department/people/allied-faculty/al-ratrout/images/serein.png" class="img"  />  </a>   
+	  	  
+  </div>
+  <div class="person_bio">
+    <div class="personal">
+      <h2> <a href="/cs/department/people/allied-faculty/al-ratrout/">Serein Al-Ratrout</a></h2>
+
+      <ul class="none"><li>Adjunct Assistant Professor, Computer Science</li>      </ul>    </div>
+      
+	
+     	<div class="left">      <div class="contact">
+      <ul class="none">
+       
+		  <li class="email-address"><a href="mailto:salratro@mtu.edu">salratro@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064872518">906-487-2518</a></li> 		  		<li class='place'>Rekhi Hall 104</li> 
         	   </ul>
 	          </div>
             		</div>	    
@@ -1360,14 +1380,37 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="clearer"></div>
 </div>
 				
-<!-- /cs/department/people/adjunct-research/jeon/ -->							
+<!-- /cs/department/people/allied-faculty/heibel/ -->							
 <div class="person">
-  <div class="photo"><a href="/cs/department/people/adjunct-research/jeon/">  <img height="230" width="170" loading="lazy" alt="Myounghoon "Philart" Jeon"  src="/cs/department/people/adjunct-research/jeon/images/jeon-personnel.jpg" class="img"  />  </a>   
+  <div class="photo"><a href="/cs/department/people/allied-faculty/heibel/">  <img height="230" width="170" loading="lazy" alt="Jason Hiebel"  src="/cs/department/people/allied-faculty/heibel/images/jason-hiebel-personnel170.jpg" class="img"  />  </a>   
 	  	  
   </div>
   <div class="person_bio">
     <div class="personal">
-      <h2> <a href="/cs/department/people/adjunct-research/jeon/">Myounghoon "Philart" Jeon</a></h2>
+      <h2> <a href="/cs/department/people/allied-faculty/heibel/">Jason Hiebel</a></h2>
+
+      <ul class="none"><li>Adjunct Assistant Professor, Department of Computer Science</li>      </ul>    </div>
+      
+	
+     	<div class="left">      <div class="contact">
+      <ul class="none">
+       
+		  <li class="email-address"><a href="mailto:jshiebel@mtu.edu">jshiebel@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064872384">906-487-2384</a></li> 		  		<li class='place'>Rekhi 322</li> 
+        	   </ul>
+	          </div>
+            		</div>	    
+	     </div>
+  <div class="clearer"></div>
+</div>
+				
+<!-- /cs/department/people/allied-faculty/jeon/ -->							
+<div class="person">
+  <div class="photo"><a href="/cs/department/people/allied-faculty/jeon/">  <img height="230" width="170" loading="lazy" alt="Myounghoon "Philart" Jeon"  src="/cs/department/people/allied-faculty/jeon/images/jeon-personnel.jpg" class="img"  />  </a>   
+	  	  
+  </div>
+  <div class="person_bio">
+    <div class="personal">
+      <h2> <a href="/cs/department/people/allied-faculty/jeon/">Myounghoon "Philart" Jeon</a></h2>
 
       <ul class="none"><li>Adjunct Associate Professor, Computer Science and CLS</li>      </ul>    </div>
       
@@ -1375,7 +1418,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class='email-address'><a href="mailto:myounghoonjeon@vt.edu">myounghoonjeon@vt.edu</a></li>		  		  		 
+		  <li class="email-address"><a href="mailto:myounghoonjeon@vt.edu">myounghoonjeon@vt.edu</a></li>		  		  		 
         	   </ul>
 	          </div>
             <div class="left specialties"><h3>Links of Interest</h3>
@@ -1415,14 +1458,125 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="clearer"></div>
 </div>
 				
-<!-- /cs/department/people/adjunct-research/pop/ -->							
+<!-- /cs/department/people/allied-faculty/leblanc/ -->							
 <div class="person">
-  <div class="photo"><a href="/cs/department/people/adjunct-research/pop/">  <img height="230" width="170" loading="lazy" alt="David Poplawski"  src="/cs/department/people/adjunct-research/pop/images/poplawski-personnel.jpg" class="img"  />  </a>   
+  <div class="photo"><a href="/cs/department/people/allied-faculty/leblanc/">  <img height="230" width="170" loading="lazy" alt="Joel LeBlanc"  src="/mtri/about/staff/research-administrative/leblanc/images/joel-leblanc-personnel170.jpg" class="img"  />  </a>   
 	  	  
   </div>
   <div class="person_bio">
     <div class="personal">
-      <h2> <a href="/cs/department/people/adjunct-research/pop/">David Poplawski</a></h2>
+      <h2> <a href="/cs/department/people/allied-faculty/leblanc/">Joel LeBlanc</a></h2>
+
+      <ul class="none"><li>Senior Research Scientist, Michigan Tech Research Institute (MTRI)</li>      </ul>    </div>
+      
+	
+     	<div class="left">      <div class="contact">
+      <ul class="none">
+       
+		  <li class="email-address"><a href="mailto:jwleblan@mtu.edu">jwleblan@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:7349136889">734-913-6889</a></li> 		  		<li class='place'>Ann Arbor, Michigan</li> 
+        	   </ul>
+	          </div>
+            <div class="left specialties"><h3>Areas of Expertise</h3>
+      		
+      		
+      <ul>
+         <li>Statistical Signal Processing</li>
+         <li>Applied Nonconvex Optimization</li>
+         <li>EO/IR Imaging</li>
+         <li>Synthetic Aperture Radar (SAR) Imaging</li>
+      </ul>
+      	
+   </div>		</div>	    
+	   <div class="right specialties"><h3>Research Interests</h3>
+      <ul>
+         
+         <li>Information Theoretic Approaches to Inverse-Imaging</li>
+         
+         <li>Computational Techniques For Solving Large Inverse Problems</li>
+         
+         <li>
+            <span>Fundamental Limits of Sensing</span>
+         </li>
+         
+      </ul>
+   </div>  </div>
+  <div class="clearer"></div>
+</div>
+				
+<!-- /cs/department/people/allied-faculty/mueller/ -->							
+<div class="person">
+  <div class="photo"><a href="/cs/department/people/allied-faculty/mueller/">  <img height="230" width="170" loading="lazy" alt="Shane Mueller"  src="/cls/people/faculty-allied-content/mueller/images/mueller-personnel-personnel.jpg" class="img"  />  </a>   
+	  	  
+  </div>
+  <div class="person_bio">
+    <div class="personal">
+      <h2> <a href="/cs/department/people/allied-faculty/mueller/">Shane T. Mueller</a></h2>
+
+      <ul class="none"><li>Associate Professor of Psychology, Cognitive and Learning Sciences</li>      </ul>    </div>
+      
+	
+     	<div class="left">      <div class="contact">
+      <ul class="none">
+       
+		  <li class="email-address"><a href="mailto:shanem@mtu.edu">shanem@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064871159">906-487-1159</a></li> 		  		<li class='place'>Meese Center 203</li> 
+        	   </ul>
+	          </div>
+            <div class="left specialties"><h3>Links of Interest</h3>
+      <ul class="none">
+         
+         <li>
+            <a href="http://pebl.sourceforge.net/">Psychology Experiment Building Language</a>
+         </li>
+         
+         <li>
+            <a title="Research Web Site" href="http://ShaneTMueller.info">ShaneTMueller.info</a>
+         </li>
+         
+      </ul>
+   </div>		</div>	    
+	   <div class="right specialties"><h3>Research Interests</h3>
+      <ul>
+         
+         <li>Computational Modeling</li>
+         
+         <li>Recognitional Decision Making</li>
+         
+         <li>Perceptual and Memory Processes</li>
+         
+         <li>Representations of Cultural Knowledge</li>
+         
+      </ul>
+   </div>  </div>
+  <div class="clearer"></div>
+</div>
+				
+<!-- /cs/department/people/allied-faculty/paheding/ -->							
+<div class="person">
+  <div class="photo"><a href="/cs/department/people/allied-faculty/paheding/">  <img height="230" width="170" loading="lazy" alt="Sidike Paheding"  src="//www.mtu.edu/mtu_resources/images/no-photo.gif" class="img"  />  </a>   
+	  	  
+  </div>
+  <div class="person_bio">
+    <div class="personal">
+      <h2> <a href="/cs/department/people/allied-faculty/paheding/">Sidike Paheding</a></h2>
+
+      <ul class="none">      </ul>    </div>
+      
+	
+      
+		  		  		  		 
+            	    
+	     </div>
+  <div class="clearer"></div>
+</div>
+				
+<!-- /cs/department/people/allied-faculty/pop/ -->							
+<div class="person">
+  <div class="photo"><a href="/cs/department/people/allied-faculty/pop/">  <img height="230" width="170" loading="lazy" alt="David Poplawski"  src="/cs/department/people/allied-faculty/pop/images/poplawski-personnel.jpg" class="img"  />  </a>   
+	  	  
+  </div>
+  <div class="person_bio">
+    <div class="personal">
+      <h2> <a href="/cs/department/people/allied-faculty/pop/">David Poplawski</a></h2>
 
       <ul class="none"><li>Professor Emeritus, Computer Science</li>      </ul>    </div>
       
@@ -1430,7 +1584,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class='email-address'><a href="mailto:pop@mtu.edu">pop@mtu.edu</a></li>		  		  		 
+		  <li class="email-address"><a href="mailto:pop@mtu.edu">pop@mtu.edu</a></li>		  		  		 
         	   </ul>
 	          </div>
             <div class="left specialties"><h3>Links of Interest</h3>
@@ -1458,16 +1612,103 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="clearer"></div>
 </div>
 				
-<!-- /cs/department/people/adjunct-research/wei/ -->							
+<!-- /cs/department/people/allied-faculty/steelman/ -->							
 <div class="person">
-  <div class="photo"><a href="/cs/department/people/adjunct-research/wei/">  <img height="230" width="170" loading="lazy" alt="Hairong Wei"  src="/forest/about/faculty-staff/faculty/wei/images/wei-personnel.jpg" class="img"  />  </a>   <div class="quote">"We are doing excellent job in describing how an individual gene functions, but not
-      how life functions. Systems biology is to fill this gap."
-   </div>
-	  <!-- Connect --><ul class="social-icons no-bullet"><li><a class="twitter" aria-label="Twitter Hairong Wei" href="https://twitter.com/ForestryRes?s=09"><span>Twitter></span></a></li><li><a class="instagram" aria-label="Instagram Hairong Wei" href="https://mc03.manuscriptcentral.com/forres"><span>Instagram></span></a></li><li><a class="youtube" aria-label="YouTube Hairong Wei" href="http://www.maxapress.com/journal/forres"><span>YouTube></span></a></li></ul>	  
+  <div class="photo"><a href="/cs/department/people/allied-faculty/steelman/">  <img height="230" width="170" loading="lazy" alt="Kelly Steelman"  src="/cls/people/faculty-allied-content/steelman/images/steelman-202108180005-personnel340.jpg" class="img"  />  </a>   
+	  	  
   </div>
   <div class="person_bio">
     <div class="personal">
-      <h2> <a href="/cs/department/people/adjunct-research/wei/">Hairong Wei</a></h2>
+      <h2> <a href="/cs/department/people/allied-faculty/steelman/">Kelly S. Steelman</a></h2>
+
+      <ul class="none"><li>Department Chair and Associate Professor, Cognitive and Learning Sciences</li><li>Affiliated Associate Professor, Mechanical Engineering-Engineering Mechanics</li><li>Affiliated Associate Professor, Computer Science</li>      </ul>    </div>
+      
+	
+     	<div class="left">      <div class="contact">
+      <ul class="none">
+       
+		  <li class="email-address"><a href="mailto:steelman@mtu.edu">steelman@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064872792">906-487-2792</a></li> 		  		<li class='place'>Meese Center 107</li> 
+        	   </ul>
+	          </div>
+            <div class="left specialties"><h3>Links of Interest</h3>
+<ul class="none">
+<li><a href="https://www.superiorideas.org/projects/senior-tech">Superior Ideas: Building Robust Online Skills for Digital Newcomers </a></li>
+<li><a href="/unscripted/2017/03/basic-saturdays.html">Basic Saturdays: Break digital barriers, build digital literacy</a></li>
+<li><a href="/unscripted/2017/04/transdisciplinary-working-across-campus.html">Transdisciplinary: Working Across the Campus</a></li>
+<li><a href="https://www.involvement.mtu.edu/organization/hfes">Human Factors &amp; Ergonomics Society</a></li>
+</ul></div>		</div>	    
+	   <div class="right specialties"><h3>Research Interests</h3><ul>
+<li>Basic and applied attention</li>
+<li>Models of attention</li>
+<li>Human performance in aviation</li>
+<li>Display design</li>
+<li>Tech adoption</li>
+<li>Technology training</li>
+</ul></div>  </div>
+  <div class="clearer"></div>
+</div>
+				
+<!-- /cs/department/people/allied-faculty/veinott/ -->							
+<div class="person">
+  <div class="photo"><a href="/cs/department/people/allied-faculty/veinott/">  <img height="230" width="170" loading="lazy" alt="Elizabeth Veinott"  src="/cls/people/faculty-allied-content/veinott/images/beth-veinott-personnel.jpg" class="img"  />  </a>   
+	  	  
+  </div>
+  <div class="person_bio">
+    <div class="personal">
+      <h2> <a href="/cs/department/people/allied-faculty/veinott/">Elizabeth Veinott</a></h2>
+
+      <ul class="none"><li>Associate Professor, Cognitive and Learning Sciences</li><li>Director, Center for Human-Centered
+      Computing</li><li>
+   </li>      </ul>    </div>
+      
+	
+     	<div class="left">      <div class="contact">
+      <ul class="none">
+       
+		  <li class="email-address"><a href="mailto:eveinott@mtu.edu">eveinott@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064872171">906-487-2171</a></li> 		  		<li class='place'>Meese Center 204</li> 
+        	   </ul>
+	          </div>
+            <div class="left specialties"><h3>Links of Interest</h3>
+      <ul>
+         
+         <li>
+            <a href="http://www.huskygames.com/">Husky Game Development</a> 
+         </li>
+         
+         <li>
+            <a href="http://icc.mtu.edu/">ICC-Institute of Computing and Cybersystems </a>
+         </li>
+         
+      </ul>
+   </div>		</div>	    
+	   <div class="right specialties"><h3>Research Interests</h3>
+      <ul>
+         
+         <li>Decision Making</li>
+         
+         <li>Problem Solving</li>
+         
+         <li>Learning and Video Games for STEM</li>
+         
+         <li>CSCW</li>
+         
+         <li>Structured Analytic Techniques</li>
+         
+      </ul>
+   </div>  </div>
+  <div class="clearer"></div>
+</div>
+				
+<!-- /cs/department/people/allied-faculty/wei/ -->							
+<div class="person">
+  <div class="photo"><a href="/cs/department/people/allied-faculty/wei/">  <img height="230" width="170" loading="lazy" alt="Hairong Wei"  src="/forest/about/faculty-staff/faculty/wei/images/wei-personnel.jpg" class="img"  />  </a>   <div class="quote">"We are doing excellent job in describing how an individual gene functions, but not
+      how life functions. Systems biology is to fill this gap."
+   </div>
+	  <!-- Connect --><ul class="social-icons no-bullet"><li><a class="twitter" aria-label="Twitter Hairong Wei" href="https://twitter.com/ForestryRes?s=09"><span>Twitter</span></a></li><li><a class="instagram" aria-label="Instagram Hairong Wei" href="https://mc03.manuscriptcentral.com/forres"><span>Instagram</span></a></li><li><a class="youtube" aria-label="YouTube Hairong Wei" href="http://www.maxapress.com/journal/forres"><span>YouTube</span></a></li></ul>	  
+  </div>
+  <div class="person_bio">
+    <div class="personal">
+      <h2> <a href="/cs/department/people/allied-faculty/wei/">Hairong Wei</a></h2>
 
       <ul class="none"><li>Professor</li><li>Editor-in-Chief, Forestry Research (ForRes): http://www.maxapress.com/journal/forres</li><li>Affiliated
       Professor, Mathematical Sciences &amp; Computer Science</li><li>
@@ -1477,7 +1718,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class='email-address'><a href="mailto:hairong@mtu.edu">hairong@mtu.edu</a></li>		  <li class='phone-number'><a href="tel:9064871473">906-487-1473</a></li> 		  		<li class='place'>Noblet Building 176</li> 
+		  <li class="email-address"><a href="mailto:hairong@mtu.edu">hairong@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064871473">906-487-1473</a></li> 		  		<li class='place'>Noblet Building 176</li> 
         	   </ul>
 	          </div>
             <div class="left specialties"><h3>Links of Interest</h3>
@@ -1523,31 +1764,31 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="clearer"></div>
 </div>
 				
-<!-- /cs/department/people/adjunct-research/zhang/ -->							
+<!-- /cs/department/people/allied-faculty/zhang/ -->							
 <div class="person">
-  <div class="photo"><a href="/cs/department/people/adjunct-research/zhang/">  <img height="230" width="170" loading="lazy" alt="Kuilin Zhang"  src="/cee/people/faculty-staff/faculty/zhang/images/zhang-personnel.jpg" class="img"  />  </a>   
-	  <!-- Connect --><ul class="social-icons no-bullet"><li><a class="facebook" aria-label="Facebook Kuilin Zhang" href="https://www.facebook.com/kuilinzhang"><span>Facebook></span></a></li><li><a class="twitter" aria-label="Twitter Kuilin Zhang" href="https://twitter.com/kuilinzhang"><span>Twitter></span></a></li><li><a class="linkedin" aria-label="LinkedIn Kuilin Zhang" href="https://www.linkedin.com/in/kuilinzhang/"><span>LinkedIn></span></a></li></ul>	  
+  <div class="photo"><a href="/cs/department/people/allied-faculty/zhang/">  <img height="230" width="170" loading="lazy" alt="Kuilin Zhang"  src="/cege/people/faculty-staff/faculty/zhang/images/zhang-personnel.jpg" class="img"  />  </a>   
+	  <!-- Connect --><ul class="social-icons no-bullet"><li><a class="facebook" aria-label="Facebook Kuilin Zhang" href="https://www.facebook.com/kuilinzhang"><span>Facebook</span></a></li><li><a class="twitter" aria-label="Twitter Kuilin Zhang" href="https://twitter.com/kuilinzhang"><span>Twitter</span></a></li><li><a class="linkedin" aria-label="LinkedIn Kuilin Zhang" href="https://www.linkedin.com/in/kuilinzhang/"><span>LinkedIn</span></a></li></ul>	  
   </div>
   <div class="person_bio">
     <div class="personal">
-      <h2> <a href="/cs/department/people/adjunct-research/zhang/">Kuilin Zhang</a></h2>
+      <h2> <a href="/cs/department/people/allied-faculty/zhang/">Kuilin Zhang</a></h2>
 
-      <ul class="none"><li>Associate Professor, Civil and Environmental Engineering</li><li>Affiliated Associate Professor,
-      Computer Science</li><li>
+      <ul class="none"><li>Associate Professor, Civil, Environmental, and Geospatial Engineering</li><li>Affiliated Associate
+      Professor, Computer Science</li><li>
    </li>      </ul>    </div>
       
 	
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class='email-address'><a href="mailto:klzhang@mtu.edu">klzhang@mtu.edu</a></li>		  <li class='phone-number'><a href="tel:9064871828">906-487-1828</a></li> 		  		<li class='place'>Dillman 301i</li> 
+		  <li class="email-address"><a href="mailto:klzhang@mtu.edu">klzhang@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064871828">906-487-1828</a></li> 		  		<li class='place'>Dillman 301i</li> 
         	   </ul>
 	          </div>
             <div class="left specialties"><h3>Links of Interest</h3>
       <ul class="none">
          
          <li>
-            <a href="http://sites.google.com/site/zhangmichigantech/" target="_blank">Website</a>
+            <a href="https://sites.google.com/site/zhangmichigantech/" target="_blank">Website</a>
          </li>
          
          <li>
@@ -1604,9 +1845,58 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="clearer"></div>
 </div>
 				
+<!-- /cs/department/people/allied-faculty/zhang-lan/ -->							
+<div class="person">
+  <div class="photo"><a href="/cs/department/people/allied-faculty/zhang-lan/">  <img height="230" width="170" loading="lazy" alt="Lan (Emily) Zhang"  src="/ece/department/faculty/zhang/images/lan-zhang-2020-personnel170.jpg" class="img"  />  </a>   
+	  	  
+  </div>
+  <div class="person_bio">
+    <div class="personal">
+      <h2> <a href="/cs/department/people/allied-faculty/zhang-lan/">Lan (Emily) Zhang</a></h2>
+
+      <ul class="none"><li>Assistant Professor, Electrical and Computer Engineering</li><li>Affiliated Assistant Professor,
+      Computer Science</li><li>
+   </li>      </ul>    </div>
+      
+	
+     	<div class="left">      <div class="contact">
+      <ul class="none">
+       
+		  <li class="email-address"><a href="mailto:lanzhang@mtu.edu">lanzhang@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064871090">906-487-1090</a></li> 		  		<li class='place'>EERC 623</li> 
+        	   </ul>
+	          </div>
+            <div class="left specialties"><h3>Links of Interest</h3>
+      <ul class="none">
+         
+         <li>
+            <a href="https://sites.google.com/view/lan-zhang/home">Faculty Website </a>
+         </li>
+         
+      </ul>
+   </div><div class="left specialties"><h3>Teaching</h3>
+      <ul>
+         
+         <li>EE/CS 5821 Computational Intelligence</li>
+         
+      </ul>
+   </div>		</div>	    
+	   <div class="right specialties"><h3>Areas of Interest</h3>
+      <ul>
+         
+         <li>Wireless Communications (e.g., RIS, mmWave, CPS, industrial-IoT )</li>
+         
+         <li>Big Data (e.g., machine learning, smart transportation, eHealth)</li>
+         
+         <li>Cybersecurity and Privacy (e.g., IoT/CPS, learning pipeline, blockchain)</li>
+         
+      </ul>
+   </div>  </div>
+  <div class="clearer"></div>
+</div>
+				
 <script>
 							defer(function() {	
-								$.get("https://www.mtu.edu/mtu_resources/php/ou/profiles/display-n.php?path=%2Fcs%2Fdepartment%2Fpeople%2Fadjunct-research%2F&manual=&link=%2Fcs%2Fdepartment%2Fpeople%2Findex.html&additional=&type=pub&displaytype=&ct=3600", function(data) { console.log('Updated Listing.');});
+								$.get("https://www.mtu.edu/mtu_resources/php/ou/profiles/display-n.php?path=%2Fcs%2Fdepartment%2Fpeople%2Fallied-faculty%2F&manual=&link=%2Fcs%2Fdepartment%2Fpeople%2Findex.html&additional=&type=pub&displaytype=&ct=3600", function(data) { console.log('Updated Listing.');});
 							});
 						</script></div>
                            <div class="clearer"></div>
@@ -1653,7 +1943,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <li><a href="https://events.mtu.edu/">Events Calendar</a></li>
             <li><a href="/jobs/">Jobs</a></li>
             <li><a href="/president/teams/council/">President's Council</a></li>
-            <li><a href="/success/" aria-label="Waino Wahtera Center for Student Success">Student Success Center</a></li>
+            <li><a href="/success/" aria-label="Waino Wahtera Student Success Center">Student Success Center</a></li>
             <li><a href="/title-ix/report/tix-staff/">Title IX Coordinator</a></li>
             <li><a href="/webcams/">Webcams</a></li>
          </ul>
@@ -1718,7 +2008,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 <!--[if (!IE)|(gt IE 8)]><!--> 
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
 	<script>window.jQuery || document.write('<script src="//www.mtu.edu/mtu_resources/script/n/jquery.js"><\/script>')</script> 
 <!--<![endif]-->
 
@@ -1726,7 +2016,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<script src="//www.mtu.edu/mtu_resources/script/n/jquery-ie.js"></script>
 <![endif]-->
 
-<script src="//www.mtu.edu/mtu_resources/script/n/formal.js?v=21.011510"></script>
+<script src="//www.mtu.edu/mtu_resources/assets/js/app.js?v=21.092811"></script>
 
 <script src="/_resources/js/direct-edit.js"></script>
 <script>

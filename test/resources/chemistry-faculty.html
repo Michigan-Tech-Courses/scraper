@@ -10,10 +10,7 @@
 
 <link type="text/css" rel="stylesheet" href="//www.mtu.edu/mtu_resources/styles/n/normalize.css" />
 <!-- <link type="text/css" rel="stylesheet" href="//www.mtu.edu/mtu_resources/styles/n/base.css" /> -->
-<link type="text/css" rel="stylesheet" href="//www.mtu.edu/mtu_resources/styles/n/base.css?v=21.011415" />
-
-<!--[if lte IE 9]>
-	<script src="/_resources/js/html5.js"></script><![endif]-->
+<link type="text/css" rel="stylesheet" href="//www.mtu.edu/mtu_resources/styles/n/base.css?v=21.092810" />
 
 <!-- this is the headcode include -->
 <link rel="stylesheet" href="/_resources/css/oustyles.css" />
@@ -41,7 +38,7 @@ if(window.devicePixelRatio > 1.5) {
 } else {
 	dataLayer.push({'retina':'false'});
 }
-dataLayer.push({'internalExternal' : 'external'});
+dataLayer.push({'internalExternal' : 'internal'});
 </script>
 
 <!-- Google Tag Manager -->
@@ -53,7 +50,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 
 
-   </head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" rel="preload" as="style" />   </head>
    <body itemscope="" itemtype="http://schema.org/CollegeOrUniversity">
       <div class="stick"><svg xmlns:xlink="http://www.w3.org/1999/xlink" id="logo-svg" style="display: none;">
    <symbol xmlns="http://www.w3.org/2000/svg" id="mtu-logo-combo" version="1.1" class="mtu-logo" x="0px" y="0px" viewBox="0 200.716 982.034 198.568">
@@ -125,7 +124,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<div role="search" aria-label="search functions" class="search-box" aria-hidden="true">
+<div role="search" aria-label="search functions" class="search-box" aria-hidden="true" id="search-box-container">
 	<div class="search-wrap">
 		<div class="field-wrap">
 			<form method="get" action="//www.mtu.edu/search/" id="cse-search-box">
@@ -173,15 +172,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                <li role="none" class="sub nav-section-head"><button role="menuitem" aria-haspopup="true" aria-expanded="false">
                      									Info For . . .
                      								</button><ul>
-                     <li><a aria-label="Current Students" href="/current/">Students</a></li>
-                     <li><a aria-label="Faculty and Staff" href="/faculty-staff/">Faculty/Staff</a></li>
-                     <li><a aria-label="Alumni Association" href="/alumni/">Alumni</a></li>
-                     <li><a aria-label="Parents and Family" href="/parentsfamily/">Parents</a></li>
+                     <li><a href="/current/" aria-label="Michigan Tech Students">Students</a></li>
+                     <li><a href="/faculty-staff/" aria-label="Michigan Tech Faculty/Staff">Faculty/Staff</a></li>
+                     <li><a href="/alumni/" aria-label="Michigan Tech Alumni Association">Alumni</a></li>
+                     <li><a href="/parentsfamily/" aria-label="Michigan Tech Parents and Family">Parents</a></li>
                   </ul>
                </li>
             </ul>
             <ul class="search-quick">
-               <li class="search-trigger"><a role="button" href="https://www.mtu.edu/search/" title="Search" aria-expanded="false" aria-label="Expand Search Fields"><span class="show-for-sr text-white">Search</span></a></li>
+               <li class="search-trigger"><a role="button" href="https://www.mtu.edu/search/" title="Search" aria-expanded="false" aria-controls="search-box-container" aria-label="Expand Search Fields"><span class="show-for-sr text-white">Search</span></a></li>
                <li class="sub quick-links"><a role="button" href="/a2z/" title="Quick Links" aria-haspopup="true" aria-expanded="false" class="quick-links-toggle">
                      									Quick Links
                      									<button class="mobile-nav-open-sub text-white">Open sub-menu</button></a><ul class="quick-links-nav" aria-label="Quick links">
@@ -189,33 +188,36 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                      <li><a href="https://www.banweb.mtu.edu/" class="link-banweb">Banweb</a></li>
                      <li><a href="/maps/" class="link-map">Campus Map</a></li>
                      <li><a href="https://mtu.instructure.com/" class="link-canvas">Canvas</a></li>
-                     <li><a href="https://mail.google.com/a/mtu.edu/" class="link-email">Email</a></li>
-                     <li><a href="https://www.banweb.mtu.edu/owassb/symptom_form.p_portal" class="link-flex-portal">Flex Portal</a></li>
+                     <li><a href="https://www.mtu.edu/email/" class="link-email">Email</a></li>
                      <li><a href="https://mymichigantech.mtu.edu/" class="link-mymt">MyMichiganTech</a></li>
                   </ul>
                </li>
-            </ul><ul class="category-nav-bar" aria-label="Main Navigation"><li class="main-nav-item sub"><a href="/chemistry/undergraduate/program/" aria-expanded="false">Undergraduate</a><button class="mobile-nav-open-sub">Open sub-menu</button><ul><li><a href="/chemistry/undergraduate/program/"><span>Program Information</span></a></li><li><a href="/chemistry/undergraduate/chemistry/"><span>Chemistry—BS</span></a></li><li><a href="/chemistry/undergraduate/biochemistry/"><span>Biochemistry and Molecular Biology—BS</span></a></li><li><a href="/chemistry/undergraduate/cheminformatics/"><span>Cheminformatics—BS</span></a></li><li><a href="/chemistry/undergraduate/pharmaceutical/"><span>Pharmaceutical Chemistry—BS</span></a></li><li><a href="/chemistry/undergraduate/preprofessional/"><span>Preprofessional Programs</span></a></li><li><a href="/chemistry/undergraduate/minors/"><span>Minors</span></a></li><li><a href="/chemistry/undergraduate/first-year/"><span>First-Year Chemistry</span></a></li><li><a href="/chemistry/undergraduate/advising/"><span>Advising</span></a></li></ul></li><li class="main-nav-item sub"><a href="/chemistry/graduate/program/" aria-expanded="false">Graduate</a><button class="mobile-nav-open-sub">Open sub-menu</button><ul><li><a href="/chemistry/graduate/program/"><span>Program Information</span></a></li><li><a href="/chemistry/graduate/chemistry/"><span>Chemistry—MS, PhD</span></a></li><li><a href="/chemistry/graduate/accelerated/"><span>Chemistry Accelerated Master's (BS-MS)</span></a></li><li><a href="/chemistry/graduate/interdisciplinary/"><span>Interdisciplinary Programs</span></a></li><li><a href="/chemistry/graduate/funding/"><span>Funding Opportunities</span></a></li><li><a href="/chemistry/graduate/faq/"><span>Frequently Asked Questions</span></a></li></ul></li><li class="main-nav-item sub"><button role="menuitem" aria-haspopup="true" aria-expanded="false">Research and Labs</button><ul><li><a href="/chemistry/research-labs/equipment/"><span>Research Equipment</span></a></li><li><a href="/chemistry/research-labs/opportunities/"><span>Research Opportunities</span></a></li><li><a href="/chemistry/research-labs/teaching/"><span>Teaching Labs</span></a></li><li><a href="/chemistry/research-labs/projects/"><span>Funded Projects</span></a></li><li><a href="/chemistry/research-labs/publications/"><span>Faculty Publications</span></a></li><li><a href="/chemistry/research-labs/safety/"><span>Safety</span></a></li><li><a href="/chemistry/research-labs/undergraduate/"><span>Undergraduate Research</span></a></li><li><a href="/chemistry/research-labs/seminar/"><span>Seminar Series</span></a></li></ul></li><li class="main-nav-item sub"><button role="menuitem" aria-haspopup="true" aria-expanded="false">People and Groups</button><ul><li class=" active-in"><a href="/chemistry/people-groups/faculty-staff/"><span>Faculty and Staff Directory</span></a></li><li><a href="/chemistry/people-groups/research/"><span>Research Faculty</span></a></li><li><a href="/chemistry/people-groups/alumni/"><span>Alumni and Friends</span></a></li><li><a href="/chemistry/people-groups/directory/"><span>Graduate Student Directory</span></a></li></ul></li><li class="main-nav-item sub"><button role="menuitem" aria-haspopup="true" aria-expanded="false">Department</button><ul><li><a href="/chemistry/department/welcome/"><span>Welcome from the Chair</span></a></li><li><a href="/chemistry/department/employment/"><span>Employment</span></a></li><li><a href="/chemistry/department/contact/"><span>Contact Us</span></a></li></ul></li><li class="main-nav-item"><a href="/chemistry/giving/">Giving Opportunities</a></li><li class="main-nav-item yellow"><a href="/applynow/">Apply</a></li></ul>         </div>
+            </ul><ul class="category-nav-bar" aria-label="Main Navigation"><li class="main-nav-item sub"><a href="/chemistry/undergraduate/program/" aria-expanded="false">Undergraduate</a><button class="mobile-nav-open-sub">Open sub-menu</button><ul><li><a href="/chemistry/undergraduate/program/"><span>Program Information</span></a></li><li><a href="/chemistry/undergraduate/chemistry/"><span>Chemistry&mdash;BS</span></a></li><li><a href="/chemistry/undergraduate/ba-chem/"><span>Chemistry&mdash;BA</span></a></li><li><a href="/chemistry/undergraduate/biochemistry/"><span>Biochemistry and Molecular Biology&mdash;BS</span></a></li><li><a href="/chemistry/undergraduate/computational-chemistry-and-chemical-informatics/"><span>Computational Chemistry and Chemical Informatics&mdash;BS</span></a></li><li><a href="/chemistry/undergraduate/pharmaceutical/"><span>Pharmaceutical Chemistry&mdash;BS</span></a></li><li><a href="/chemistry/undergraduate/preprofessional/"><span>Preprofessional Programs</span></a></li><li><a href="/chemistry/undergraduate/minors/"><span>Minors</span></a></li><li><a href="/chemistry/undergraduate/first-year/"><span>First-Year Chemistry</span></a></li><li><a href="/chemistry/undergraduate/advising/"><span>Advising</span></a></li></ul></li><li class="main-nav-item sub"><a href="/chemistry/graduate/program/" aria-expanded="false">Graduate</a><button class="mobile-nav-open-sub">Open sub-menu</button><ul><li><a href="/chemistry/graduate/program/"><span>Program Information</span></a></li><li><a href="/chemistry/graduate/chemistry/"><span>Chemistry—MS, PhD</span></a></li><li><a href="/chemistry/graduate/accelerated/"><span>Chemistry Accelerated Master's (BS-MS)</span></a></li><li><a href="/chemistry/graduate/interdisciplinary/"><span>Interdisciplinary Programs</span></a></li><li><a href="/chemistry/graduate/funding/"><span>Funding Opportunities</span></a></li><li><a href="/chemistry/graduate/faq/"><span>Frequently Asked Questions</span></a></li></ul></li><li class="main-nav-item sub"><button role="menuitem" aria-haspopup="true" aria-expanded="false">Research and Labs</button><ul><li><a href="/chemistry/research-labs/equipment/"><span>Research Equipment</span></a></li><li><a href="/chemistry/research-labs/opportunities/"><span>Research Opportunities</span></a></li><li><a href="/chemistry/research-labs/teaching/"><span>Teaching Labs</span></a></li><li><a href="/chemistry/research-labs/projects/"><span>Funded Projects</span></a></li><li><a href="/chemistry/research-labs/publications/"><span>Faculty Publications</span></a></li><li><a href="/chemistry/research-labs/safety/"><span>Safety</span></a></li><li><a href="/chemistry/research-labs/undergraduate/"><span>Undergraduate Research</span></a></li><li><a href="/chemistry/research-labs/seminar/"><span>Seminar Series</span></a></li></ul></li><li class="main-nav-item sub"><button role="menuitem" aria-haspopup="true" aria-expanded="false">People and Groups</button><ul><li class=" active-in"><a href="/chemistry/people-groups/faculty-staff/"><span>Faculty and Staff Directory</span></a></li><li><a href="/chemistry/people-groups/research/"><span>Research Faculty</span></a></li><li><a href="/chemistry/people-groups/emeriti-faculty/"><span>Emeriti Faculty</span></a></li><li><a href="/chemistry/people-groups/alumni/"><span>Alumni and Friends</span></a></li><li><a href="/chemistry/people-groups/directory/"><span>Graduate Student Directory</span></a></li></ul></li><li class="main-nav-item sub"><button role="menuitem" aria-haspopup="true" aria-expanded="false">Department</button><ul><li><a href="/chemistry/department/welcome/"><span>Welcome from the Chair</span></a></li><li><a href="/chemistry/department/employment/"><span>Employment</span></a></li><li><a href="/chemistry/department/contact/"><span>Contact Us</span></a></li></ul></li><li class="main-nav-item"><a href="/chemistry/giving/">Giving Opportunities</a></li><li class="main-nav-item yellow"><a href="/applynow/">Apply</a></li></ul>         </div>
       </nav>
    </div>
-</header>         <div class="sitetitle">
-            <div><span><a href="/chemistry/">Chemistry</a></span></div>
-            <div id="breadcrumbs" role="navigation" aria-label="breadcrumbs" class="breadcrumbs">
-               <ul>
-                  <li><a href="/">Home</a></li>
-                  <li><a href="/sciences-arts/index.html">CSA</a></li>
-                  <li><a href="/chemistry/">Chemistry</a></li>
-                  <li class="active" aria-current="page">Faculty and Staff Directory</li>
-               </ul>
-            </div>         </div>
+</header>         <div class="background-light-gray">
+            <div class="site-title-wrapper">
+               <div class="site-title">
+                  <div class="title"><span><a href="/chemistry/">Chemistry</a></span></div>
+                  <div id="breadcrumbs" role="navigation" aria-label="breadcrumbs" class="breadcrumbs">
+                     <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/sciences-arts/index.html">CSA</a></li>
+                        <li><a href="/chemistry/">Chemistry</a></li>
+                        <li class="active" aria-current="page">Faculty and Staff Directory</li>
+                     </ul>
+                  </div>
+               </div>            </div>
+         </div>
          <div id="main" role="main" class="main">
             <section id="body_section" class="body-section" aria-label="main content">
                <div class="full-width">
                   <div class="clearer"></div>
                   <div class="left leftnav">
-                     <div id="toggle-left"><img class="more-menu left" aria-hidden="true" role="presentation" src="/_resources/images/icons/hamburger.svg" alt="Open"><span class="left"> Also in this section</span></div>
+                     <div id="toggle-left"><img class="more-menu left" height="16" width="20" aria-hidden="true" role="presentation" src="/_resources/images/icons/hamburger.svg" alt="Open"><button class="left not-button"> Also in this section</button></div>
                      <ul id="main_links" role="navigation" aria-label="left">
-                        <li class="nav-title active"><span>People and Groups</span><div class="sublinks">
-                              <ul class="firstlevel"><li class="active"><a  href="/chemistry/people-groups/faculty-staff/">Faculty and Staff Directory</a><ul class="secondlevel"><li><a href="/chemistry/people-groups/faculty-staff/faculty/">Faculty</a></li><li><a href="/chemistry/people-groups/faculty-staff/adjunct/">Adjunct Faculty</a></li><li><a href="/chemistry/people-groups/faculty-staff/staff/">Staff</a></li><li><a href="/chemistry/people-groups/faculty-staff/emeriti-faculty/">Emeriti Faculty</a></li><li><a href="/chemistry/people-groups/research/">Research Faculty</a></li></ul></li><li><a  href="/chemistry/people-groups/research/">Research Faculty</a></li><li><a  href="/chemistry/people-groups/alumni/">Alumni and Friends</a></li><li><a  href="/chemistry/people-groups/directory/">Graduate Student Directory</a></li></ul>
+                        <li class="nav-title active"><span class="nav-title-heading">People and Groups</span><div class="sublinks">
+                              <ul class="firstlevel"><li class="active"><a  href="/chemistry/people-groups/faculty-staff/">Faculty and Staff Directory</a><ul class="secondlevel"><li><a href="/chemistry/people-groups/faculty-staff/faculty/">Faculty</a></li><li><a href="/chemistry/people-groups/faculty-staff/adjunct/">Adjunct Faculty</a></li><li><a href="/chemistry/people-groups/faculty-staff/staff/">Staff</a></li><li><a href="/chemistry/people-groups/research/">Research Faculty</a></li><li><a href="/chemistry/people-groups/emeriti-faculty/">Emeriti Faculty</a></li></ul></li><li><a  href="/chemistry/people-groups/research/">Research Faculty</a></li><li><a  href="/chemistry/people-groups/emeriti-faculty/">Emeriti Faculty&nbsp;</a></li><li><a  href="/chemistry/people-groups/alumni/">Alumni and Friends</a></li><li><a  href="/chemistry/people-groups/directory/">Graduate Student Directory</a></li></ul>
                            </div>
                         </li>
                      </ul>
@@ -227,34 +229,76 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div id="content" class="content">
                      <article id="content_body" aria-label="content" class="main-content">
                         <div class="dept_unit">
-                           <div><!-- FROM CACHE resets at Sat, 16 Jan 2021 01:35:35 -- cache/%2Fchemistry%2Fpeople-groups%2Ffaculty-staff%2F-dd9d7da1270a06122193cfd1c8df80c1&number=34.txt --><!-- /chemistry/people-groups/faculty-staff/emeriti-faculty/bates/ -->							
+                           <div><!-- FROM CACHE resets at Tue, 05 Oct 2021 20:46:57 -- cache/%2Fchemistry%2Fpeople-groups%2Ffaculty-staff%2F-5ac389640276796c13b3fdf673bad873&number=29.txt --><!-- /chemistry/people-groups/faculty-staff/faculty/green/ -->							
 <div class="person">
-  <div class="photo"><a href="/chemistry/people-groups/faculty-staff/emeriti-faculty/bates/">  <img height="230" width="170" loading="lazy" alt="Dallas Bates"  src="/chemistry/people-groups/faculty-staff/emeriti-faculty/bates/images/bates-personnel.jpg" class="img"  />  </a>   
+  <div class="photo"><a href="/chemistry/people-groups/faculty-staff/faculty/green/">  <img height="230" width="170" loading="lazy" alt="Sarah Green"  src="/chemistry/people-groups/faculty-staff/faculty/green/images/sarah-a-green-personnel.jpg" class="img"  />  </a>   
 	  	  
   </div>
   <div class="person_bio">
     <div class="personal">
-      <h2> <a href="/chemistry/people-groups/faculty-staff/emeriti-faculty/bates/">Dallas K. Bates</a></h2>
+      <h2> <a href="/chemistry/people-groups/faculty-staff/faculty/green/">Sarah A. Green</a></h2>
 
-      <ul class="none"><li>Professor Emeritus, Chemistry</li>      </ul>    </div>
+      <ul class="none"><li>Interim Department Chair, Chemistry</li><li>Professor, Chemistry</li>      </ul>    </div>
       
 	
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class='email-address'><a href="mailto:dbates@mtu.edu">dbates@mtu.edu</a></li>		  		  		 
+		  <li class="email-address"><a href="mailto:sgreen@mtu.edu">sgreen@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064872048">906-487-2048</a></li> 		  		<li class='place'>Chemical Sciences 607</li> 
         	   </ul>
 	          </div>
-            		</div>	    
-	   <div class="right"><div class="specialties"><h3>Research Interests</h3>
-      <ul>
+            <div class="left specialties"><h3>Links of Interest</h3>
+      <ul class="none">
          
-         <li>Improving and developing new methods for heterocycle synthesis</li>
+         <li>
+            <a href="http://iopscience.iop.org/1748-9326/8/2/024024" target="_blank" rel="noopener">97% Consensus paper</a>
+         </li>
          
-         <li>Creating novel applications for sulfoxides and other reactive sulfur species</li>
+         <li>
+            <a href="https://www.youtube.com/watch?v=cjuGCJJUGsg" target="_blank" rel="noopener">John Oliver cites 97% consensus paper (video)</a>
+         </li>
+         
+         <li>
+            <a href="https://yeah-net.org/home/" target="_blank" rel="noopener">Youth Environmental Alliance for Higher Education</a>
+         </li>
+         
+         <li>
+            <a href="https://scholar.google.com/citations?user=Y0lA1SEAAAAJ&amp;hl=en" target="_blank" rel="noopener">Publications (Google Scholar)</a>
+         </li>
          
       </ul>
-   </div></div>  </div>
+   </div>		</div>	    
+	   <div class="right specialties"><h3>Research Interests</h3>
+      <ul>
+         
+         <li>Climate change communication</li>
+         
+         <li>Science-policy interface</li>
+         
+         <li>Youth engagement in climate policy</li>
+         
+         <li>Response of aquatic systems to climate change</li>
+         
+         <li>Great Lakes</li>
+         
+         <li>Fluorescence-based analytical methods</li>
+         
+         <li>Aerosol chemistry</li>
+         
+         <li>Origin and fate of dissolved organic carbon (DOC) in terrestrial, lake, and marine
+            environments
+         </li>
+         
+         <li>Methods for detection of free radicals, photochemical transformations of natural and
+            anthropogenic organic compounds in the environment
+         </li>
+         
+         <li>Integration of biological, geological, physical, and chemical data for understanding
+            global cycles.
+         </li>
+         
+      </ul>
+   </div>  </div>
   <div class="clearer"></div>
 </div>
 				
@@ -273,7 +317,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class='email-address'><a href="mailto:lanrong@mtu.edu">lanrong@mtu.edu</a></li>		  <li class='phone-number'><a href="tel:9064871868">906-487-1868</a></li> 		  		<li class='place'>Chem Sci 620A</li> 
+		  <li class="email-address"><a href="mailto:lanrong@mtu.edu">lanrong@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064871868">906-487-1868</a></li> 		  		<li class='place'>Chem Sci 620A</li> 
         	   </ul>
 	          </div>
             		</div>	    
@@ -309,52 +353,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class='email-address'><a href="mailto:jelbrown@mtu.edu">jelbrown@mtu.edu</a></li>		  <li class='phone-number'><a href="tel:9064872297">906-487-2297</a></li> 		  		<li class='place'>Chem Sci 206A</li> 
+		  <li class="email-address"><a href="mailto:jelbrown@mtu.edu">jelbrown@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064872297">906-487-2297</a></li> 		  		<li class='place'>Chem Sci 206A</li> 
         	   </ul>
 	          </div>
             		</div>	    
 	     </div>
-  <div class="clearer"></div>
-</div>
-				
-<!-- /chemistry/people-groups/faculty-staff/emeriti-faculty/brown/ -->							
-<div class="person">
-  <div class="photo"><a href="/chemistry/people-groups/faculty-staff/emeriti-faculty/brown/">  <img height="230" width="170" loading="lazy" alt="Richard Brown"  src="/chemistry/people-groups/faculty-staff/emeriti-faculty/brown/images/richard-e-brown-personnel.jpg" class="img"  />  </a>   
-	  	  
-  </div>
-  <div class="person_bio">
-    <div class="personal">
-      <h2> <a href="/chemistry/people-groups/faculty-staff/emeriti-faculty/brown/">Richard E. Brown</a></h2>
-
-      <ul class="none"><li>Professor Emeritus, Chemistry</li>      </ul>    </div>
-      
-	
-     	<div class="left">      <div class="contact">
-      <ul class="none">
-       
-		  <li class='email-address'><a href="mailto:rebrown@mtu.edu">rebrown@mtu.edu</a></li>		  		  		 
-        	   </ul>
-	          </div>
-            		</div>	    
-	   <div class="right"><div class="specialties"><h3>Research Interests</h3>
-      <ul>
-         
-         <li>Applied quantum chemistry, Computational chemistry</li>
-         
-         <li>Gas phase acidities of carbon acids</li>
-         
-         <li>Structure and stability of gas phase complexes</li>
-         
-         <li>The Transition State Structure and Stable Conformations of the Myo-Inositol Phosphates</li>
-         
-         <li>The mechanisms for biological activity of Old Yellow Enzyme (OYE) and D-Amino Acid
-            Oxidase (DAAO)
-         </li>
-         
-         <li>Mechanisms of organic reactions</li>
-         
-      </ul>
-   </div></div>  </div>
   <div class="clearer"></div>
 </div>
 				
@@ -375,7 +378,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class='email-address'><a href="mailto:pcharles@mtu.edu">pcharles@mtu.edu</a></li>		  <li class='phone-number'><a href="tel:9064872702">906-487-2702</a></li> 		  		<li class='place'>Chem Sci 708A</li> 
+		  <li class="email-address"><a href="mailto:pcharles@mtu.edu">pcharles@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064872702">906-487-2702</a></li> 		  		<li class='place'>Chem Sci 708A</li> 
         	   </ul>
 	          </div>
             		</div>	    
@@ -412,7 +415,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class='email-address'><a href="mailto:christov@mtu.edu">christov@mtu.edu</a></li>		  <li class='phone-number'><a href="tel:9064873233">906-487-3233</a></li> 		  		<li class='place'>Chem Sci 312B</li> 
+		  <li class="email-address"><a href="mailto:christov@mtu.edu">christov@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064873233">906-487-3233</a></li> 		  		<li class='place'>Chem Sci 312C</li> 
         	   </ul>
 	          </div>
             <div class="left specialties"><h3>Links of Interest</h3>
@@ -434,43 +437,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="clearer"></div>
 </div>
 				
-<!-- /chemistry/people-groups/faculty-staff/emeriti-faculty/cornilsen/ -->							
-<div class="person">
-  <div class="photo"><a href="/chemistry/people-groups/faculty-staff/emeriti-faculty/cornilsen/">  <img height="230" width="170" loading="lazy" alt="Bahne Cornilsen"  src="/chemistry/people-groups/faculty-staff/emeriti-faculty/cornilsen/images/bahne-c-cornilsen-personnel.jpg" class="img"  />  </a>   
-	  	  
-  </div>
-  <div class="person_bio">
-    <div class="personal">
-      <h2> <a href="/chemistry/people-groups/faculty-staff/emeriti-faculty/cornilsen/">Bahne C. Cornilsen</a></h2>
-
-      <ul class="none"><li>Professor Emeritus, Chemistry</li>      </ul>    </div>
-      
-	
-     	<div class="left">      <div class="contact">
-      <ul class="none">
-       
-		  <li class='email-address'><a href="mailto:bccornil@mtu.edu">bccornil@mtu.edu</a></li>		  <li class='phone-number'><a href="tel:9064872295">906-487-2295</a></li> 		  		 
-        	   </ul>
-	          </div>
-            		</div>	    
-	   <div class="right"><div class="specialties"><h3>Research Interests</h3>
-      <ul>
-         
-         <li>The nickel electrode used in Ni-hydrogen and Ni-Cd batteries (the active cathode material
-            is actually a nickel hydroxide or oxyhydroxide)
-         </li>
-         
-         <li>Prediction of vibrational spectra</li>
-         
-         <li>Influence of point defects on vibrational spectra</li>
-         
-         <li>Vibrational spectra of minerals</li>
-         
-      </ul>
-   </div></div>  </div>
-  <div class="clearer"></div>
-</div>
-				
 <!-- /chemistry/people-groups/faculty-staff/faculty/dam/ -->							
 <div class="person">
   <div class="photo"><a href="/chemistry/people-groups/faculty-staff/faculty/dam/">  <img height="230" width="170" loading="lazy" alt="Tarun Dam"  src="/chemistry/people-groups/faculty-staff/faculty/dam/images/tarun-k-dam-personnel.jpg" class="img"  />  </a>   
@@ -488,7 +454,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class='email-address'><a href="mailto:tkdam@mtu.edu">tkdam@mtu.edu</a></li>		  <li class='phone-number'><a href="tel:9064872940">906-487-2940</a></li> 		  		<li class='place'>Chem Sci 510C</li> 
+		  <li class="email-address"><a href="mailto:tkdam@mtu.edu">tkdam@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064872940">906-487-2940</a></li> 		  		<li class='place'>Chem Sci 510C</li> 
         	   </ul>
 	          </div>
             <div class="left specialties"><h3>Links of Interest</h3>
@@ -539,7 +505,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class='email-address'><a href="mailto:shifang@mtu.edu">shifang@mtu.edu</a></li>		  <li class='phone-number'><a href="tel:9064872023">906-487-2023</a></li> 		  		<li class='place'>Chem Sci 620C</li> 
+		  <li class="email-address"><a href="mailto:shifang@mtu.edu">shifang@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064872023">906-487-2023</a></li> 		  		<li class='place'>Chem Sci 620C</li> 
         	   </ul>
 	          </div>
             <div class="left specialties"><h3>Links of Interest</h3>
@@ -580,82 +546,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="personal">
       <h2> Andrew Galerneau</h2>
 
-      <ul class="none"><li>Lecturer, Chemistry</li>      </ul>    </div>
+      <ul class="none"><li>Senior Lecturer, Chemistry</li><li>Laboratory Supervisor</li>      </ul>    </div>
       
 	
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class='email-address'><a href="mailto:ajgalern@mtu.edu">ajgalern@mtu.edu</a></li>		  <li class='phone-number'><a href="tel:9062817725">906-281-7725</a></li> 		  		<li class='place'>Chem Sci 601B</li> 
+		  <li class="email-address"><a href="mailto:ajgalern@mtu.edu">ajgalern@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9062817725">906-281-7725</a></li> 		  		<li class='place'>Chem Sci 601B</li> 
         	   </ul>
 	          </div>
             		</div>	    
 	     </div>
-  <div class="clearer"></div>
-</div>
-				
-<!-- /chemistry/people-groups/faculty-staff/faculty/green/ -->							
-<div class="person">
-  <div class="photo"><a href="/chemistry/people-groups/faculty-staff/faculty/green/">  <img height="230" width="170" loading="lazy" alt="Sarah Green"  src="/chemistry/people-groups/faculty-staff/faculty/green/images/sarah-a-green-personnel.jpg" class="img"  />  </a>   
-	  	  
-  </div>
-  <div class="person_bio">
-    <div class="personal">
-      <h2> <a href="/chemistry/people-groups/faculty-staff/faculty/green/">Sarah A. Green</a></h2>
-
-      <ul class="none"><li>Interim Department Chair, Chemistry</li><li>Professor, Chemistry</li>      </ul>    </div>
-      
-	
-     	<div class="left">      <div class="contact">
-      <ul class="none">
-       
-		  <li class='email-address'><a href="mailto:sgreen@mtu.edu">sgreen@mtu.edu</a></li>		  <li class='phone-number'><a href="tel:9064872048">906-487-2048</a></li> 		  		<li class='place'>Chemical Sciences 607</li> 
-        	   </ul>
-	          </div>
-            <div class="left specialties"><h3>Links of Interest</h3>
-      <ul class="none">
-         
-         <li>
-            <a href="http://iopscience.iop.org/1748-9326/8/2/024024" target="_blank">97% Consensus paper</a>
-         </li>
-         
-         <li>
-            <a href="https://www.youtube.com/watch?v=cjuGCJJUGsg" target="_blank">John Oliver cites 97% consensus paper (video)</a>
-         </li>
-         
-      </ul>
-   </div>		</div>	    
-	   <div class="right specialties"><h3>Research Interests</h3>
-      <ul>
-         
-         <li>Climate change communication</li>
-         
-         <li>Science-policy interface</li>
-         
-         <li>Response of aquatic systems to climate change</li>
-         
-         <li>Great Lakes</li>
-         
-         <li>Behavior of metal-contaminated sediments in the Lake Superior basin</li>
-         
-         <li>Fluorescence-based analytical methods</li>
-         
-         <li>Aerosol chemistry</li>
-         
-         <li>Origin and fate of dissolved organic carbon (DOC) in terrestrial, lake, and marine
-            environments
-         </li>
-         
-         <li>Methods for detection of free radicals, photochemical transformations of natural and
-            anthropogenic organic compounds in the environment
-         </li>
-         
-         <li>integration of biological, geological, physical, and chemical data for understanding
-            global cycles.
-         </li>
-         
-      </ul>
-   </div>  </div>
   <div class="clearer"></div>
 </div>
 				
@@ -674,7 +575,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class='email-address'><a href="mailto:kaheckman@fs.fed.us">kaheckman@fs.fed.us</a></li>		  <li class='phone-number'><a href="tel:9064826303">906-482-6303</a></li> 		  		<li class='place'>USDA Forest Service, Northern Research Station</li> 
+		  <li class="email-address"><a href="mailto:kaheckman@fs.fed.us">kaheckman@fs.fed.us</a></li>		  <li class="phone-number"><a href="tel:9064826303">906-482-6303</a></li> 		  		<li class='place'>USDA Forest Service, Northern Research Station</li> 
         	   </ul>
 	          </div>
             		</div>	    
@@ -707,17 +608,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class='email-address'><a href="mailto:paheiden@mtu.edu">paheiden@mtu.edu</a></li>		  <li class='phone-number'><a href="tel:9064873452">906-487-3452</a></li> 		  		<li class='place'>Chem Sci 415</li> 
+		  <li class="email-address"><a href="mailto:paheiden@mtu.edu">paheiden@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064873452">906-487-3452</a></li> 		  		<li class='place'>Chem Sci 415</li> 
         	   </ul>
 	          </div>
             <div class="left specialties"><h3>Links of Interest</h3>
       <ul class="none">
          
          <li>
-            <a href="http://maps.google.com/maps/ms?ie=UTF8&amp;hl=en&amp;msa=0&amp;msid=110120208177619965393.0004613d8aadebf2a4bc4&amp;ll=41.508577,-77.849121&amp;spn=167.740598,360&amp;z=1" target="_blank">Map of Requesters</a>
+            <a href="https://maps.google.com/maps/ms?ie=UTF8&amp;hl=en&amp;msa=0&amp;msid=110120208177619965393.0004613d8aadebf2a4bc4&amp;ll=41.508577,-77.849121&amp;spn=167.740598,360&amp;z=1" target="_blank" rel="noopener">Map of Requesters</a>
          </li>
          
-         <li></li>
+         <li>
+            <a href="https://scholar.google.com/citations?user=dzO0_dMAAAAJ&amp;hl=en">Publications</a>
+         </li>
          
       </ul>
    </div>		</div>	    
@@ -745,6 +648,30 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="clearer"></div>
 </div>
 				
+<!-- /chemistry/people-groups/faculty-staff/staff/jarvi.html -->							
+<div class="person">
+  <div class="photo"> <img height="230" width="170" loading="lazy" alt="Megan Jarvi"  src="/chemistry/people-groups/faculty-staff/staff/images/jarvi-megan-new.jpg" class="img"  />    
+	  	  
+  </div>
+  <div class="person_bio">
+    <div class="personal">
+      <h2> Megan Jarvi</h2>
+
+      <ul class="none"><li>Administrative Aide</li><li>Graduate Program Assistant</li>      </ul>    </div>
+      
+	
+     	<div class="left">      <div class="contact">
+      <ul class="none">
+       
+		  <li class="email-address"><a href="mailto:mjarvi@mtu.edu">mjarvi@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064873210">906-487-3210</a></li> 		  		<li class='place'>Chem-Sci 607D</li> 
+        	   </ul>
+	   		<a class="noicon" href="/safeplace/"><img loading="lazy" src="/_resources/images/sitewide/safe-place-logo.jpg" alt="Huskies Safe Place" class="safeplace-logo"></a>
+	          </div>
+            		</div>	    
+	     </div>
+  <div class="clearer"></div>
+</div>
+				
 <!-- /chemistry/people-groups/faculty-staff/faculty/karabencheva-christova/ -->							
 <div class="person">
   <div class="photo"><a href="/chemistry/people-groups/faculty-staff/faculty/karabencheva-christova/">  <img height="230" width="170" loading="lazy" alt="Tatyana Karabencheva-Christova"  src="/chemistry/people-groups/faculty-staff/faculty/karabencheva-christova/images/tatyana-karabencheva-christova-personnel.jpg" class="img"  />  </a>   
@@ -760,7 +687,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class='email-address'><a href="mailto:tatyanak@mtu.edu">tatyanak@mtu.edu</a></li>		  <li class='phone-number'><a href="tel:9064872901">906-487-2901</a></li> 		  		<li class='place'>Chem Sci 312C</li> 
+		  <li class="email-address"><a href="mailto:tatyanak@mtu.edu">tatyanak@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064873512">906-487-3512</a></li> 		  		<li class='place'>Chem Sci 312B</li> 
         	   </ul>
 	          </div>
             		</div>	    
@@ -782,6 +709,29 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="clearer"></div>
 </div>
 				
+<!-- /chemistry/people-groups/faculty-staff/staff/lechner.html -->							
+<div class="person">
+  <div class="photo"> <img height="230" width="170" loading="lazy" alt="Hans Lechner, Ph.D."  src="/chemistry/people-groups/faculty-staff/staff/images/hans-lechner-personnel170.jpg" class="img"  />    
+	  	  
+  </div>
+  <div class="person_bio">
+    <div class="personal">
+      <h2> Hans Lechner, Ph.D.</h2>
+
+      <ul class="none"><li>Research and Communications Facilitator</li>      </ul>    </div>
+      
+	
+     	<div class="left">      <div class="contact">
+      <ul class="none">
+       
+		  <li class="email-address"><a href="mailto:hnlechne@mtu.edu">hnlechne@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064872634">906-487-2634</a></li> 		  		<li class='place'>Chem Sci 607C</li> 
+        	   </ul>
+	          </div>
+            		</div>	    
+	     </div>
+  <div class="clearer"></div>
+</div>
+				
 <!-- /chemistry/people-groups/faculty-staff/faculty/liu/ -->							
 <div class="person">
   <div class="photo"><a href="/chemistry/people-groups/faculty-staff/faculty/liu/">  <img height="230" width="170" loading="lazy" alt="Haiying Liu"  src="/chemistry/people-groups/faculty-staff/faculty/liu/images/kaiying-liu-personnel.jpg" class="img"  />  </a>   
@@ -797,7 +747,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class='email-address'><a href="mailto:hyliu@mtu.edu">hyliu@mtu.edu</a></li>		  <li class='phone-number'><a href="tel:9064873451">906-487-3451</a></li> 		  		<li class='place'>Chem Sci 402E</li> 
+		  <li class="email-address"><a href="mailto:hyliu@mtu.edu">hyliu@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064873451">906-487-3451</a></li> 		  		<li class='place'>Chem Sci 402E</li> 
         	   </ul>
 	          </div>
             <div class="left specialties"><h3>Links of Interest</h3>
@@ -805,6 +755,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
          
          <li>
             <a href="http://pages.mtu.edu/~hyliu/">Research Group Page</a>
+         </li>
+         
+         <li>
+            <a href="https://scholar.google.com/citations?hl=en&amp;user=mxulFtYAAAAJ&amp;view_op=list_works&amp;sortby=pubdate">Publications</a>
+         </li>
+         
+         <li>
+            <a href="https://orcid.org/0000-0001-8351-2017">ORCID</a>
          </li>
          
       </ul>
@@ -823,43 +781,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="clearer"></div>
 </div>
 				
-<!-- /chemistry/people-groups/faculty-staff/emeriti-faculty/logue/ -->							
-<div class="person">
-  <div class="photo"><a href="/chemistry/people-groups/faculty-staff/emeriti-faculty/logue/">  <img height="230" width="170" loading="lazy" alt="Marshall Logue"  src="/chemistry/people-groups/faculty-staff/emeriti-faculty/logue/images/marshall-w-logue-personnel.jpg" class="img"  />  </a>   
-	  	  
-  </div>
-  <div class="person_bio">
-    <div class="personal">
-      <h2> <a href="/chemistry/people-groups/faculty-staff/emeriti-faculty/logue/">Marshall W. Logue</a></h2>
-
-      <ul class="none"><li>Professor Emeritus, Chemistry</li>      </ul>    </div>
-      
-	
-     	<div class="left">      <div class="contact">
-      <ul class="none">
-       
-		  <li class='email-address'><a href="mailto:mwlogue@mtu.edu">mwlogue@mtu.edu</a></li>		  		  		 
-        	   </ul>
-	          </div>
-            		</div>	    
-	   <div class="right"><div class="specialties"><h3>Research Interests</h3>
-      <ul>
-         
-         <li>Application of organic synthesis to carbohydrates, C-nucleosides, and nucleotide analogues</li>
-         
-         <li>Reactions of carbohydrate cyclic ortho esters with organosilicon reagents</li>
-         
-         <li>Developing short and high-yield syntheses for glycosyl alkynyl ketones</li>
-         
-         <li>Synthesis of nucleotide analogues, including acyclic C- nucleotide analogues, that
-            have phosphate group masked as phosphate esters
-         </li>
-         
-      </ul>
-   </div></div>  </div>
-  <div class="clearer"></div>
-</div>
-				
 <!-- /chemistry/people-groups/faculty-staff/faculty/luck/ -->							
 <div class="person">
   <div class="photo"><a href="/chemistry/people-groups/faculty-staff/faculty/luck/">  <img height="230" width="170" loading="lazy" alt="Rudy Luck"  src="/chemistry/people-groups/faculty-staff/faculty/luck/images/luck-personnel.jpg" class="img"  />  </a>   
@@ -875,7 +796,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class='email-address'><a href="mailto:rluck@mtu.edu">rluck@mtu.edu</a></li>		  <li class='phone-number'><a href="tel:9064872309">906-487-2309</a></li> 		  <li class='cell-number'><a href="tel:9063707405">Cell: 906-370-7405</a></li> 		<li class='place'>Chem Sci 701B</li> 
+		  <li class="email-address"><a href="mailto:rluck@mtu.edu">rluck@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064872309">906-487-2309</a></li> 		  <li class='cell-number'><a href="tel:9064872309">Cell: 906-370-7405</a></li> 		<li class='place'>Chem Sci 701B</li> 
         	   </ul>
 	          </div>
             <div class="left specialties"><h3>Links of Interest</h3>
@@ -916,7 +837,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class='email-address'><a href="mailto:jllutz@mtu.edu">jllutz@mtu.edu</a></li>		  <li class='phone-number'><a href="tel:9063707402">906-370-7402</a></li> 		  		<li class='place'>Chem Sci 701D</li> 
+		  <li class="email-address"><a href="mailto:jllutz@mtu.edu">jllutz@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9063707402">906-370-7402</a></li> 		  		<li class='place'>Chem Sci 701D</li> 
         	   </ul>
 	          </div>
             		</div>	    
@@ -939,7 +860,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class='email-address'><a href="mailto:lrmazzol@mtu.edu">lrmazzol@mtu.edu</a></li>		  <li class='phone-number'><a href="tel:9064871853">906-487-1853</a></li> 		  		<li class='place'>Chem Sci 402D</li> 
+		  <li class="email-address"><a href="mailto:lrmazzol@mtu.edu">lrmazzol@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064871853">906-487-1853</a></li> 		  		<li class='place'>Chem Sci 402D</li> 
         	   </ul>
 	          </div>
             <div class="left specialties"><h3>Links of Interest</h3>
@@ -987,22 +908,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				
 <!-- /chemistry/people-groups/faculty-staff/adjunct/minakata.html -->							
 <div class="person">
-  <div class="photo"><a href="/chemistry/people-groups/faculty-staff/adjunct/minakata.html">  <img height="230" width="170" loading="lazy" alt="Daisuke Minakata"  src="/cee/people/faculty-staff/faculty/minakata/images/minakata-personnel.jpg" class="img"  />  </a>   
+  <div class="photo"><a href="/chemistry/people-groups/faculty-staff/adjunct/minakata.html">  <img height="230" width="170" loading="lazy" alt="Daisuke Minakata"  src="/cege/people/faculty-staff/faculty/minakata/images/minakata-personnel.jpg" class="img"  />  </a>   
 	  	  
   </div>
   <div class="person_bio">
     <div class="personal">
       <h2> <a href="/chemistry/people-groups/faculty-staff/adjunct/minakata.html">Daisuke Minakata</a></h2>
 
-      <ul class="none"><li>Associate Professor, Civil and Environmental Engineering</li><li>Affiliated Associate Professor,
-      Department of Chemistry</li><li>Affiliated Associate Professor, Department of Physics</li><li>
+      <ul class="none"><li>Associate Professor, Civil, Environmental, and Geospatial Engineering</li><li>Affiliated Associate
+      Professor, Department of Chemistry</li><li>Affiliated Associate Professor, Department of Physics</li><li>
    </li>      </ul>    </div>
       
 	
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class='email-address'><a href="mailto:dminakat@mtu.edu">dminakat@mtu.edu</a></li>		  <li class='phone-number'><a href="tel:9064871830">906-487-1830</a></li> 		  		<li class='place'>Dow 801</li> 
+		  <li class="email-address"><a href="mailto:dminakat@mtu.edu">dminakat@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064871830">906-487-1830</a></li> 		  		<li class='place'>Dow 801</li> 
         	   </ul>
 	          </div>
             <div class="left specialties"><h3>Links of Interest</h3>
@@ -1042,43 +963,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="clearer"></div>
 </div>
 				
-<!-- /chemistry/people-groups/faculty-staff/emeriti-faculty/murthy/ -->							
-<div class="person">
-  <div class="photo"><a href="/chemistry/people-groups/faculty-staff/emeriti-faculty/murthy/">  <img height="230" width="170" loading="lazy" alt="Pushpalatha Murthy"  src="/chemistry/people-groups/faculty-staff/emeriti-faculty/murthy/images/pushpalatha-murthy-personnel.jpg" class="img"  />  </a>   
-	  	  
-  </div>
-  <div class="person_bio">
-    <div class="personal">
-      <h2> <a href="/chemistry/people-groups/faculty-staff/emeriti-faculty/murthy/">Pushpalatha Murthy</a></h2>
-
-      <ul class="none"><li>Professor Emeritus, Chemistry</li>      </ul>    </div>
-      
-	
-     	<div class="left">      <div class="contact">
-      <ul class="none">
-       
-		  <li class='email-address'><a href="mailto:ppmurthy@mtu.edu">ppmurthy@mtu.edu</a></li>		  		  		 
-        	   </ul>
-	          </div>
-            		</div>	    
-	   <div class="right"><div class="specialties"><h3>Research Interests</h3>
-      <ul>
-         
-         <li>Structure, metabolism, and biological role of phosphoinositides in plant cells</li>
-         
-         <li>Catalytic and structural aspects of phytases, including specificity of hydrolysis,
-            molecular weight and subunit structure, amino acid sequence, and molecular biology
-         </li>
-         
-         <li>Biosynthesis, subcellular localization, and biological role of novel scyllo-inositol
-            containing phosphoinositides
-         </li>
-         
-      </ul>
-   </div></div>  </div>
-  <div class="clearer"></div>
-</div>
-				
 <!-- /chemistry/people-groups/faculty-staff/staff/page.html -->							
 <div class="person">
   <div class="photo"> <img height="230" width="170" loading="lazy" alt="Charlene Page"  src="/chemistry/people-groups/faculty-staff/staff/images/page-personnel.jpg" class="img"  />    
@@ -1094,7 +978,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class='email-address'><a href="mailto:cpage@mtu.edu">cpage@mtu.edu</a></li>		  <li class='phone-number'><a href="tel:9064872048">906-487-2048</a></li> 		  		<li class='place'>Chem Sci 607</li> 
+		  <li class="email-address"><a href="mailto:cpage@mtu.edu">cpage@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064872048">906-487-2048</a></li> 		  		<li class='place'>Chem Sci 607</li> 
         	   </ul>
 	          </div>
             		</div>	    
@@ -1117,7 +1001,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class='email-address'><a href="mailto:apandey@mtu.edu">apandey@mtu.edu</a></li>		  <li class='phone-number'><a href="tel:9064873481">906-487-3481</a></li> 		  		<li class='place'>Chem Sci 508A</li> 
+		  <li class="email-address"><a href="mailto:apandey@mtu.edu">apandey@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064873481">906-487-3481</a></li> 		  		<li class='place'>Chem Sci 508A</li> 
         	   </ul>
 	          </div>
             		</div>	    
@@ -1127,7 +1011,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				
 <!-- /chemistry/people-groups/faculty-staff/faculty/perrine/ -->							
 <div class="person">
-  <div class="photo"><a href="https://www.mtu.edu/chemistry/people-groups/faculty-staff/faculty/perrine/index.html">   <img height="230" width="170" loading="lazy" alt="Kathryn Perrine"  src="/chemistry/people-groups/faculty-staff/faculty/perrine/images/kathrynperrine-profilephoto-resized.jpg" class="img"  />  </a>   
+  <div class="photo"><a href="https://www.mtu.edu/chemistry/people-groups/faculty-staff/faculty/perrine/index.html">   <img height="230" width="170" loading="lazy" alt="Kathryn Perrine"  src="/chemistry/people-groups/faculty-staff/faculty/perrine/images/perrineprofilephoto2021v2.jpg" class="img"  />  </a>   
 	  	  
   </div>
   <div class="person_bio">
@@ -1140,7 +1024,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class='email-address'><a href="mailto:kaperrin@mtu.edu">kaperrin@mtu.edu</a></li>		  <li class='phone-number'><a href="tel:9064873214">906-487-3214</a></li> 		  		<li class='place'>Chem Sci 402C</li> 
+		  <li class="email-address"><a href="mailto:kaperrin@mtu.edu">kaperrin@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064873214">906-487-3214</a></li> 		  		<li class='place'>Chem Sci 402C</li> 
         	   </ul>
 	          </div>
             <div class="left specialties"><h3>Links of Interest</h3>
@@ -1191,30 +1075,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class='email-address'><a href="mailto:lareilly@mtu.edu">lareilly@mtu.edu</a></li>		  <li class='phone-number'><a href="tel:9064872044">906-487-2044</a></li> 		  		<li class='place'>Chem Sci 508B</li> 
-        	   </ul>
-	          </div>
-            		</div>	    
-	     </div>
-  <div class="clearer"></div>
-</div>
-				
-<!-- /chemistry/people-groups/faculty-staff/staff/ruohonen.html -->							
-<div class="person">
-  <div class="photo"> <img height="230" width="170" loading="lazy" alt="Ann Ruohonen"  src="/chemistry/people-groups/faculty-staff/staff/images/ann-ruohonen0821202003-personnel170.jpg" class="img"  />    
-	  	  
-  </div>
-  <div class="person_bio">
-    <div class="personal">
-      <h2> Ann Ruohonen</h2>
-
-      <ul class="none"><li>Office Assistant / Graduate Program Assistant</li>      </ul>    </div>
-      
-	
-     	<div class="left">      <div class="contact">
-      <ul class="none">
-       
-		  <li class='email-address'><a href="mailto:amruohon@mtu.edu">amruohon@mtu.edu</a></li>		  <li class='phone-number'><a href="tel:9064873210">906-487-3210</a></li> 		  		<li class='place'>Chem Sci 607D</li> 
+		  <li class="email-address"><a href="mailto:lareilly@mtu.edu">lareilly@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064872044">906-487-2044</a></li> 		  		<li class='place'>Chem Sci 508B</li> 
         	   </ul>
 	          </div>
             		</div>	    
@@ -1237,7 +1098,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class='email-address'><a href="mailto:skschum@mtu.edu">skschum@mtu.edu</a></li>		  <li class='phone-number'><a href="tel:9064871469">906-487-1469</a></li> 		  		<li class='place'>218 GLRC</li> 
+		  <li class="email-address"><a href="mailto:skschum@mtu.edu">skschum@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064871469">906-487-1469</a></li> 		  		<li class='place'>218 GLRC</li> 
         	   </ul>
 	          </div>
             <div class="left specialties"><h3>Links of Interest</h3>
@@ -1286,7 +1147,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class='email-address'><a href="mailto:dwseppal@mtu.edu">dwseppal@mtu.edu</a></li>		  <li class='phone-number'><a href="tel:9063707404">906-370-7404</a></li> 		  		<li class='place'>Chem Sci S002</li> 
+		  <li class="email-address"><a href="mailto:dwseppal@mtu.edu">dwseppal@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9063707404">906-370-7404</a></li> 		  		<li class='place'>Chem Sci S002</li> 
         	   </ul>
 	          </div>
             		</div>	    
@@ -1311,7 +1172,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class='email-address'><a href="mailto:ManishKumar.Shrivastava@pnnl.gov">ManishKumar.Shrivastava@pnnl.gov</a></li>		  		  <li class='cell-number'><a href="tel:4082035311">Cell: 408-203-5311</a></li> 		<li class='place'>Pacific Northwest National Laboratory</li> 
+		  <li class="email-address"><a href="mailto:ManishKumar.Shrivastava@pnnl.gov">ManishKumar.Shrivastava@pnnl.gov</a></li>		  		  <li class='cell-number'><a href="tel:">Cell: 408-203-5311</a></li> 		<li class='place'>Pacific Northwest National Laboratory</li> 
         	   </ul>
 	          </div>
             		</div>	    
@@ -1358,7 +1219,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class='email-address'><a href="mailto:mtanasov@mtu.edu">mtanasov@mtu.edu</a></li>		  <li class='phone-number'><a href="tel:9064871163">906-487-1163</a></li> 		  		<li class='place'>Chem Sci 620B</li> 
+		  <li class="email-address"><a href="mailto:mtanasov@mtu.edu">mtanasov@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064871163">906-487-1163</a></li> 		  		<li class='place'>Chem Sci 620B</li> 
         	   </ul>
 	          </div>
             <div class="left specialties"><h3>Links of Interest</h3>
@@ -1375,6 +1236,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
          <li>Positions are open for undergraduate, M.S. and Ph.D. students and Postdocs</li>
          
       </ul>
+      
+      <p>
+         <a href="https://scholar.google.com/citations?user=r8s_G6AAAAAJ&amp;hl=en&amp;oi=ao">Publications</a>
+      </p>
+      
+      <p>
+         <a href="https://orcid.org/0000-0003-4771-9533">ORCID</a>
+      </p>
    </div>		</div>	    
 	   <div class="right specialties"><h3>Research Interests</h3>
       <ul>
@@ -1405,7 +1274,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class='email-address'><a href="mailto:thompson@mtu.edu">thompson@mtu.edu</a></li>		  <li class='phone-number'><a href="tel:9064873522">906-487-3522</a></li> 		  		<li class='place'>Chem Sci 510B</li> 
+		  <li class="email-address"><a href="mailto:thompson@mtu.edu">thompson@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064873522">906-487-3522</a></li> 		  		<li class='place'>Chem Sci 510B</li> 
         	   </ul>
 	          </div>
             <div class="left specialties"><h3>Links of Interest</h3>
@@ -1442,26 +1311,26 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class='email-address'><a href="mailto:tiwari@mtu.edu">tiwari@mtu.edu</a></li>		  <li class='phone-number'><a href="tel:9064871840">906-487-1840</a></li> 		  		<li class='place'>Chem Sci 402B</li> 
+		  <li class="email-address"><a href="mailto:tiwari@mtu.edu">tiwari@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064871840">906-487-1840</a></li> 		  		<li class='place'>Chem Sci 402B</li> 
         	   </ul>
 	          </div>
             <div class="left specialties"><h3>Links of Interest</h3>
       <ul class="none">
          
          <li>
-            <a href="http://chem.sites.mtu.edu/tiwari/">Research Group Page</a>
+            <a href="https://chem.sites.mtu.edu/tiwari/" target="_blank" rel="noopener">Research Group Page</a>
          </li>
          
          <li>
-            <a href="/biochemistry/index.html">Biochemistry and Molecular Biology PhD Program</a>
+            <a href="/biochemistry/index.html" target="_blank" rel="noopener">Biochemistry and Molecular Biology PhD Program</a>
          </li>
          
          <li>
-            <a href="http://scholar.google.com/citations?hl=en&amp;user=A01F1tIAAAAJ&amp;sortby=pubdate" target="_blank">Peer Reviewed Publications: Google Scholar</a>
+            <a href="https://scholar.google.com/citations?hl=en&amp;user=A01F1tIAAAAJ&amp;sortby=pubdate" target="_blank" rel="noopener">Peer Reviewed Publications: Google Scholar</a>
          </li>
          
          <li>
-            <a href="https://publons.com/researcher/1753282/ashutosh-tiwari/" target="_blank">Peer Reviewed Publications: Publons</a>
+            <a href="https://publons.com/researcher/1753282/ashutosh-tiwari/" target="_blank" rel="noopener">Peer Reviewed Publications: Publons</a>
          </li>
          
       </ul>
@@ -1503,7 +1372,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class='email-address'><a href="mailto:lvalenza@mtu.edu">lvalenza@mtu.edu</a></li>		  <li class='phone-number'><a href="tel:9064871602">906-487-1602</a></li> 		  		<li class='place'>Chem Sci 701A</li> 
+		  <li class="email-address"><a href="mailto:lvalenza@mtu.edu">lvalenza@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064871602">906-487-1602</a></li> 		  		<li class='place'>Chem Sci 701A</li> 
         	   </ul>
 	          </div>
             <div class="left specialties"><h3>Links of Interest</h3>
@@ -1547,46 +1416,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="clearer"></div>
 </div>
 				
-<!-- /chemistry/people-groups/faculty-staff/emeriti-faculty/williams/ -->							
-<div class="person">
-  <div class="photo"><a href="/chemistry/people-groups/faculty-staff/emeriti-faculty/williams/">  <img height="230" width="170" loading="lazy" alt="John Williams"  src="/chemistry/people-groups/faculty-staff/emeriti-faculty/williams/images/john-g-williams-personnel.jpg" class="img"  />  </a>   
-	  	  
-  </div>
-  <div class="person_bio">
-    <div class="personal">
-      <h2> <a href="/chemistry/people-groups/faculty-staff/emeriti-faculty/williams/">John G. Williams</a></h2>
-
-      <ul class="none"><li>Professor Emeritus, Chemistry</li>      </ul>    </div>
-      
-	
-     	<div class="left">      <div class="contact">
-      <ul class="none">
-       
-		  <li class='email-address'><a href="mailto:jgwillia@mtu.edu">jgwillia@mtu.edu</a></li>		  		  		 
-        	   </ul>
-	          </div>
-            		</div>	    
-	   <div class="right"><div class="specialties"><h3>Research Interests</h3>
-      <ul>
-         
-         <li>Modeling of Thermoset Cure</li>
-         
-         <li>Phase-change mechanism and the properties of the resultant thermoset solid</li>
-         
-         <li>Rheology of Curing Resins</li>
-         
-         <li>Developing closed-loop control of composite processing</li>
-         
-         <li>Molecular Basis for Deformation and Fracture in Polymers</li>
-         
-      </ul>
-   </div></div>  </div>
-  <div class="clearer"></div>
-</div>
-				
 <script>
 							defer(function() {	
-								$.get("https://www.mtu.edu/mtu_resources/php/ou/profiles/display-n.php?path=%2Fchemistry%2Fpeople-groups%2Ffaculty-staff%2F&manual=&link=%2Fchemistry%2Fpeople-groups%2Ffaculty-staff%2Findex.html&additional=&type=pub&displaytype=&ct=3600", function(data) { console.log('Updated Listing.');});
+								$.get("https://www.mtu.edu/mtu_resources/php/ou/profiles/display-n.php?path=%2Fchemistry%2Fpeople-groups%2Ffaculty-staff%2F&manual=sgreen&link=%2Fchemistry%2Fpeople-groups%2Ffaculty-staff%2Findex.html&additional=&type=pub&displaytype=&ct=3600", function(data) { console.log('Updated Listing.');});
 							});
 						</script></div>
                            <div class="clearer"></div>
@@ -1632,7 +1464,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <li><a href="https://events.mtu.edu/">Events Calendar</a></li>
             <li><a href="/jobs/">Jobs</a></li>
             <li><a href="/president/teams/council/">President's Council</a></li>
-            <li><a href="/success/" aria-label="Waino Wahtera Center for Student Success">Student Success Center</a></li>
+            <li><a href="/success/" aria-label="Waino Wahtera Student Success Center">Student Success Center</a></li>
             <li><a href="/title-ix/report/tix-staff/">Title IX Coordinator</a></li>
             <li><a href="/webcams/">Webcams</a></li>
          </ul>
@@ -1665,7 +1497,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
    </div>
    <div class="row footer__contact">
       <div class="footer__contact-info"><script type="text/javascript">
-				var givingLink = "/chemistry/giving/index.html";
+				var givingLink = "https://www.mtu.edu/chemistry/giving/index.html";
 				if (document.getElementsByClassName("footer-button-give").length != 0){
 					document.querySelector(".footer-button-give a").href = givingLink;
 				}
@@ -1673,7 +1505,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				.footer__pre-nav li:nth-of-type(1), .footer__pre-nav li:nth-of-type(2), .footer__pre-nav li:nth-of-type(3), .footer__pre-nav li:nth-of-type(4) {
 					display: block;
 				}
-			</style><h2><a class="text-gold underline-on-hover" href="/chemistry/">Department of Chemistry</a></h2><div class="footer__contact-info-address">Chemical Sciences and Engineering Building<br />Houghton, MI 49931</div><div><ul class="bar-separator no-bullet"><li class="phone"><a href="tel:9064872048">906-487-2048</a></li><li class="fax"><a href="tel:9064872061">906-487-2061</a></li><li class="email"><a href="mailto:chemistry@mtu.edu">chemistry@mtu.edu</a></li></ul></div><a class="text-gold" href="/chemistry/department/contact/">Contact Us</a>      </div>
+			</style><h2><a class="text-gold underline-on-hover" href="/chemistry/">Department of Chemistry</a></h2><div class="footer__contact-info-address">Chemical Sciences and Engineering Building<br />Houghton, MI 49931</div><div><ul class="bar-separator no-bullet"><li class="phone"><a href="tel:9064872048">906-487-2048</a></li><li class="fax"><a href="tel:9064872061">906-487-2061</a></li><li class="email"><a href="mailto:chemistry@mtu.edu">chemistry@mtu.edu</a></li></ul></div><a class="text-gold" href="/chemistry/department/contact/">Contact Us</a><ul class="social-icons no-bullet"><li><a class="facebook" href="https://www.facebook.com/chemistry.michigan.tech" target="_blank">Facebook</a></li><li><a class="twitter" href="https://twitter.com/MTU_chemistry" target="_blank">Twitter</a></li><li><a class="youtube" href="https://www.youtube.com/channel/UC2LGUv1R6AaO2yCaE2BCjPg" target="_blank">Youtube</a></li></ul>      </div>
       <div class="footer__contact-social">
          <div class="mtu-logo logo"><a href="/" class="mtu-logo mtu-logo-footer">
                <svg viewBox="0 200 600 200" width="200" height="100" preserveAspectRatio="xMinYMid meet">
@@ -1697,7 +1529,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 <!--[if (!IE)|(gt IE 8)]><!--> 
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
 	<script>window.jQuery || document.write('<script src="//www.mtu.edu/mtu_resources/script/n/jquery.js"><\/script>')</script> 
 <!--<![endif]-->
 
@@ -1705,7 +1537,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<script src="//www.mtu.edu/mtu_resources/script/n/jquery-ie.js"></script>
 <![endif]-->
 
-<script src="//www.mtu.edu/mtu_resources/script/n/formal.js?v=21.011510"></script>
+<script src="//www.mtu.edu/mtu_resources/assets/js/app.js?v=21.092811"></script>
 
 <script src="/_resources/js/direct-edit.js"></script>
 <script>

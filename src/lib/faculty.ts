@@ -14,7 +14,7 @@ export const getAllFaculty = async (): Promise<IFaculty[]> => {
 
     const $ = cheerio.load(body);
 
-    const department = trim($('.sitetitle span > a').text());
+    const department = trim($('.site-title span > a').text());
 
     const people: IFaculty[] = [];
 
@@ -55,7 +55,7 @@ export const getAllFaculty = async (): Promise<IFaculty[]> => {
 
       people.push({
         name,
-        departments: [department],
+        departments: removeEmptyElements([department]),
         occupations: removeEmptyElements(occupations),
         email: email === '' ? null : email,
         phone: phone === '' ? null : phone,
@@ -81,7 +81,7 @@ export const getAllFaculty = async (): Promise<IFaculty[]> => {
     if (personInMap) {
       peopleMap.set(person.name, {
         ...personInMap,
-        departments: [...personInMap.departments, ...person.departments]
+        departments: removeEmptyElements([...personInMap.departments, ...person.departments])
       });
     } else {
       peopleMap.set(person.name, person);
