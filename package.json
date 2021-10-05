@@ -1,6 +1,6 @@
 {
   "name": "@mtucourses/scraper",
-  "version": "2.3.9",
+  "version": "2.4.0",
   "description": "a package to scrape various information from Michigan Tech",
   "keywords": [
     "scrape",
@@ -81,7 +81,8 @@
     ],
     "require": [
       "ts-node/register"
-    ]
+    ],
+    "timeout": "2m"
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.5",
