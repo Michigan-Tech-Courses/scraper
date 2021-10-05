@@ -50,7 +50,7 @@ export interface ISectionDetails {
   title: string;
   description: string;
   instructors: string[];
-  credits: number;
+  credits: number | null;
   semestersOffered: ESemester[];
   prereqs: string | null;
   location: string;
