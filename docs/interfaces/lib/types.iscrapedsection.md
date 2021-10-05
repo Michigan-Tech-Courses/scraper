@@ -35,7 +35,7 @@
 
 • **cmp**: *string*
 
-Defined in: [lib/types.ts:6](https://github.com/Michigan-Tech-Courses/scrapper/blob/a7d155b/src/lib/types.ts#L6)
+Defined in: [lib/types.ts:6](https://github.com/Michigan-Tech-Courses/scrapper/blob/d0a4497/src/lib/types.ts#L6)
 
 ___
 
@@ -43,7 +43,7 @@ ___
 
 • **creditRange**: *number*[]
 
-Defined in: [lib/types.ts:7](https://github.com/Michigan-Tech-Courses/scrapper/blob/a7d155b/src/lib/types.ts#L7)
+Defined in: [lib/types.ts:7](https://github.com/Michigan-Tech-Courses/scrapper/blob/d0a4497/src/lib/types.ts#L7)
 
 ___
 
@@ -51,7 +51,7 @@ ___
 
 • **crn**: *string*
 
-Defined in: [lib/types.ts:2](https://github.com/Michigan-Tech-Courses/scrapper/blob/a7d155b/src/lib/types.ts#L2)
+Defined in: [lib/types.ts:2](https://github.com/Michigan-Tech-Courses/scrapper/blob/d0a4497/src/lib/types.ts#L2)
 
 ___
 
@@ -59,7 +59,7 @@ ___
 
 • **crse**: *string*
 
-Defined in: [lib/types.ts:4](https://github.com/Michigan-Tech-Courses/scrapper/blob/a7d155b/src/lib/types.ts#L4)
+Defined in: [lib/types.ts:4](https://github.com/Michigan-Tech-Courses/scrapper/blob/d0a4497/src/lib/types.ts#L4)
 
 ___
 
@@ -67,7 +67,7 @@ ___
 
 • **dateRange**: *string*[]
 
-Defined in: [lib/types.ts:15](https://github.com/Michigan-Tech-Courses/scrapper/blob/a7d155b/src/lib/types.ts#L15)
+Defined in: [lib/types.ts:15](https://github.com/Michigan-Tech-Courses/scrapper/blob/d0a4497/src/lib/types.ts#L15)
 
 ___
 
@@ -75,7 +75,7 @@ ___
 
 • **days**: *string*
 
-Defined in: [lib/types.ts:9](https://github.com/Michigan-Tech-Courses/scrapper/blob/a7d155b/src/lib/types.ts#L9)
+Defined in: [lib/types.ts:9](https://github.com/Michigan-Tech-Courses/scrapper/blob/d0a4497/src/lib/types.ts#L9)
 
 ___
 
@@ -83,7 +83,7 @@ ___
 
 • **fee**: *number*
 
-Defined in: [lib/types.ts:17](https://github.com/Michigan-Tech-Courses/scrapper/blob/a7d155b/src/lib/types.ts#L17)
+Defined in: [lib/types.ts:17](https://github.com/Michigan-Tech-Courses/scrapper/blob/d0a4497/src/lib/types.ts#L17)
 
 ___
 
@@ -91,7 +91,7 @@ ___
 
 • **instructors**: *string*
 
-Defined in: [lib/types.ts:14](https://github.com/Michigan-Tech-Courses/scrapper/blob/a7d155b/src/lib/types.ts#L14)
+Defined in: [lib/types.ts:14](https://github.com/Michigan-Tech-Courses/scrapper/blob/d0a4497/src/lib/types.ts#L14)
 
 ___
 
@@ -99,7 +99,7 @@ ___
 
 • **location**: *null* \| *string*
 
-Defined in: [lib/types.ts:16](https://github.com/Michigan-Tech-Courses/scrapper/blob/a7d155b/src/lib/types.ts#L16)
+Defined in: [lib/types.ts:16](https://github.com/Michigan-Tech-Courses/scrapper/blob/d0a4497/src/lib/types.ts#L16)
 
 ___
 
@@ -107,7 +107,7 @@ ___
 
 • **seats**: *number*
 
-Defined in: [lib/types.ts:11](https://github.com/Michigan-Tech-Courses/scrapper/blob/a7d155b/src/lib/types.ts#L11)
+Defined in: [lib/types.ts:11](https://github.com/Michigan-Tech-Courses/scrapper/blob/d0a4497/src/lib/types.ts#L11)
 
 ___
 
@@ -115,7 +115,7 @@ ___
 
 • **seatsAvailable**: *number*
 
-Defined in: [lib/types.ts:13](https://github.com/Michigan-Tech-Courses/scrapper/blob/a7d155b/src/lib/types.ts#L13)
+Defined in: [lib/types.ts:13](https://github.com/Michigan-Tech-Courses/scrapper/blob/d0a4497/src/lib/types.ts#L13)
 
 ___
 
@@ -123,7 +123,7 @@ ___
 
 • **seatsTaken**: *number*
 
-Defined in: [lib/types.ts:12](https://github.com/Michigan-Tech-Courses/scrapper/blob/a7d155b/src/lib/types.ts#L12)
+Defined in: [lib/types.ts:12](https://github.com/Michigan-Tech-Courses/scrapper/blob/d0a4497/src/lib/types.ts#L12)
 
 ___
 
@@ -131,7 +131,7 @@ ___
 
 • **section**: *string*
 
-Defined in: [lib/types.ts:5](https://github.com/Michigan-Tech-Courses/scrapper/blob/a7d155b/src/lib/types.ts#L5)
+Defined in: [lib/types.ts:5](https://github.com/Michigan-Tech-Courses/scrapper/blob/d0a4497/src/lib/types.ts#L5)
 
 ___
 
@@ -139,7 +139,7 @@ ___
 
 • **subject**: *string*
 
-Defined in: [lib/types.ts:3](https://github.com/Michigan-Tech-Courses/scrapper/blob/a7d155b/src/lib/types.ts#L3)
+Defined in: [lib/types.ts:3](https://github.com/Michigan-Tech-Courses/scrapper/blob/d0a4497/src/lib/types.ts#L3)
 
 ___
 
@@ -147,7 +147,7 @@ ___
 
 • **timeRange**: *null* \| *string*[]
 
-Defined in: [lib/types.ts:10](https://github.com/Michigan-Tech-Courses/scrapper/blob/a7d155b/src/lib/types.ts#L10)
+Defined in: [lib/types.ts:10](https://github.com/Michigan-Tech-Courses/scrapper/blob/d0a4497/src/lib/types.ts#L10)
 
 ___
 
@@ -155,4 +155,4 @@ ___
 
 • **title**: *string*
 
-Defined in: [lib/types.ts:8](https://github.com/Michigan-Tech-Courses/scrapper/blob/a7d155b/src/lib/types.ts#L8)
+Defined in: [lib/types.ts:8](https://github.com/Michigan-Tech-Courses/scrapper/blob/d0a4497/src/lib/types.ts#L8)
