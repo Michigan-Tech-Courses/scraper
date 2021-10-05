@@ -26,7 +26,7 @@
 
 • **credits**: *number*
 
-Defined in: [lib/types.ts:53](https://github.com/Michigan-Tech-Courses/scrapper/blob/a0179c7/src/lib/types.ts#L53)
+Defined in: [lib/types.ts:53](https://github.com/Michigan-Tech-Courses/scrapper/blob/a7d155b/src/lib/types.ts#L53)
 
 ___
 
@@ -34,7 +34,7 @@ ___
 
 • **description**: *string*
 
-Defined in: [lib/types.ts:51](https://github.com/Michigan-Tech-Courses/scrapper/blob/a0179c7/src/lib/types.ts#L51)
+Defined in: [lib/types.ts:51](https://github.com/Michigan-Tech-Courses/scrapper/blob/a7d155b/src/lib/types.ts#L51)
 
 ___
 
@@ -42,7 +42,7 @@ ___
 
 • **instructors**: *string*[]
 
-Defined in: [lib/types.ts:52](https://github.com/Michigan-Tech-Courses/scrapper/blob/a0179c7/src/lib/types.ts#L52)
+Defined in: [lib/types.ts:52](https://github.com/Michigan-Tech-Courses/scrapper/blob/a7d155b/src/lib/types.ts#L52)
 
 ___
 
@@ -50,7 +50,7 @@ ___
 
 • **location**: *string*
 
-Defined in: [lib/types.ts:56](https://github.com/Michigan-Tech-Courses/scrapper/blob/a0179c7/src/lib/types.ts#L56)
+Defined in: [lib/types.ts:56](https://github.com/Michigan-Tech-Courses/scrapper/blob/a7d155b/src/lib/types.ts#L56)
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 • **prereqs**: *null* \| *string*
 
-Defined in: [lib/types.ts:55](https://github.com/Michigan-Tech-Courses/scrapper/blob/a0179c7/src/lib/types.ts#L55)
+Defined in: [lib/types.ts:55](https://github.com/Michigan-Tech-Courses/scrapper/blob/a7d155b/src/lib/types.ts#L55)
 
 ___
 
@@ -66,7 +66,7 @@ ___
 
 • **semestersOffered**: [*ESemester*](../enums/lib/types.esemester.md)[]
 
-Defined in: [lib/types.ts:54](https://github.com/Michigan-Tech-Courses/scrapper/blob/a0179c7/src/lib/types.ts#L54)
+Defined in: [lib/types.ts:54](https://github.com/Michigan-Tech-Courses/scrapper/blob/a7d155b/src/lib/types.ts#L54)
 
 ___
 
@@ -74,4 +74,4 @@ ___
 
 • **title**: *string*
 
-Defined in: [lib/types.ts:50](https://github.com/Michigan-Tech-Courses/scrapper/blob/a0179c7/src/lib/types.ts#L50)
+Defined in: [lib/types.ts:50](https://github.com/Michigan-Tech-Courses/scrapper/blob/a7d155b/src/lib/types.ts#L50)
