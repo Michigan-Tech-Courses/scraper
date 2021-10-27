@@ -4,6 +4,7 @@ import {URLSearchParams} from 'url';
 import {ESemester, ICourseOverview, IScrapedSection, ISectionDetails} from './types';
 import {trim, getTermId, protectNaN, getNumberOfUniqueValues} from './utils';
 import gotWrapper from './got';
+import {IScheduleDef} from '..';
 
 /*
  * The month of term must be sent to the first month of a term at Michigan Tech.
@@ -50,12 +51,12 @@ export const getAllSections = async (term: Date): Promise<ICourseOverview[]> => 
   $('.datadisplaytable tr').each((_, element) => {
     const attributes = $(element).children('.dddefault, .dddefaultnoprint');
 
-    const crn = trim(attributes.eq(0).children().eq(0).text());
-
-    // Ignore rows without a CRN
-    if (crn === '') {
+    if (attributes.length !== 16) {
+      // Probably a title row
       return;
     }
+
+    const crn = trim(attributes.eq(0).children().eq(0).text());
 
     const subject: string = trim(attributes.eq(1).text());
     const crse = trim(attributes.eq(2).text());
@@ -103,24 +104,36 @@ export const getAllSections = async (term: Date): Promise<ICourseOverview[]> => 
       }, 0);
     }
 
-    sections.push({
-      crn,
-      subject,
-      crse,
-      section,
-      cmp,
-      creditRange: credits,
-      title,
-      days,
-      timeRange: startTime === 'TBA' ? null : [startTime, endTime],
-      seats: protectNaN(seats),
-      seatsTaken: protectNaN(seatsTaken),
-      seatsAvailable: protectNaN(seatsAvailable),
-      instructors: instructor,
+    const schedule: IScheduleDef | null = startTime === 'TBA' ? null : {
+      timeRange: [startTime, endTime],
       dateRange: [startDate, endDate],
-      location,
-      fee: protectNaN(fee)
-    });
+      days
+    };
+
+    if (crn === '') {
+      // This is a continuation of the previous row
+      const lastSection = sections[sections.length - 1];
+      if (schedule && lastSection) {
+        lastSection.schedules.push(schedule);
+      }
+    } else {
+      sections.push({
+        crn,
+        subject,
+        crse,
+        section,
+        cmp,
+        creditRange: credits,
+        title,
+        seats: protectNaN(seats),
+        seatsTaken: protectNaN(seatsTaken),
+        seatsAvailable: protectNaN(seatsAvailable),
+        instructors: instructor,
+        location,
+        fee: protectNaN(fee),
+        schedules: schedule ? [schedule] : []
+      });
+    }
   });
 
   // Collect sections into courses
@@ -146,15 +159,13 @@ export const getAllSections = async (term: Date): Promise<ICourseOverview[]> => 
         section: s.section,
         cmp: s.cmp,
         creditRange: s.creditRange,
-        days: s.days,
-        timeRange: s.timeRange,
         seats: s.seats,
         seatsTaken: s.seatsTaken,
         seatsAvailable: s.seatsAvailable,
         instructors: s.instructors.split(',').map(i => trim(i)),
-        dateRange: s.dateRange,
         location: s.location,
-        fee: s.fee
+        fee: s.fee,
+        schedules: s.schedules
       }))
     });
   }

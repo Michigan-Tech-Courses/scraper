@@ -1,3 +1,9 @@
+export interface IScheduleDef {
+  timeRange: [string, string];
+  dateRange: [string, string];
+  days: string;
+}
+
 export interface IScrapedSection {
   crn: string;
   subject: string;
@@ -6,15 +12,13 @@ export interface IScrapedSection {
   cmp: string;
   creditRange: number[];
   title: string;
-  days: string;
-  timeRange: string[] | null;
   seats: number;
   seatsTaken: number;
   seatsAvailable: number;
   instructors: string;
-  dateRange: string[];
   location: string | null;
   fee: number;
+  schedules: IScheduleDef[];
 }
 
 export interface ISection {
@@ -22,15 +26,13 @@ export interface ISection {
   section: string;
   cmp: string;
   creditRange: number[];
-  days: string;
-  timeRange: string[] | null;
   seats: number;
   seatsTaken: number;
   seatsAvailable: number;
   instructors: string[];
-  dateRange: string[];
   location: string | null;
   fee: number;
+  schedules: IScheduleDef[];
 }
 
 export interface ICourseOverview {
