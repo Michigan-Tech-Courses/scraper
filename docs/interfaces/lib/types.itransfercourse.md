@@ -31,7 +31,7 @@ Name | Type |
 `state` | *string* |
 `subject` | *string* |
 
-Defined in: [lib/types.ts:72](https://github.com/Michigan-Tech-Courses/scrapper/blob/d0a4497/src/lib/types.ts#L72)
+Defined in: [lib/types.ts:74](https://github.com/Michigan-Tech-Courses/scrapper/blob/95d6d94/src/lib/types.ts#L74)
 
 ___
 
@@ -48,4 +48,4 @@ Name | Type |
 `subject` | *string* |
 `title` | *string* |
 
-Defined in: [lib/types.ts:79](https://github.com/Michigan-Tech-Courses/scrapper/blob/d0a4497/src/lib/types.ts#L79)
+Defined in: [lib/types.ts:81](https://github.com/Michigan-Tech-Courses/scrapper/blob/95d6d94/src/lib/types.ts#L81)
