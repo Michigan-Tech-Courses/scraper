@@ -28,7 +28,7 @@
 
 • **departments**: *string*[]
 
-Defined in: [lib/types.ts:63](https://github.com/Michigan-Tech-Courses/scrapper/blob/95d6d94/src/lib/types.ts#L63)
+Defined in: [lib/types.ts:63](https://github.com/Michigan-Tech-Courses/scrapper/blob/f3d8175/src/lib/types.ts#L63)
 
 ___
 
@@ -36,7 +36,7 @@ ___
 
 • **email**: *null* \| *string*
 
-Defined in: [lib/types.ts:65](https://github.com/Michigan-Tech-Courses/scrapper/blob/95d6d94/src/lib/types.ts#L65)
+Defined in: [lib/types.ts:65](https://github.com/Michigan-Tech-Courses/scrapper/blob/f3d8175/src/lib/types.ts#L65)
 
 ___
 
@@ -44,7 +44,7 @@ ___
 
 • **interests**: *string*[]
 
-Defined in: [lib/types.ts:70](https://github.com/Michigan-Tech-Courses/scrapper/blob/95d6d94/src/lib/types.ts#L70)
+Defined in: [lib/types.ts:70](https://github.com/Michigan-Tech-Courses/scrapper/blob/f3d8175/src/lib/types.ts#L70)
 
 ___
 
@@ -52,7 +52,7 @@ ___
 
 • **name**: *string*
 
-Defined in: [lib/types.ts:62](https://github.com/Michigan-Tech-Courses/scrapper/blob/95d6d94/src/lib/types.ts#L62)
+Defined in: [lib/types.ts:62](https://github.com/Michigan-Tech-Courses/scrapper/blob/f3d8175/src/lib/types.ts#L62)
 
 ___
 
@@ -60,7 +60,7 @@ ___
 
 • **occupations**: *string*[]
 
-Defined in: [lib/types.ts:64](https://github.com/Michigan-Tech-Courses/scrapper/blob/95d6d94/src/lib/types.ts#L64)
+Defined in: [lib/types.ts:64](https://github.com/Michigan-Tech-Courses/scrapper/blob/f3d8175/src/lib/types.ts#L64)
 
 ___
 
@@ -68,7 +68,7 @@ ___
 
 • **office**: *null* \| *string*
 
-Defined in: [lib/types.ts:67](https://github.com/Michigan-Tech-Courses/scrapper/blob/95d6d94/src/lib/types.ts#L67)
+Defined in: [lib/types.ts:67](https://github.com/Michigan-Tech-Courses/scrapper/blob/f3d8175/src/lib/types.ts#L67)
 
 ___
 
@@ -76,7 +76,7 @@ ___
 
 • **phone**: *null* \| *string*
 
-Defined in: [lib/types.ts:66](https://github.com/Michigan-Tech-Courses/scrapper/blob/95d6d94/src/lib/types.ts#L66)
+Defined in: [lib/types.ts:66](https://github.com/Michigan-Tech-Courses/scrapper/blob/f3d8175/src/lib/types.ts#L66)
 
 ___
 
@@ -84,7 +84,7 @@ ___
 
 • **photoURL**: *null* \| *string*
 
-Defined in: [lib/types.ts:69](https://github.com/Michigan-Tech-Courses/scrapper/blob/95d6d94/src/lib/types.ts#L69)
+Defined in: [lib/types.ts:69](https://github.com/Michigan-Tech-Courses/scrapper/blob/f3d8175/src/lib/types.ts#L69)
 
 ___
 
@@ -92,4 +92,4 @@ ___
 
 • **websiteURL**: *null* \| *string*
 
-Defined in: [lib/types.ts:68](https://github.com/Michigan-Tech-Courses/scrapper/blob/95d6d94/src/lib/types.ts#L68)
+Defined in: [lib/types.ts:68](https://github.com/Michigan-Tech-Courses/scrapper/blob/f3d8175/src/lib/types.ts#L68)

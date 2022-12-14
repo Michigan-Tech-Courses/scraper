@@ -1,6 +1,6 @@
 {
   "name": "@mtucourses/scraper",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "a package to scrape various information from Michigan Tech",
   "keywords": [
     "scrape",

@@ -23,7 +23,7 @@
 
 • **crse**: *string*
 
-Defined in: [lib/types.ts:40](https://github.com/Michigan-Tech-Courses/scrapper/blob/95d6d94/src/lib/types.ts#L40)
+Defined in: [lib/types.ts:40](https://github.com/Michigan-Tech-Courses/scrapper/blob/f3d8175/src/lib/types.ts#L40)
 
 ___
 
@@ -31,7 +31,7 @@ ___
 
 • **sections**: [*ISection*](types.isection.md)[]
 
-Defined in: [lib/types.ts:42](https://github.com/Michigan-Tech-Courses/scrapper/blob/95d6d94/src/lib/types.ts#L42)
+Defined in: [lib/types.ts:42](https://github.com/Michigan-Tech-Courses/scrapper/blob/f3d8175/src/lib/types.ts#L42)
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 • **subject**: *string*
 
-Defined in: [lib/types.ts:39](https://github.com/Michigan-Tech-Courses/scrapper/blob/95d6d94/src/lib/types.ts#L39)
+Defined in: [lib/types.ts:39](https://github.com/Michigan-Tech-Courses/scrapper/blob/f3d8175/src/lib/types.ts#L39)
 
 ___
 
@@ -47,4 +47,4 @@ ___
 
 • **title**: *string*
 
-Defined in: [lib/types.ts:41](https://github.com/Michigan-Tech-Courses/scrapper/blob/95d6d94/src/lib/types.ts#L41)
+Defined in: [lib/types.ts:41](https://github.com/Michigan-Tech-Courses/scrapper/blob/f3d8175/src/lib/types.ts#L41)
