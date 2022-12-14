@@ -191,7 +191,10 @@ export const getSectionDetails = async ({term, subject, crse, crn}: {term: Date;
 
   const title = trim($('table td.dddefault b').first().text());
   const description = trim($('p.small').text());
-  const instructors = trim($('[summary="This table lists the scheduled meeting times and assigned instructors for this class.."] tr:nth-child(2) td:nth-child(6)').text());
+
+  const num_of_cells = $('[summary="This table lists the scheduled meeting times and assigned instructors for this class.."] tr td').length;
+
+  const instructors = trim($(`[summary="This table lists the scheduled meeting times and assigned instructors for this class.."] tr:nth-child(2) td:nth-child(${num_of_cells === 6 ? 6 : 5})`).text());
 
   const location = trim($('[summary="This table lists the scheduled meeting times and assigned instructors for this class.."] tr:nth-child(2) td:nth-child(4)').text());
 
