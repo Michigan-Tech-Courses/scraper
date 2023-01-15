@@ -22,7 +22,7 @@
 
 • **dateRange**: [*string*, *string*]
 
-Defined in: [lib/types.ts:3](https://github.com/Michigan-Tech-Courses/scrapper/blob/f3d8175/src/lib/types.ts#L3)
+Defined in: [lib/types.ts:3](https://github.com/Michigan-Tech-Courses/scrapper/blob/444bab4/src/lib/types.ts#L3)
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 • **days**: *string*
 
-Defined in: [lib/types.ts:4](https://github.com/Michigan-Tech-Courses/scrapper/blob/f3d8175/src/lib/types.ts#L4)
+Defined in: [lib/types.ts:4](https://github.com/Michigan-Tech-Courses/scrapper/blob/444bab4/src/lib/types.ts#L4)
 
 ___
 
@@ -38,4 +38,4 @@ ___
 
 • **timeRange**: [*string*, *string*]
 
-Defined in: [lib/types.ts:2](https://github.com/Michigan-Tech-Courses/scrapper/blob/f3d8175/src/lib/types.ts#L2)
+Defined in: [lib/types.ts:2](https://github.com/Michigan-Tech-Courses/scrapper/blob/444bab4/src/lib/types.ts#L2)
