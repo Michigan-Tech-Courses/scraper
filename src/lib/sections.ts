@@ -183,6 +183,10 @@ export const getSectionDetails = async ({term, subject, crse, crn}: {term: Date;
     }
   }));
 
+  if (body.includes('Not a valid term')) {
+    throw new Error('Invalid term');
+  }
+
   const $ = cheerio.load(body);
 
   if (!$.contains($('body').get(0), $('table td.dddefault').get(0))) {

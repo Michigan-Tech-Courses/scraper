@@ -135,3 +135,24 @@ test('getSectionDetails() works after bug was introduced in banweb', async t => 
     'Soner Onder'
   ]);
 });
+
+test('getSectionDetails() throws if invalid term', async t => {
+  const options = {term, subject: 'CS', crse: '123', crn: '123'};
+
+  const response = await fs.promises.readFile('./test/resources/section-invalid-term.html');
+  nock('https://www.banweb.mtu.edu')
+    .get('/owassb/bwckschd.p_disp_listcrse')
+    .query({
+      term_in: '202008',
+      subj_in: options.subject,
+      crse_in: options.crse,
+      crn_in: options.crn
+    })
+    .reply(200, response);
+
+  await t.throwsAsync(async () => {
+    await getSectionDetails(options);
+  }, {
+    message: 'Invalid term'
+  });
+});
