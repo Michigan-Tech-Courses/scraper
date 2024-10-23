@@ -3,7 +3,7 @@ import pLimit from 'p-limit';
 import cheerio from 'cheerio';
 import {FACULTY_PAGES} from './constants';
 import {IFaculty} from './types';
-import {removeEmptyElements, resolvePartialURL, trim} from './utils';
+import {decodeCloudflareObfuscatedEmail, removeEmptyElements, resolvePartialURL, trim} from './utils';
 import gotWrapper from './got';
 
 export const getAllFaculty = async (): Promise<IFaculty[]> => {
@@ -19,7 +19,9 @@ export const getAllFaculty = async (): Promise<IFaculty[]> => {
     const people: IFaculty[] = [];
     $('.person').each((_, element) => {
       const node = $(element);
+
       let nameElement = node.find('.personal h2 a');
+
       if (nameElement.length === 0) {
         nameElement = node.find('.personal h2');
       }
@@ -36,13 +38,13 @@ export const getAllFaculty = async (): Promise<IFaculty[]> => {
       const emailElement = node.find('.left > .contact .email-address > a');
 
       let email: string;
-      email = trim(emailElement.text());
 
-      // If (emailElement.text.length > 0) {
-      //  // Decode email
-      //  email = emailElement.text();
-      // } else {
-      // }
+      if (emailElement.find('span[data-cfemail]').length > 0) {
+        // Decode email
+        email = decodeCloudflareObfuscatedEmail(emailElement.find('span[data-cfemail]').attr('data-cfemail')!);
+      } else {
+        email = trim(emailElement.text());
+      }
 
       const phone = trim(node.find('.left > .contact .phone-number > a').text());
 
