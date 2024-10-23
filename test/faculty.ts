@@ -19,7 +19,7 @@ test('getAllFaculty() works correctly', async t => {
     .get('/business/people-groups/faculty/')
     .reply(200, await fs.promises.readFile('./test/resources/faculty-with-obfuscated-emails.html'))
 
-    .get('/cee/people/faculty-staff/')
+    .get('/cege/people/faculty-staff/')
     .reply(200, await fs.promises.readFile('./test/resources/faculty-with-attributes.html'));
 
   const people = await getAllFaculty();
