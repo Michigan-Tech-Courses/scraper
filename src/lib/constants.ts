@@ -20,5 +20,6 @@ export const FACULTY_PAGES = [
   'https://www.mtu.edu/vpa/department/faculty/',
   'https://www.mtu.edu/computing/applied-computing/faculty/',
   'https://www.mtu.edu/business/people-groups/faculty-staff/',
-  'https://www.mtu.edu/forest/about/faculty-staff/'
+  'https://www.mtu.edu/forest/about/faculty-staff/',
+  'https://www.mtu.edu/psychology/people/'
 ];
