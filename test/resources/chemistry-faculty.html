@@ -3,23 +3,33 @@
    <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>Faculty and Staff Directory | Chemistry | Michigan Technological University</title>
+      <title>Faculty and Staff Directory | Chemistry | Michigan Tech</title>
       <meta name="Description" content="A directory listing of faculty and staff for the Department of Chemistry at Michigan Technological University in Houghton, MI.">
       <meta name="Keywords" content="chemistry faculty, chemistry staff, chemistry professors, chemistry instructors, top chemistry faculty, top chemistry professors, top chemistry instructors">
+      
 
 
-<link type="text/css" rel="stylesheet" href="//www.mtu.edu/mtu_resources/styles/n/normalize.css" />
+<!-- <link type="text/css" rel="stylesheet" href="//www.mtu.edu/mtu_resources/styles/n/normalize.css" /> -->
 <!-- <link type="text/css" rel="stylesheet" href="//www.mtu.edu/mtu_resources/styles/n/base.css" /> -->
-<link type="text/css" rel="stylesheet" href="//www.mtu.edu/mtu_resources/styles/n/base.css?v=21.092810" />
+<link type="text/css" rel="stylesheet" href="//www.mtu.edu/mtu_resources/styles/n/base.css" />
 
 <!-- this is the headcode include -->
-<link rel="stylesheet" href="/_resources/css/oustyles.css" />
+<!--<link rel="stylesheet" href="/_resources/css/oustyles.css" />-->
 
 <link href="//www.mtu.edu/mtu_resources/styles/n/print.css" type="text/css" rel="stylesheet" media="print" />
-<script>function defer(a){window.jsSet?a():setTimeout(function(){defer(a)},100)}</script>
-      <meta property="mtu:ou_content_type" content="generic">
+<script>(function(){function setFontSize(value){if(value){document.documentElement.classList.remove(window.mtuFontSize);document.documentElement.classList.add(value);window.mtuFontSize=value;}}
+function setReducedMotion(value){if(value){document.documentElement.classList.add("reduce-animations");}else{document.documentElement.classList.remove("reduce-animations");}}
+function setTheme(value){if(value){document.documentElement.classList.remove(window.mtuTheme);document.documentElement.classList.add(value);window.mtuTheme=value;}}
+const animQuery=window.matchMedia("(prefers-reduced-motion: reduce)");const darkQuery=window.matchMedia("(prefers-color-scheme: dark)");let mtuAnimations;let mtuFontSize;let mtuTheme;try{mtuAnimations=localStorage.getItem("mtuAnimations");mtuFontSize=localStorage.getItem("mtuFontSize");mtuTheme=localStorage.getItem("mtuTheme");}catch(error){console.error(error);return;}
+setFontSize(mtuFontSize);setReducedMotion(mtuAnimations==="reduced"||animQuery.matches);if(mtuTheme==="system"){mtuTheme=darkQuery.matches?"dark":"light";}
+if(mtuTheme==="dark"){const link=document.createElement("link");link.href="/mtu_resources/assets/css/app-dark.css";link.rel="stylesheet";link.type="text/css";document.head.append(link);}
+setTheme(mtuTheme);})();(function(){function adjustNav(){let navBar=document.querySelector('.nav-bar');if(navBar){let navCount=navBar.querySelectorAll('.menu_item').length;let height=navBar.clientHeight;if(height>50){navBar.style.setProperty('--navCount',navCount);navBar.classList.add('nav-tall');}else{navBar.style.removeProperty('--navCount');navBar.classList.remove('nav-tall');}}}
+adjustNav();window.addEventListener("DOMContentLoaded",adjustNav);window.addEventListener("load",adjustNav);function onResize(){let header=document.querySelector(".nav, .mtu-nav");let headerHeight;if(header){headerHeight=header.clientHeight+"px";document.documentElement.style.setProperty("--mtu-header-height",headerHeight);}}
+onResize();window.addEventListener("DOMContentLoaded",onResize);window.addEventListener("load",onResize);let frameId;window.addEventListener("resize",function(){if(frameId){window.cancelAnimationFrame(frameId);}
+frameId=window.requestAnimationFrame(onResize);});})();function defer(fn){if(window.jsSet){fn();return;}
+setTimeout(function(){defer(fn);},100);}</script><meta property="mtu:ou_content_type" content="generic">
       <meta property="mtu:ou_content_id" content="fa2f953a-12fc-417a-8764-d073e3e3df39">
-      <meta property="og:title" content="Faculty and Staff Directory | Chemistry | Michigan Technological University">
+      <meta property="og:title" content="Faculty and Staff Directory | Chemistry | Michigan Tech">
       <meta property="og:description" content="A directory listing of faculty and staff for the Department of Chemistry at Michigan Technological University in Houghton, MI.">
       <meta property="og:type" content="website">
       <meta property="og:url" content="https://www.mtu.edu/chemistry/people-groups/faculty-staff/">
@@ -28,174 +38,459 @@
       <meta name="twitter:card" content="summary">
       <meta name="twitter:site" content="@michigantech">
       <meta name="twitter:creator" content="@michigantech">
-      <meta name="twitter:title" content="Faculty and Staff Directory | Chemistry | Michigan Technological University">
+      <meta name="twitter:title" content="Faculty and Staff Directory | Chemistry | Michigan Tech">
       <meta name="twitter:url" content="https://www.mtu.edu/chemistry/people-groups/faculty-staff/">
       <meta name="twitter:description" content="A directory listing of faculty and staff for the Department of Chemistry at Michigan Technological University in Houghton, MI.">
-      <link rel="canonical" href="https://www.mtu.edu/chemistry/people-groups/faculty-staff/"><script>
+      <link rel="canonical" href="https://www.mtu.edu/chemistry/people-groups/faculty-staff/">
+      <script>
 window.dataLayer = window.dataLayer || [];
 if(window.devicePixelRatio > 1.5) {
 	dataLayer.push({'retina':'true'});
 } else {
 	dataLayer.push({'retina':'false'});
 }
-dataLayer.push({'internalExternal' : 'internal'});
+let theme = localStorage.getItem('mtuTheme') || 'light';
+let animations = localStorage.getItem('mtuAnimations') || 'no-preference';
+let fontSize = localStorage.getItem('mtuFontSize') || 'font-normal';
+
+dataLayer.push({'themes':theme,'animations':animations,'font_size':fontSize});
+dataLayer.push({'internalExternal' : 'external'});
 </script>
 
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-KFGKN9L');</script>
+'https://gtm-tagging-1.mtu.edu/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-K6W7S4L9');</script>
 <!-- End Google Tag Manager -->
 
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" rel="preload" as="style" />   </head>
-   <body itemscope="" itemtype="http://schema.org/CollegeOrUniversity">
-      <div class="stick"><svg xmlns:xlink="http://www.w3.org/1999/xlink" id="logo-svg" style="display: none;">
-   <symbol xmlns="http://www.w3.org/2000/svg" id="mtu-logo-combo" version="1.1" class="mtu-logo" x="0px" y="0px" viewBox="0 200.716 982.034 198.568">
-      <defs>
-         <g id="icon" class="icon">
-            <path d="M87.604,375.408c0,5.324,0.859,5.84,8.417,5.84c7.386,0,8.417-0.516,8.417-5.84c0-3.779-0.515-4.981-3.436-5.325          c2.577-0.344,2.92-1.546,2.92-4.638c0-4.981-0.859-5.84-7.902-5.84c-7.042,0-7.901,0.858-7.901,5.84          c0,3.092,0.344,4.294,2.92,4.638C88.119,370.427,87.604,371.629,87.604,375.408z M96.021,362.525c3.264,0,3.779,0.344,3.779,2.92          c0,2.748-0.344,3.092-3.779,3.092s-3.779-0.344-3.779-3.092C92.242,362.869,92.585,362.525,96.021,362.525z M96.021,371.629          c3.779,0,4.294,0.344,4.294,3.264s-0.515,3.092-4.294,3.092c-3.779,0-4.294-0.344-4.294-3.092          C91.727,371.973,92.242,371.629,96.021,371.629z"></path>
-            <path d="M52.219,375.408c0,5.324,0.859,5.84,8.417,5.84c7.386,0,8.417-0.516,8.417-5.84c0-3.779-0.515-4.981-3.435-5.325          c2.576-0.344,2.92-1.546,2.92-4.638c0-4.981-0.859-5.84-7.901-5.84c-7.043,0-7.902,0.858-7.902,5.84          c0,3.092,0.344,4.294,2.92,4.638C52.734,370.427,52.219,371.629,52.219,375.408z M60.636,362.525c3.264,0,3.779,0.344,3.779,2.92          c0,2.748-0.344,3.092-3.779,3.092c-3.436,0-3.779-0.344-3.779-3.092C56.856,362.869,57.2,362.525,60.636,362.525z M60.636,371.629          c3.779,0,4.294,0.344,4.294,3.264s-0.515,3.092-4.294,3.092c-3.779,0-4.294-0.344-4.294-3.092          C56.341,371.973,56.856,371.629,60.636,371.629z"></path>
-            <path d="M131.234,378.156c-3.607,0-3.951-0.344-3.951-3.092l-4.123,0.172c0,5.324,0.687,6.012,8.073,6.012          c7.214,0,8.073-0.688,8.073-6.355c0-6.012-0.859-6.699-7.558-6.699c-1.889,0-3.092,0.172-4.123,0.344l0.172-5.668h7.386          l0.172,2.404h3.264v-5.496h-14.772l-0.172,11.852c2.233-0.172,4.123-0.344,7.043-0.344c4.123,0,4.466,0.859,4.466,3.607          C135.185,377.812,134.669,378.156,131.234,378.156z"></path>
-            <path d="M119.897,225.107c0.344-0.516,0.687-1.203,1.202-1.718c-0.343-0.687-0.858-1.89-1.03-1.89          c-0.344,0-1.718,1.89-2.405,3.607C118.694,224.936,119.553,225.107,119.897,225.107z"></path>
-            <polygon points="26.281,363.384 26.281,377.812 21.472,377.984 21.472,380.904 34.698,380.904 34.698,377.984 30.404,377.812             30.404,359.777 28.514,359.777 28.514,359.777 21.128,360.979 21.472,363.899   "></polygon>
-            <path d="M0,200.716v198.568h160.435V200.716H0z M6.012,207.243h148.411v122.646l-1.89-2.748l-5.668-4.639l-8.417-4.981          l-4.123-0.687l-3.951-0.688c0,0-3.951-2.576-5.325-2.576c-1.375,0-4.123,1.889-4.123,1.889l-3.264,0.172l-0.859,0.516          c-0.344-1.374-0.687-2.748-0.687-2.748c-0.344-1.718-0.688-3.779-0.688-4.123c0-0.516-0.343-3.092-0.515-4.294          c0-1.202-0.859-4.294-0.859-4.294l-0.172-13.398c-1.374,1.202-2.92,2.405-4.123,2.92c0,0-2.92,11.165-2.061,18.723          c0.343,0.859,0.515,1.547,0.687,1.891c0.515,0.858,1.546,3.778,2.233,5.668l0,0c0.172,0.516,0.516,1.718,0.859,2.404l-0.343,0.172          c-0.172-0.516-0.516-1.03-0.687-1.374c-0.688-1.202-3.779-0.687-4.294-1.03c-0.516-0.344-0.516-1.375-0.687-1.89          c0-0.172,0-0.172,0-0.344l0,0c0-0.515,0-0.858,0-0.858l0.171-3.092c0,0,0.172-18.38,2.062-25.251l0,0l0,0l0,0          c0-0.172,0-0.172,0.172-0.344c0,0,4.981,0.172,10.65-6.527c1.717-2.404,3.779-6.184,4.294-7.901          c0.172-0.515,0.344-0.859,0.344-1.374c-0.515-1.374-1.203-2.92-2.233-3.607c0,0,1.546,0,2.748,0.344c0-0.859,0-1.546-0.343-2.233          c-0.687-2.062,1.374-4.981,2.405-5.668c1.03-0.688,1.03-2.577,1.03-3.092c0-0.343-0.343-1.202-0.515-2.061l0,0          c0,0-1.202-3.607-0.687-5.84c0,0,0,3.092,2.92,3.607c0.172,0,0.516,0,0.688,0l0,0c1.202,0.171,2.405,0.343,3.092,0.515          c1.718,0.172,2.405-2.233,2.405-2.233s1.031-0.859,2.061-1.89c1.203-1.202,1.546-1.546,1.375-2.92          c-0.172-1.375-7.386-6.699-7.386-6.699l0,0c-1.546-1.031-2.92-2.062-3.436-2.405c0,0,1.031-0.859,1.89-0.344          c0.687,0.344-0.172,0.859,1.717,2.233c0-0.688,0.172-1.718-0.171-2.577c-0.344-1.031-3.264-3.779-4.638-4.981l-1.03,2.233          l0.687-6.699c0-1.718,0-3.264-0.344-4.123c-0.515-1.03-1.546,0-2.405,1.375l0,0c-1.031,1.718-2.233,4.638-2.233,4.638          s-1.718-0.172-3.436-0.172l0,0c-0.515,0-1.546,0-2.405,0.172c-0.172,0-0.172,0-0.344,0c-1.202-0.172-2.233,0.172-2.92,0.859          c-2.061,1.89-6.871,8.245-6.871,8.245s-4.981,5.153-5.84,5.84c-1.031,0.687-2.405,2.405-5.153,3.092c0,0-0.515,1.031-0.687,1.89          c0,1.03,0,2.233,0.687,2.92c0,0-0.859-0.515-1.89-1.203c-3.264,2.405-12.024,7.215-12.883,7.73          c-1.031,0.687-5.153,3.607-8.417,3.951c0,0-21.471,4.638-22.674,6.527c-4.81,2.061-6.355,5.153-7.214,7.042          c-1.031,2.233-3.607,9.448-6.355,14.429c-2.749,4.981-12.024,10.306-13.398,11.337c-1.374,1.203-3.264,0.859-0.687,3.263          c2.405,2.405,8.589,1.547,13.055,0.172c0.172,0,0.344-0.172,0.515-0.172c0.172-0.172,0.516-0.344,0.859-0.344          c0.516-0.343,1.203-0.687,1.718-1.201c2.577-2.234,4.123-6.872,4.123-6.872c-0.172-0.343-0.343-0.515-0.515-0.859          c-0.515-1.374-1.203-4.123,0.859-6.871c-0.172,3.092,0.343,6.184,2.92,8.073c1.203,0.687,1.375,1.889,1.375,1.889          c0.859,3.607-1.718,7.559-4.123,9.791c-1.718,1.546-1.89,1.89-1.718,3.607c0,0,4.981,14.944,3.607,20.441l-2.92,0.858          c0,0,1.374-9.448-0.344-16.834c0,1.546-0.171,3.436-0.515,5.153c0,0-1.031,7.901-1.89,9.447c-0.343,0.516-0.343,1.718-0.172,2.748          l-3.779,1.203c0,0-5.153,1.889-6.012,2.061c-0.687,0.172-3.779,0.172-3.779,0.172s-4.81,0.172-5.668,0.172          c-0.859,0.172-4.638,2.062-4.638,2.062l-3.264,0.172l-3.951,1.374V207.243z M99.8,321.643l-3.092,1.375l-9.104,2.576l-7.386,1.031          c0,0-5.325,0.344-6.871-0.688s-6.355-0.516-6.871-0.516c-0.515,0-3.951,1.031-6.527,1.89c-0.858,0.172-1.717,0.516-2.576,0.858          c-1.375-0.858-4.294-2.576-8.073-2.92c0,0-0.344-0.687-0.516-1.889c-0.172-1.203-0.687-10.307-0.515-12.368          c0.343-2.062,5.497-5.325,9.963-9.104c4.466-3.779,5.497-8.589,5.497-8.589s1.374-2.233,2.577-2.92          c1.374-0.687,5.325-0.172,8.245,1.03c2.92,1.203,18.551,0.172,18.551,0.172c0,2.405,2.405,13.227,3.092,16.146          c0.515,1.89,1.374,5.841,2.061,8.417C99.456,318.379,99.8,321.128,99.8,321.643z M154.423,393.272H6.012v-46.207h148.411V393.272z          "></path>
-         </g>
-         <g id="horizontal" class="horizontal">
-            <g>
-               <path d="M808.589,286.755H796.98l-1.024-14.34h-11.949l-3.757,0.342v55.995l9.218,0.684v10.924h-33.801v-10.925l9.218-0.683           v-55.995l-3.756-0.342H749.18l-1.022,14.34h-11.61v-25.264h71.7v25.264H808.589z"></path>
-               <path d="M845.463,323.287l11.949-0.683c0,13.999-3.415,18.096-23.216,18.096c-20.487,0-24.582-4.779-24.582-28.68           s3.756-28.338,24.241-28.338c20.483,0,23.557,4.096,23.557,29.363c0,2.39-0.684,3.072-3.073,3.072h-32.092           c0.343,13.316,2.048,15.023,11.608,15.023C844.099,331.482,845.463,329.774,845.463,323.287z M822.59,308.265h22.873           c-0.342-12.973-2.39-14.68-11.267-14.68C824.979,293.242,822.928,294.95,822.59,308.265z"></path>
-               <path d="M912.382,302.803l-12.292,0.682c0-7.169-1.706-9.218-11.267-9.218c-10.243,0-11.606,2.391-11.606,18.437           c0,16.048,1.363,18.438,11.606,18.438c9.561,0,11.267-1.707,11.267-8.877l12.292-0.685c0,15.707-3.072,19.463-23.559,19.463           c-20.483,0-24.582-4.78-24.582-28.681c0-23.899,3.757-28.338,24.582-28.338C908.628,284.023,912.382,287.778,912.382,302.803z"></path>
-               <path d="M982.034,340.018h-29.023v-9.22l7.855-0.682v-26.289c0-7.17-2.051-9.22-9.219-9.22c-4.44,0-7.513,1.024-13.658,4.098           v31.069l7.854,0.684v9.219H916.82v-9.219l7.852-0.684v-57.36l-7.852-0.342v-9.559h21.169v29.363           c5.123-4.78,11.607-8.195,20.487-8.195c11.608,0,15.703,3.756,15.703,16.73v29.704l7.854,0.684V340.018L982.034,340.018z"></path>
-               <path d="M321.031,340.018h-32.436v-10.926l8.194-0.683v-53.604l-20.485,65.212h-15.023l-20.827-64.53v52.922l8.536,0.683v10.926           h-32.435v-10.926l9.219-0.683v-55.653l-8.877-0.682v-10.926h34.484l15.706,51.555c1.024,3.073,1.707,5.804,2.39,8.876           c0.683-3.072,1.365-5.803,2.39-8.876l15.365-51.555h33.46v10.926l-9.22,0.682v55.995l9.22,0.684L321.031,340.018L321.031,340.018z           "></path>
-               <path d="M357.564,340.018h-29.022v-9.22l7.854-0.682v-35.509l-7.854-0.341v-9.56h21.169v45.41l7.854,0.682V340.018z"></path>
-               <path d="M411.168,302.803l-12.292,0.682c0-7.169-1.707-9.218-11.267-9.218c-10.242,0-11.607,2.391-11.607,18.437           c0,16.048,1.365,18.438,11.607,18.438c9.56,0,11.267-1.707,11.267-8.877l12.292-0.685c0,15.707-3.072,19.463-23.559,19.463           c-20.485,0-24.582-4.78-24.582-28.681c0-23.899,3.755-28.338,24.582-28.338C407.753,284.023,411.168,287.778,411.168,302.803z"></path>
-               <path d="M483.55,340.018h-29.361v-9.56l7.852-0.684v-26.632c0-7.169-2.048-9.218-9.219-9.218c-4.437,0-7.852,1.025-13.998,4.098           v31.752l7.853,0.684v9.56h-29.363v-9.56l7.853-0.684v-58.384l-7.853-0.341v-9.559h21.511v29.703           c5.121-4.781,11.608-8.194,20.827-8.194c11.607,0,16.048,3.755,16.048,17.069v30.047l7.852,0.684           C483.55,330.798,483.55,340.018,483.55,340.018z"></path>
-               <path d="M519.401,340.018h-29.022v-9.22l7.852-0.682v-35.509l-7.852-0.341v-9.56h21.168v45.41l7.854,0.682V340.018z"></path>
-               <path d="M576.418,294.607v44.043c0,18.438-4.437,22.535-25.607,22.535c-19.46,0-23.216-3.756-23.216-17.412l11.949-0.684           c0,6.145,1.708,8.194,10.927,8.194c10.583,0,12.292-3.073,12.292-12.973v-7.854c-5.807,6.487-9.56,8.194-17.755,8.194           c-14.341,0-19.461-4.439-19.461-27.314c0-22.534,5.12-27.314,19.461-27.314c8.537,0,12.631,1.366,17.755,7.17v-6.146h21.168v9.218           L576.418,294.607z M563.103,324.312v-26.632c-3.756-2.389-6.828-2.731-13.315-2.731c-9.56,0-11.608,2.048-11.608,16.388           c0,14.34,2.049,16.388,11.608,16.388C556.274,327.386,559.006,326.701,563.103,324.312z"></path>
-               <path d="M646.754,340.018h-20.145l-0.685-8.193c-6.146,6.487-11.949,8.876-19.803,8.876c-11.949,0-17.072-6.827-17.072-16.048           c0-9.558,3.758-17.069,27.999-17.069h8.534v-3.073c0-8.536-1.706-11.268-11.266-11.268c-8.877,0-10.586,2.049-10.586,7.854           l-12.291,0.682c0-13.657,4.097-18.095,23.218-18.095c19.462,0,23.9,4.438,23.9,20.828v25.606l7.854,0.342v9.56H646.754           L646.754,340.018z M610.219,331.141c6.146,0,10.244-2.049,15.364-7.17v-8.536h-6.828c-14.681,0-17.07,3.756-17.07,8.536           C601.685,327.726,604.074,331.141,610.219,331.141z"></path>
-               <path d="M719.135,340.018h-29.023v-9.22l7.855-0.682v-26.289c0-7.17-2.048-9.22-9.219-9.22c-4.439,0-7.512,1.024-13.658,4.098           v31.069l7.854,0.684v9.219h-29.022v-9.219l7.854-0.684v-35.167l-7.854-0.683v-9.218h21.168v7.171           c5.124-4.78,11.611-8.195,20.488-8.195c11.607,0,15.706,3.756,15.706,16.73v29.704l7.851,0.682V340.018L719.135,340.018z"></path>
-               <path d="M334.688,269.342c0-6.146,1.024-7.169,8.194-7.169c6.828,0,7.852,1.023,7.852,7.169c0,6.146-1.023,7.171-7.852,7.171           C335.713,276.171,334.688,275.147,334.688,269.342z"></path>
-               <path d="M496.525,269.342c0-6.146,1.023-7.169,8.193-7.169c6.828,0,7.854,1.023,7.854,7.169c0,6.146-1.025,7.171-7.854,7.171           C497.549,276.171,496.525,275.147,496.525,269.342z"></path>
-            </g>
-         </g>
-         <g id="stacked" class="stacked">
-            <path d="M248.382,267.02h-17.177v-5.668l4.466-0.343v-28.342l-10.822,34.526h-8.073l-10.993-34.183v28.171l4.466,0.343v5.668          h-17.177v-5.668l4.81-0.343v-29.717l-4.638-0.344v-5.668h18.208l8.417,27.312c0.516,1.546,0.859,3.092,1.203,4.638          c0.343-1.546,0.859-3.092,1.202-4.638l8.245-27.312h17.693v5.668l-4.81,0.344v29.717l4.81,0.343L248.382,267.02L248.382,267.02z"></path>
-            <path d="M268.308,267.02h-16.662v-5.325l4.638-0.344v-20.612l-4.638-0.172v-5.497h12.196v26.281l4.466,0.344V267.02L268.308,267.02          z M255.082,226.653c0-3.436,0.515-4.123,4.638-4.123c3.951,0,4.466,0.515,4.466,4.123c0,3.436-0.515,4.123-4.466,4.123          C255.769,230.604,255.082,230.089,255.082,226.653z"></path>
-            <path d="M299.055,245.548l-7.042,0.343c0-4.123-1.031-5.325-6.355-5.325c-5.84,0-6.699,1.374-6.699,10.65          c0,9.275,0.859,10.65,6.699,10.65c5.497,0,6.355-1.031,6.355-5.153l7.042-0.343c0,9.104-1.889,11.337-13.57,11.337          c-11.853,0-14.085-2.749-14.085-16.49s2.233-16.49,14.085-16.49C296.994,234.727,299.055,236.959,299.055,245.548z"></path>
-            <path d="M338.562,267.02h-16.661v-5.325l4.466-0.344v-15.116c0-4.123-1.202-5.325-5.325-5.325c-2.576,0-4.466,0.516-7.901,2.405          v18.036l4.466,0.344v5.325h-16.833v-5.325l4.466-0.344v-33.324l-4.466-0.172v-5.497h12.195v17.005          c2.92-2.748,6.699-4.638,11.853-4.638c6.699,0,9.104,2.062,9.104,9.791v17.005l4.466,0.344L338.562,267.02L338.562,267.02z"></path>
-            <path d="M358.488,267.02h-16.662v-5.325l4.639-0.344v-20.612l-4.639-0.172v-5.497h12.196v26.281l4.466,0.344V267.02L358.488,267.02          z M345.434,226.653c0-3.436,0.516-4.123,4.638-4.123c3.951,0,4.467,0.515,4.467,4.123c0,3.436-0.516,4.123-4.467,4.123          C345.949,230.604,345.434,230.089,345.434,226.653z"></path>
-            <path d="M390.953,240.91v25.251c0,10.649-2.576,13.054-14.772,13.054c-11.337,0-13.397-2.233-13.397-9.962l6.87-0.344          c0,3.607,1.031,4.81,6.355,4.81c6.185,0,7.215-1.89,7.215-7.558v-4.638c-3.264,3.779-5.669,4.638-10.307,4.638          c-8.245,0-11.337-2.576-11.337-15.803c0-13.055,2.92-15.803,11.337-15.803c4.81,0,7.387,0.859,10.307,4.123v-3.607h7.729l0,0h4.467          v5.325L390.953,240.91z M383.224,257.916v-15.288c-2.233-1.374-3.951-1.718-7.558-1.718c-5.497,0-6.699,1.203-6.699,9.448          s1.202,9.447,6.699,9.447C379.272,259.805,380.99,259.462,383.224,257.916z"></path>
-            <path d="M430.461,267.02H418.78l-0.344-4.638c-3.606,3.779-6.87,5.153-11.337,5.153c-7.042,0-9.963-3.951-9.963-9.276          c0-5.668,2.233-9.791,16.147-9.791h4.98v-1.889c0-4.981-1.03-6.527-6.527-6.527c-5.152,0-6.012,1.202-6.012,4.466l-7.043,0.344          c0-7.73,2.405-10.307,13.398-10.307c11.337,0,13.914,2.577,13.914,12.024v14.772l4.466,0.172V267.02L430.461,267.02z          M409.333,261.867c3.436,0,5.84-1.203,8.932-4.123v-4.81h-3.95c-8.589,0-9.791,2.061-9.791,4.981          C404.523,260.149,405.897,261.867,409.333,261.867z"></path>
-            <path d="M471.343,267.02h-16.662v-5.325l4.466-0.344v-15.116c0-4.123-1.202-5.325-5.324-5.325c-2.577,0-4.467,0.516-7.902,2.405          v18.036l4.467,0.344v5.325h-16.834v-5.325l4.466-0.344v-20.612l-4.466-0.344v-5.325h12.196v4.123          c2.92-2.749,6.698-4.638,11.852-4.638c6.699,0,9.104,2.062,9.104,9.791v17.005l4.466,0.344v5.325H471.343z"></path>
-            <path d="M231.034,294.332h-6.184l-0.515-7.558h-6.355l-1.89,0.172v29.717l4.981,0.344v5.668h-17.864v-5.668l4.81-0.344v-29.717          l-1.89-0.172h-6.184l-0.516,7.558h-6.184v-13.398h37.961v13.398H231.034z"></path>
-            <path d="M251.99,313.055l7.042-0.344c0,8.245-1.889,10.479-13.398,10.479c-11.853,0-14.085-2.748-14.085-16.49          c0-13.742,2.233-16.49,14.085-16.49c11.852,0,13.57,2.405,13.57,17.006c0,1.373-0.344,1.717-1.718,1.717h-18.723          c0.172,7.73,1.203,8.761,6.699,8.761S251.99,316.662,251.99,313.055z M238.763,304.295h13.227          c-0.172-7.559-1.374-8.589-6.527-8.589C239.966,295.706,238.935,296.736,238.763,304.295z"></path>
-            <path d="M291.497,301.031l-7.042,0.343c0-4.123-1.031-5.325-6.355-5.325c-5.84,0-6.699,1.374-6.699,10.65          c0,9.275,0.859,10.65,6.699,10.65c5.497,0,6.355-1.031,6.355-5.154l7.042-0.344c0,9.104-1.889,11.338-13.57,11.338          c-11.852,0-14.085-2.748-14.085-16.49c0-13.742,2.233-16.49,14.085-16.49C289.608,290.209,291.497,292.442,291.497,301.031z"></path>
-            <path d="M331.177,322.674h-16.662v-5.324l4.466-0.344V301.89c0-4.123-1.202-5.325-5.324-5.325c-2.577,0-4.467,0.516-7.902,2.405          v18.037l4.467,0.344v5.324h-16.49v-5.324l4.466-0.344V283.51l-4.466-0.172v-5.497h12.195v17.005          c2.921-2.748,6.699-4.638,11.853-4.638c6.699,0,9.104,2.062,9.104,9.791v17.006l4.466,0.344v5.324H331.177z"></path>
-            <path d="M370.169,322.674h-16.662v-5.324l4.466-0.344V301.89c0-4.123-1.202-5.325-5.324-5.325c-2.577,0-4.467,0.516-7.901,2.405          v18.037l4.466,0.344v5.324h-16.834v-5.324l4.466-0.344v-20.613l-4.466-0.343v-5.325h12.196v4.123          c2.92-2.748,6.699-4.638,11.852-4.638c6.699,0,9.104,2.062,9.104,9.791v17.006l4.466,0.344L370.169,322.674L370.169,322.674z"></path>
-            <path d="M402.29,306.699c0,13.742-2.404,16.49-14.772,16.49c-12.367,0-14.772-2.748-14.772-16.49          c0-13.742,2.405-16.49,14.772-16.49C399.886,290.209,402.29,292.958,402.29,306.699z M380.132,306.699          c0,9.275,0.858,10.479,7.214,10.479c6.356,0,7.387-1.203,7.387-10.479c0-9.276-1.03-10.478-7.387-10.478          C381.162,296.221,380.132,297.423,380.132,306.699z"></path>
-            <path d="M421.186,322.674h-16.834v-5.324l4.466-0.344V283.51l-4.466-0.172v-5.497h12.196v38.993l4.466,0.344L421.186,322.674          L421.186,322.674z"></path>
-            <path d="M453.135,306.699c0,13.742-2.404,16.49-14.772,16.49c-12.367,0-14.772-2.748-14.772-16.49          c0-13.742,2.405-16.49,14.772-16.49C450.73,290.209,453.135,292.958,453.135,306.699z M430.977,306.699          c0,9.275,0.858,10.479,7.214,10.479s7.387-1.203,7.387-10.479c0-9.276-1.031-10.478-7.387-10.478S430.977,297.423,430.977,306.699z          "></path>
-            <path d="M486.974,296.393v25.25c0,10.65-2.576,13.055-14.772,13.055c-11.337,0-13.397-2.232-13.397-9.962l6.87-0.344          c0,3.607,1.031,4.81,6.356,4.81c6.184,0,7.214-1.89,7.214-7.559v-4.637c-3.264,3.778-5.668,4.637-10.307,4.637          c-8.244,0-11.337-2.576-11.337-15.803c0-13.054,2.921-15.803,11.337-15.803c4.811,0,7.387,0.859,10.307,4.123v-3.607h7.729l0,0          h4.467v5.325L486.974,296.393z M479.244,313.57v-15.288c-2.233-1.374-3.95-1.718-7.558-1.718c-5.497,0-6.699,1.203-6.699,9.447          c0,8.245,1.202,9.447,6.699,9.447C475.294,315.287,477.011,314.944,479.244,313.57z"></path>
-            <path d="M511.709,322.674h-16.662v-5.324l4.639-0.344v-20.613l-4.639-0.171v-5.497h12.196v26.282l4.466,0.344V322.674z          M498.654,282.136c0-3.436,0.516-4.123,4.638-4.123c3.951,0,4.467,0.515,4.467,4.123c0,3.436-0.516,4.123-4.467,4.123          C499.17,286.086,498.654,285.571,498.654,282.136z"></path>
-            <path d="M542.456,301.031l-7.042,0.343c0-4.123-1.031-5.325-6.355-5.325c-5.841,0-6.699,1.374-6.699,10.65          c0,9.275,0.858,10.65,6.699,10.65c5.496,0,6.355-1.031,6.355-5.154l7.042-0.344c0,9.104-1.89,11.338-13.569,11.338          c-11.853,0-14.086-2.748-14.086-16.49c0-13.742,2.233-16.49,14.086-16.49C540.396,290.209,542.456,292.442,542.456,301.031z"></path>
-            <path d="M579.56,322.674h-11.681l-0.344-4.638c-3.607,3.778-6.871,5.153-11.337,5.153c-7.043,0-9.963-3.951-9.963-9.275          c0-5.669,2.233-9.791,16.146-9.791h4.981v-1.891c0-4.981-1.03-6.527-6.527-6.527c-5.153,0-6.012,1.203-6.012,4.466l-7.043,0.344          c0-7.73,2.405-10.307,13.398-10.307c11.337,0,13.913,2.577,13.913,12.023v14.773l4.467,0.172V322.674z M558.432,317.521          c3.435,0,5.84-1.202,8.932-4.122v-4.811h-3.951c-8.588,0-9.791,2.062-9.791,4.982C553.621,315.631,554.824,317.521,558.432,317.521          z"></path>
-            <path d="M600,322.674h-16.834v-5.324l4.467-0.344V283.51l-4.467-0.172v-5.497h12.196v38.993l4.466,0.344L600,322.674L600,322.674z"></path>
-            <path d="M229.144,339.164v25.422c-0.172,11.338-2.405,13.914-14.944,13.914c-12.711,0-14.944-2.576-14.944-13.914v-25.422          l-6.699-0.172v-2.576h16.833v2.576l-6.699,0.172v25.25c0,9.619,1.546,11.166,11.509,11.166c9.963,0,11.509-1.547,11.509-11.166          v-25.25l-6.527-0.172v-2.576h16.833v2.576L229.144,339.164z"></path>
-            <path d="M274.148,378.156h-15.459v-2.404l6.012-0.172v-19.582c0-4.467-1.889-6.355-6.699-6.355c-3.779,0-7.043,1.03-12.024,4.294          v21.644l6.012,0.172v2.404H236.53v-2.404l6.012-0.172v-25.938l-6.012-0.172v-2.577h9.447v4.81          c4.466-3.436,8.245-5.324,13.398-5.324c6.184,0,8.76,2.404,8.76,8.76v20.27l6.012,0.172V378.156L274.148,378.156z"></path>
-            <path d="M292.528,378.156h-15.459v-2.404l6.012-0.172v-25.766l-6.012-0.344v-2.577h9.448v28.687l6.012,0.172V378.156z          M281.878,336.76c0-2.233,0.344-2.749,2.92-2.749c2.405,0,2.748,0.516,2.748,2.749c0,2.232-0.343,2.748-2.748,2.748          C282.222,339.336,281.878,338.992,281.878,336.76z"></path>
-            <path d="M325.508,349.471l-11.68,28.686h-3.436l-11.681-28.686l-5.153-0.344v-2.404h14.257v2.404l-5.669,0.172l7.73,19.41          c0.858,2.232,1.546,4.123,2.062,6.012h0.343c0.516-1.889,1.203-3.779,2.062-6.012l7.901-19.41l-5.668-0.172v-2.404h14.085v2.404          L325.508,349.471z"></path>
-            <path d="M354.881,369.568l3.264-0.172c0,7.042-2.061,9.104-12.367,9.104c-10.993,0-13.055-2.576-13.055-15.975          s2.062-15.975,12.883-15.975s12.883,2.576,12.883,15.975c0,1.03-0.172,1.202-1.202,1.202h-21.128          c0.172,10.478,1.546,12.024,9.791,12.024C353.679,375.752,354.881,374.377,354.881,369.568z M335.986,361.15h19.066          c-0.172-10.306-1.718-11.852-9.619-11.852C337.704,349.299,336.158,350.845,335.986,361.15z"></path>
-            <path d="M385.629,346.723v2.92h-2.405c-3.436,0-6.012,1.202-10.649,5.496v20.27l6.012,0.172v2.404h-15.46v-2.404l6.013-0.172          v-25.766l-6.013-0.172v-2.577h9.448v6.013c4.294-4.811,6.87-6.355,10.649-6.355C384.254,346.551,385.113,346.551,385.629,346.723z"></path>
-            <path d="M415.345,355.311l-3.436,0.172c0-5.325-1.202-6.184-8.932-6.184c-8.073,0-9.104,1.202-9.104,5.152          c0,4.123,1.203,5.326,10.65,6.699c9.963,1.375,11.337,2.749,11.337,9.104c0,6.87-1.89,8.417-13.055,8.417          c-10.993,0-12.711-1.547-12.711-9.447l3.436-0.172c0,5.668,1.202,6.871,9.275,6.871c8.245,0,9.619-1.031,9.619-5.497          c0-4.122-0.858-5.497-9.275-6.699c-11.165-1.718-12.711-3.092-12.711-9.104c0-6.184,1.374-8.072,12.539-8.072          C413.627,346.551,415.345,347.924,415.345,355.311z"></path>
-            <path d="M435.614,378.156h-15.46v-2.404l6.013-0.172v-25.766l-6.013-0.344v-2.577h9.448v28.687l6.012,0.172V378.156z          M424.964,336.76c0-2.233,0.344-2.749,2.921-2.749c2.404,0,2.748,0.516,2.748,2.749c0,2.232-0.344,2.748-2.748,2.748          C425.308,339.336,424.964,338.992,424.964,336.76z"></path>
-            <path d="M446.779,370.941c0,3.264,1.374,4.639,5.325,4.639h4.638v2.232c-1.374,0.344-2.92,0.516-5.497,0.516          c-5.84,0-7.901-2.062-7.901-6.699v-21.986l-6.184-0.172v-2.577h6.184v-6.355h3.264v6.355h9.963v2.577l-9.963,0.344v21.127H446.779z          "></path>
-            <path d="M492.471,349.471L480.446,378.5c-3.95,9.619-7.386,11.68-13.227,11.68c-1.374,0-2.576-0.171-3.95-0.515v-2.577h3.607          c4.638,0,7.042-1.545,10.478-9.447l-11.853-28.17l-5.152-0.344v-2.404h14.772v2.404l-6.013,0.172l8.073,19.238          c0.859,2.232,1.546,4.123,1.89,6.012h0.172c0.516-1.889,1.031-3.779,2.062-6.012l7.729-19.238l-5.325-0.172v-2.404h13.742v2.404          L492.471,349.471z"></path>
-         </g>
-      </defs>
-   </symbol>
-</svg>
-<!-- Google Tag Manager (noscript) -->
-<noscript aria-hidden="true"><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KFGKN9L"
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="preload" as="style">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" /></head>
+   <body>
+      <div aria-atomic="true" aria-live="polite" class="sr-only" id="sr-announcements" role="status"></div>
+      <div class="stick"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0.49803921568627" /><feFuncG type="table" tableValues="0 0.49803921568627" /><feFuncB type="table" tableValues="0 0.49803921568627" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-red"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 0.27843137254902" /><feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0" /><feFuncG type="table" tableValues="0 0.64705882352941" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-magenta-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.78039215686275 1" /><feFuncG type="table" tableValues="0 0.94901960784314" /><feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.44705882352941 0.4" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-orange"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.098039215686275 1" /><feFuncG type="table" tableValues="0 0.66274509803922" /><feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg>
+
+<section aria-label="skip links">
+	<div class="skip-links" id="skip">
+		<a href="#main">Skip to page content</a>
+		<a href="#mtu-footer">Skip to footer navigation</a>
+	</div>
+</section>
+
+<header class="mtu-nav">
+    <div class="pre-nav-wrapper background-black">
+        <div class="pre-nav">
+            <button class="mobile-menu-button hide-for-desktop"
+                    data-inactive>
+                <span class="mobile-button-text">Menu</span>
+            </button>
+
+            <div class="pre-nav-logo">
+                <a class="pre-nav-logo-link" href="https://www.mtu.edu">
+                    <img alt="Michigan Tech Logo"
+                         class="pre-nav-logo-image"
+                         src="https://www.mtu.edu/mtu_resources/images/logos/michigan-tech-logo-full-yellow.svg"
+                         width="255"
+                         height="45" />
+                </a>
+            </div>
+
+            <div class="audience-search display-audience show-for-desktop">
+                <div class="audience-wrapper show-for-desktop">
+                    <ul aria-label="Audiences"
+                        class="audience-nav">
+                        <li class="menu_item">
+                                <a class="menu_link"
+                                   href="https://www.mtu.edu/current/">
+                                    Students
+                                </a>
+                            </li><li class="menu_item">
+                                <a class="menu_link"
+                                   href="https://www.mtu.edu/faculty-staff/">
+                                    Faculty/Staff
+                                </a>
+                            </li><li class="menu_item">
+                                <a class="menu_link"
+                                   href="https://www.mtu.edu/alumni/">
+                                    Alumni
+                                </a>
+                            </li><li class="menu_item">
+                                <a class="menu_link"
+                                   href="https://www.mtu.edu/parentsfamily/">
+                                    Parents
+                                </a>
+                            </li><li class="menu_item">
+                                <a class="menu_link"
+                                   href="https://www.mtu.edu/industry/">
+                                    Industry
+                                </a>
+                            </li> 
+
+                        <li class="menu_item tech-links">
+                            <div class="menu_link">
+                                Tech Links
+                            </div>
+
+                            <button aria-label="Open sub-menu"
+                                    class="submenu-button arrow"></button>
+
+                            <ul class="tech-links-menu menu_submenu">
+    <li class="submenu_item">
+        <a class="link-az" href="/a2z/index.html">
+            A to Z
+        </a>
+    </li>
+
+    <li class="submenu_item">
+        <a class="link-banweb" href="https://banweb.mtu.edu/">
+            Banweb
+        </a>
+    </li>
+
+    <li class="submenu_item">
+        <a class="link-map" href="https://map.mtu.edu/?id=1308">
+            Campus Map
+        </a>
+    </li>
+
+    <li class="submenu_item">
+        <a class="link-canvas" href="https://mtu.instructure.com/">
+            Canvas
+        </a>
+    </li>
+
+    <li class="submenu_item">
+        <a class="link-email" href="https://mail.google.com/a/mtu.edu/">
+            Email
+        </a>
+    </li>
+    
+    <li class="submenu_item">
+        <a class="link-mymt" href="https://mymichigantech.mtu.edu/">
+            MyMichiganTech
+        </a>
+    </li>
+
+    <li class="submenu_item">
+        <a class="link-sds" href="https://www.mtu.edu/sds/">
+            Safety Data Sheets
+        </a>
+    </li>
+	
+	<li class="submenu_item">
+		<a class="link-settings" href="/site-settings/index.html">
+			Website Settings
+		</a>
+	</li>
+</ul>
+                        </li>
+                    </ul>
+                </div>
+
+				<!-- Google Tag Manager (noscript) -->
+<noscript aria-hidden="true"><iframe src="https://gtm-tagging-1.mtu.edu/ns.html?id=GTM-K6W7S4L9"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-
-<div role="search" aria-label="search functions" class="search-box" aria-hidden="true" id="search-box-container">
-	<div class="search-wrap">
-		<div class="field-wrap">
-			<form method="get" action="//www.mtu.edu/search/" id="cse-search-box">
-				<label class="label_in_textfield sr-only" for="q">Search Michigan Tech website</label>
-				<input type="text" name="q" id="q" placeholder="Search Michigan Tech" tabindex="-1" class="search-input">
-				<input type="submit" id="sa2" value="Submit" tabindex="-1" class="search-submit-icon">
-				<div class="clearer"></div>
-			</form>
-		</div>
-		<div class="field-wrap"  >
-			<form method="get" action="//www.mtu.edu/search/" id="cse-site-box">
-				<input type="hidden" name="as_sitesearch" value="https://www.mtu.edu/chemistry/" />
-				<label class="label_in_textfield sr-only" for="q3">Search this site</label>
-				<input type="text" name="q" id="q3" placeholder="Search this site" tabindex="-1" class="search-input">
-				<input type="submit" id="sa3" value="Submit" tabindex="-1" class="search-submit-icon">
-				<div class="clearer"></div>
-			</form>
-		</div>
-		<div class="field-wrap">
-			<form method="get" action="//www.mtu.edu/search/" id="directory-search-box">
-				<input type="hidden" name="psonly" value="1" />
-				<label class="label_in_textfield sr-only" for="q2">Search the directory</label>
-				<input type="text" name="q" id="q2" placeholder="Search the directory" tabindex="-1" class="search-input">
-				<input type="submit" id="sa" value="Submit" tabindex="-1" class="search-submit-icon">
-				<div class="clearer"></div>
-			</form>
-		</div>
+	<div class="desktop-search-bar search-bar show-for-desktop">
+		<form action="https://www.mtu.edu/search/" class="search-fields invisible">
+				<label for="desktop-search">
+					Search
+				</label>
+	
+			<input class="search-text"
+				id="desktop-search"
+				name="q"
+				type="search" />
+	
+			<button class="search-clear">
+				Clear Search Input
+			</button>
+	
+			<label for="search-options" hidden>
+				Search Category
+			</label>
+	
+			<select class="search-options" id="search-options">
+				<option value="mtu">
+					Michigan Tech
+				</option>
+				 
+				<option data-action="https://www.mtu.edu/chemistry/" data-name="s" value="site">
+					This Site
+				</option>
+								<option data-action="https://www.mtu.edu/majors/" value="programs">
+					Programs
+				</option>
+	
+				<option value="directory">
+					Directory
+				</option>
+			</select>
+	
+			<button class="search-button" type="submit">
+				Go
+			</button>
+		</form>
+	
+		<button aria-expanded="false" class="search-toggle-button">
+			Open Search
+		</button>
 	</div>
+	            </div>
+        </div>
+    </div>
+
+   <nav class="nav-bar show-for-desktop">
+      <ul class="menu" aria-label="Main Navigation">
+      <li class="menu_item menu_has-submenu"><a href="/chemistry/undergraduate/" class="menu_link">Undergraduate</a><button class="submenu-button arrow" aria-expanded="false" aria-label="Undergraduate sub-menu"></button>
+<ul class="menu_submenu"><li class="submenu_item"><a class="submenu_link" href="/chemistry/undergraduate/bs/"><span>Chemistry&mdash;BS</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/chemistry/undergraduate/ba/"><span>Chemistry&mdash;BA</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/chemistry/undergraduate/biochemistry/"><span>Biochemistry and Molecular Biology&mdash;BS</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/chemistry/undergraduate/computational-chemical-informatics/"><span>Computational Chemistry and Chemical Informatics&mdash;BS</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/chemistry/undergraduate/medicinal/"><span>Medicinal Chemistry&mdash;BS</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/chemistry/undergraduate/preprofessional/"><span>Preprofessional Programs</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/chemistry/undergraduate/minors/"><span>Minors</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/chemistry/undergraduate/first-year/"><span>First-Year Chemistry</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/chemistry/undergraduate/advising/"><span>Advising</span></a>
+</li></ul>
+</li><li class="menu_item menu_has-submenu"><a href="/chemistry/graduate/program/" class="menu_link">Graduate</a><button class="submenu-button arrow" aria-expanded="false" aria-label="Graduate sub-menu"></button>
+<ul class="menu_submenu"><li class="submenu_item"><a class="submenu_link" href="/chemistry/graduate/program/"><span>Program Information</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/chemistry/graduate/chemistry/"><span>Chemistry—MS, PhD</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/chemistry/graduate/accelerated/"><span>Chemistry Accelerated Master's (BS-MS)</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/chemistry/graduate/interdisciplinary/"><span>Interdisciplinary Programs</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/chemistry/graduate/funding/"><span>Funding Opportunities</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/chemistry/graduate/faq/"><span>Frequently Asked Questions</span></a>
+</li></ul>
+</li><li class="menu_item menu_has-submenu"><div class="menu_link">Research and Labs</div><button class="submenu-button arrow" aria-expanded="false" aria-label="Research and Labs sub-menu"></button>
+<ul class="menu_submenu"><li class="submenu_item"><a class="submenu_link" href="/chemistry/research-labs/equipment/"><span>Research Equipment</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/chemistry/research-labs/opportunities/"><span>Research Opportunities</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/chemistry/research-labs/teaching/"><span>Teaching Labs</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/chemistry/research-labs/projects/"><span>Funded Projects</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/chemistry/research-labs/publications/"><span>Faculty Publications</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/chemistry/research-labs/safety/"><span>Safety</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/chemistry/research-labs/undergraduate/"><span>Undergraduate Research</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/chemistry/research-labs/seminar/"><span>Seminar Series</span></a>
+</li></ul>
+</li><li class="menu_item menu_has-submenu"><div class="menu_link">People and Groups</div><button class="submenu-button arrow" aria-expanded="false" aria-label="People and Groups sub-menu"></button>
+<ul class="menu_submenu"><li class="submenu_item  active-in"><a class="submenu_link" href="/chemistry/people-groups/faculty-staff/"><span>Faculty and Staff Directory</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/chemistry/people-groups/research/"><span>Research Faculty</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/chemistry/people-groups/emeriti-faculty/"><span>Emeriti Faculty</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/chemistry/people-groups/alumni/"><span>Alumni and Friends</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/chemistry/people-groups/directory/"><span>Graduate Student Directory</span></a>
+</li></ul>
+</li><li class="menu_item menu_has-submenu"><div class="menu_link">Department</div><button class="submenu-button arrow" aria-expanded="false" aria-label="Department sub-menu"></button>
+<ul class="menu_submenu"><li class="submenu_item"><a class="submenu_link" href="/chemistry/department/welcome/"><span>Welcome from the Chair</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/chemistry/department/employment/"><span>Employment</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/chemistry/department/contact/"><span>Contact Us</span></a>
+</li></ul>
+</li><li class="menu_item"><a href="/chemistry/giving/" class="menu_link">Giving Opportunities</a>
+</li><li class="menu_item menu_item-yellow"><a href="/apply/" class="menu_link">Apply</a>
+</li>      </ul>
+   </nav>
+
+    <nav class="offscreen-nav invisible">
+      <div class="mobile-search-bar search-bar">
+	<form action="https://www.mtu.edu/search/">
+		<label for="mobile-search"
+			   hidden>
+			Search
+		</label>
+
+		<input class="search-text"
+			   id="mobile-search"
+			   name="q"
+			   placeholder="Search"
+			   type="search" />
+
+		<button class="search-clear">
+			Clear Search Input
+		</button>
+
+		<label for="mobile-search-options"
+			   hidden>
+			Search Category
+		</label>
+
+		<select class="search-options"
+				id="mobile-search-options">
+			<option value="mtu">
+				Michigan Tech
+			</option>
+
+			 
+			<option data-action="https://www.mtu.edu/chemistry/" data-name="s" value="site">
+				This Site
+			</option>
+			
+			<option data-action="https://www.mtu.edu/majors"
+					value="programs">
+				Programs
+			</option>
+
+			<option value="directory">
+				Directory
+			</option>
+		</select>
+
+		<button class="search-button"
+				type="submit">
+			Search
+		</button>
+	</form>
 </div>
-<header xmlns:xlink="http://www.w3.org/1999/xlink" id="js-site-header" class="site-header">
-   <div id="skip" class="skip-links"><a href="#main">Skip to page content</a><a href="#mtu-footer">Skip to footer navigation</a></div>
-   <div class="top-banner-wrap">
-      <div class="top-banner">
-         <div id="header-logo" class="header-logo"><a href="/" class="mtu-logo" title="Michigan Technological University">
-               <svg viewBox="0 200 1000 200" width="300" height="55" preserveAspectRatio="xMinYMid meet">
-                  <title>Michigan Technological University</title>
-                  <use xlink:href="#icon"></use>
-                  <use xlink:href="#horizontal"></use>
-               </svg></a></div>
-      </div>
-   </div>
-   <div class="navwrap">
-      <nav id="main-nav" class="main-nav" aria-label="Main navigation"><button id="header-dropdown-trigger" class="header-dropdown-trigger" aria-controls="main-menu" aria-expanded="false"><span class="show-for-sr">Primary Menu</span></button><div class="primary-menu-wrap" id="main-menu">
-            <ul class="audience-menu" role="menubar" aria-label="Info For . . . Menu">
-               <li role="none" class="sub nav-section-head"><button role="menuitem" aria-haspopup="true" aria-expanded="false">
-                     									Info For . . .
-                     								</button><ul>
-                     <li><a href="/current/" aria-label="Michigan Tech Students">Students</a></li>
-                     <li><a href="/faculty-staff/" aria-label="Michigan Tech Faculty/Staff">Faculty/Staff</a></li>
-                     <li><a href="/alumni/" aria-label="Michigan Tech Alumni Association">Alumni</a></li>
-                     <li><a href="/parentsfamily/" aria-label="Michigan Tech Parents and Family">Parents</a></li>
-                  </ul>
-               </li>
-            </ul>
-            <ul class="search-quick">
-               <li class="search-trigger"><a role="button" href="https://www.mtu.edu/search/" title="Search" aria-expanded="false" aria-controls="search-box-container" aria-label="Expand Search Fields"><span class="show-for-sr text-white">Search</span></a></li>
-               <li class="sub quick-links"><a role="button" href="/a2z/" title="Quick Links" aria-haspopup="true" aria-expanded="false" class="quick-links-toggle">
-                     									Quick Links
-                     									<button class="mobile-nav-open-sub text-white">Open sub-menu</button></a><ul class="quick-links-nav" aria-label="Quick links">
-                     <li><a href="/a2z/" class="link-az">A to Z</a></li>
-                     <li><a href="https://www.banweb.mtu.edu/" class="link-banweb">Banweb</a></li>
-                     <li><a href="/maps/" class="link-map">Campus Map</a></li>
-                     <li><a href="https://mtu.instructure.com/" class="link-canvas">Canvas</a></li>
-                     <li><a href="https://www.mtu.edu/email/" class="link-email">Email</a></li>
-                     <li><a href="https://mymichigantech.mtu.edu/" class="link-mymt">MyMichiganTech</a></li>
-                  </ul>
-               </li>
-            </ul><ul class="category-nav-bar" aria-label="Main Navigation"><li class="main-nav-item sub"><a href="/chemistry/undergraduate/program/" aria-expanded="false">Undergraduate</a><button class="mobile-nav-open-sub">Open sub-menu</button><ul><li><a href="/chemistry/undergraduate/program/"><span>Program Information</span></a></li><li><a href="/chemistry/undergraduate/chemistry/"><span>Chemistry&mdash;BS</span></a></li><li><a href="/chemistry/undergraduate/ba-chem/"><span>Chemistry&mdash;BA</span></a></li><li><a href="/chemistry/undergraduate/biochemistry/"><span>Biochemistry and Molecular Biology&mdash;BS</span></a></li><li><a href="/chemistry/undergraduate/computational-chemistry-and-chemical-informatics/"><span>Computational Chemistry and Chemical Informatics&mdash;BS</span></a></li><li><a href="/chemistry/undergraduate/pharmaceutical/"><span>Pharmaceutical Chemistry&mdash;BS</span></a></li><li><a href="/chemistry/undergraduate/preprofessional/"><span>Preprofessional Programs</span></a></li><li><a href="/chemistry/undergraduate/minors/"><span>Minors</span></a></li><li><a href="/chemistry/undergraduate/first-year/"><span>First-Year Chemistry</span></a></li><li><a href="/chemistry/undergraduate/advising/"><span>Advising</span></a></li></ul></li><li class="main-nav-item sub"><a href="/chemistry/graduate/program/" aria-expanded="false">Graduate</a><button class="mobile-nav-open-sub">Open sub-menu</button><ul><li><a href="/chemistry/graduate/program/"><span>Program Information</span></a></li><li><a href="/chemistry/graduate/chemistry/"><span>Chemistry—MS, PhD</span></a></li><li><a href="/chemistry/graduate/accelerated/"><span>Chemistry Accelerated Master's (BS-MS)</span></a></li><li><a href="/chemistry/graduate/interdisciplinary/"><span>Interdisciplinary Programs</span></a></li><li><a href="/chemistry/graduate/funding/"><span>Funding Opportunities</span></a></li><li><a href="/chemistry/graduate/faq/"><span>Frequently Asked Questions</span></a></li></ul></li><li class="main-nav-item sub"><button role="menuitem" aria-haspopup="true" aria-expanded="false">Research and Labs</button><ul><li><a href="/chemistry/research-labs/equipment/"><span>Research Equipment</span></a></li><li><a href="/chemistry/research-labs/opportunities/"><span>Research Opportunities</span></a></li><li><a href="/chemistry/research-labs/teaching/"><span>Teaching Labs</span></a></li><li><a href="/chemistry/research-labs/projects/"><span>Funded Projects</span></a></li><li><a href="/chemistry/research-labs/publications/"><span>Faculty Publications</span></a></li><li><a href="/chemistry/research-labs/safety/"><span>Safety</span></a></li><li><a href="/chemistry/research-labs/undergraduate/"><span>Undergraduate Research</span></a></li><li><a href="/chemistry/research-labs/seminar/"><span>Seminar Series</span></a></li></ul></li><li class="main-nav-item sub"><button role="menuitem" aria-haspopup="true" aria-expanded="false">People and Groups</button><ul><li class=" active-in"><a href="/chemistry/people-groups/faculty-staff/"><span>Faculty and Staff Directory</span></a></li><li><a href="/chemistry/people-groups/research/"><span>Research Faculty</span></a></li><li><a href="/chemistry/people-groups/emeriti-faculty/"><span>Emeriti Faculty</span></a></li><li><a href="/chemistry/people-groups/alumni/"><span>Alumni and Friends</span></a></li><li><a href="/chemistry/people-groups/directory/"><span>Graduate Student Directory</span></a></li></ul></li><li class="main-nav-item sub"><button role="menuitem" aria-haspopup="true" aria-expanded="false">Department</button><ul><li><a href="/chemistry/department/welcome/"><span>Welcome from the Chair</span></a></li><li><a href="/chemistry/department/employment/"><span>Employment</span></a></li><li><a href="/chemistry/department/contact/"><span>Contact Us</span></a></li></ul></li><li class="main-nav-item"><a href="/chemistry/giving/">Giving Opportunities</a></li><li class="main-nav-item yellow"><a href="/applynow/">Apply</a></li></ul>         </div>
-      </nav>
-   </div>
-</header>         <div class="background-light-gray">
+        
+
+        <ul class="menu"
+            aria-label="Main Navigation">
+
+           
+            <li class="menu_item menu_has-submenu"><a href="/chemistry/undergraduate/" class="menu_link">Undergraduate</a><button class="submenu-button arrow" aria-expanded="false" aria-label="Undergraduate sub-menu"></button>
+<ul class="menu_submenu"><li class="submenu_item"><a class="submenu_link" href="/chemistry/undergraduate/bs/"><span>Chemistry&mdash;BS</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/chemistry/undergraduate/ba/"><span>Chemistry&mdash;BA</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/chemistry/undergraduate/biochemistry/"><span>Biochemistry and Molecular Biology&mdash;BS</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/chemistry/undergraduate/computational-chemical-informatics/"><span>Computational Chemistry and Chemical Informatics&mdash;BS</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/chemistry/undergraduate/medicinal/"><span>Medicinal Chemistry&mdash;BS</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/chemistry/undergraduate/preprofessional/"><span>Preprofessional Programs</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/chemistry/undergraduate/minors/"><span>Minors</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/chemistry/undergraduate/first-year/"><span>First-Year Chemistry</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/chemistry/undergraduate/advising/"><span>Advising</span></a>
+</li></ul>
+</li><li class="menu_item menu_has-submenu"><a href="/chemistry/graduate/program/" class="menu_link">Graduate</a><button class="submenu-button arrow" aria-expanded="false" aria-label="Graduate sub-menu"></button>
+<ul class="menu_submenu"><li class="submenu_item"><a class="submenu_link" href="/chemistry/graduate/program/"><span>Program Information</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/chemistry/graduate/chemistry/"><span>Chemistry—MS, PhD</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/chemistry/graduate/accelerated/"><span>Chemistry Accelerated Master's (BS-MS)</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/chemistry/graduate/interdisciplinary/"><span>Interdisciplinary Programs</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/chemistry/graduate/funding/"><span>Funding Opportunities</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/chemistry/graduate/faq/"><span>Frequently Asked Questions</span></a>
+</li></ul>
+</li><li class="menu_item menu_has-submenu"><div class="menu_link">Research and Labs</div><button class="submenu-button arrow" aria-expanded="false" aria-label="Research and Labs sub-menu"></button>
+<ul class="menu_submenu"><li class="submenu_item"><a class="submenu_link" href="/chemistry/research-labs/equipment/"><span>Research Equipment</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/chemistry/research-labs/opportunities/"><span>Research Opportunities</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/chemistry/research-labs/teaching/"><span>Teaching Labs</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/chemistry/research-labs/projects/"><span>Funded Projects</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/chemistry/research-labs/publications/"><span>Faculty Publications</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/chemistry/research-labs/safety/"><span>Safety</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/chemistry/research-labs/undergraduate/"><span>Undergraduate Research</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/chemistry/research-labs/seminar/"><span>Seminar Series</span></a>
+</li></ul>
+</li><li class="menu_item menu_has-submenu"><div class="menu_link">People and Groups</div><button class="submenu-button arrow" aria-expanded="false" aria-label="People and Groups sub-menu"></button>
+<ul class="menu_submenu"><li class="submenu_item  active-in"><a class="submenu_link" href="/chemistry/people-groups/faculty-staff/"><span>Faculty and Staff Directory</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/chemistry/people-groups/research/"><span>Research Faculty</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/chemistry/people-groups/emeriti-faculty/"><span>Emeriti Faculty</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/chemistry/people-groups/alumni/"><span>Alumni and Friends</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/chemistry/people-groups/directory/"><span>Graduate Student Directory</span></a>
+</li></ul>
+</li><li class="menu_item menu_has-submenu"><div class="menu_link">Department</div><button class="submenu-button arrow" aria-expanded="false" aria-label="Department sub-menu"></button>
+<ul class="menu_submenu"><li class="submenu_item"><a class="submenu_link" href="/chemistry/department/welcome/"><span>Welcome from the Chair</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/chemistry/department/employment/"><span>Employment</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/chemistry/department/contact/"><span>Contact Us</span></a>
+</li></ul>
+</li><li class="menu_item"><a href="/chemistry/giving/" class="menu_link">Giving Opportunities</a>
+</li><li class="menu_item menu_item-yellow"><a href="/apply/" class="menu_link">Apply</a>
+</li>    
+            <li class="menu_item menu_has-submenu menu_item-black">
+                <div class="menu_link">
+                    Info For . . .
+                </div>
+
+                <button aria-label="Open sub-menu"
+                        class="submenu-button arrow"></button>
+
+                <ul class="tech-links-menu menu_submenu">
+                    <li class="submenu_item">
+                            <a class="link-az"
+                               href="https://www.mtu.edu/current/">
+                                Students
+                            </a>
+                        </li><li class="submenu_item">
+                            <a class="link-az"
+                               href="https://www.mtu.edu/faculty-staff/">
+                                Faculty/Staff
+                            </a>
+                        </li><li class="submenu_item">
+                            <a class="link-az"
+                               href="https://www.mtu.edu/alumni/">
+                                Alumni
+                            </a>
+                        </li><li class="submenu_item">
+                            <a class="link-az"
+                               href="https://www.mtu.edu/parentsfamily/">
+                                Parents
+                            </a>
+                        </li><li class="submenu_item">
+                            <a class="link-az"
+                               href="https://www.mtu.edu/industry/">
+                                Industry
+                            </a>
+                        </li> 
+                </ul>
+            </li>
+
+            <li class="menu_item menu_has-submenu menu_item-black">
+                <div class="menu_link">
+                    Tech Links
+                </div>
+
+                <button aria-label="Open sub-menu"
+                        class="submenu-button arrow"></button>
+
+                <ul class="tech-links-menu menu_submenu">
+    <li class="submenu_item">
+        <a class="link-az" href="/a2z/index.html">
+            A to Z
+        </a>
+    </li>
+
+    <li class="submenu_item">
+        <a class="link-banweb" href="https://banweb.mtu.edu/">
+            Banweb
+        </a>
+    </li>
+
+    <li class="submenu_item">
+        <a class="link-map" href="https://map.mtu.edu/?id=1308">
+            Campus Map
+        </a>
+    </li>
+
+    <li class="submenu_item">
+        <a class="link-canvas" href="https://mtu.instructure.com/">
+            Canvas
+        </a>
+    </li>
+
+    <li class="submenu_item">
+        <a class="link-email" href="https://mail.google.com/a/mtu.edu/">
+            Email
+        </a>
+    </li>
+    
+    <li class="submenu_item">
+        <a class="link-mymt" href="https://mymichigantech.mtu.edu/">
+            MyMichiganTech
+        </a>
+    </li>
+
+    <li class="submenu_item">
+        <a class="link-sds" href="https://www.mtu.edu/sds/">
+            Safety Data Sheets
+        </a>
+    </li>
+	
+	<li class="submenu_item">
+		<a class="link-settings" href="/site-settings/index.html">
+			Website Settings
+		</a>
+	</li>
+</ul>
+            </li>
+        </ul>
+    </nav>
+</header>         <section class="background-light-gray" aria-label="Site Title">
             <div class="site-title-wrapper">
                <div class="site-title">
                   <div class="title"><span><a href="/chemistry/">Chemistry</a></span></div>
@@ -207,109 +502,59 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <li class="active" aria-current="page">Faculty and Staff Directory</li>
                      </ul>
                   </div>
-               </div>            </div>
-         </div>
+               </div>
+               </div>
+         </section>
          <div id="main" role="main" class="main">
             <section id="body_section" class="body-section" aria-label="main content">
                <div class="full-width">
                   <div class="clearer"></div>
                   <div class="left leftnav">
                      <div id="toggle-left"><img class="more-menu left" height="16" width="20" aria-hidden="true" role="presentation" src="/_resources/images/icons/hamburger.svg" alt="Open"><button class="left not-button"> Also in this section</button></div>
-                     <ul id="main_links" role="navigation" aria-label="left">
-                        <li class="nav-title active"><span class="nav-title-heading">People and Groups</span><div class="sublinks">
-                              <ul class="firstlevel"><li class="active"><a  href="/chemistry/people-groups/faculty-staff/">Faculty and Staff Directory</a><ul class="secondlevel"><li><a href="/chemistry/people-groups/faculty-staff/faculty/">Faculty</a></li><li><a href="/chemistry/people-groups/faculty-staff/adjunct/">Adjunct Faculty</a></li><li><a href="/chemistry/people-groups/faculty-staff/staff/">Staff</a></li><li><a href="/chemistry/people-groups/research/">Research Faculty</a></li><li><a href="/chemistry/people-groups/emeriti-faculty/">Emeriti Faculty</a></li></ul></li><li><a  href="/chemistry/people-groups/research/">Research Faculty</a></li><li><a  href="/chemistry/people-groups/emeriti-faculty/">Emeriti Faculty&nbsp;</a></li><li><a  href="/chemistry/people-groups/alumni/">Alumni and Friends</a></li><li><a  href="/chemistry/people-groups/directory/">Graduate Student Directory</a></li></ul>
-                           </div>
-                        </li>
-                     </ul>
-                     <div class="callout">                        		
-                        	
-                     </div>
+                     <nav aria-label="left side navigtion bar">
+                        <ul id="main_links">
+                           <li class="nav-title active"><span class="nav-title-heading">People and Groups</span><div class="sublinks">
+                                 <ul class="firstlevel"><li class="active"><a  href="/chemistry/people-groups/faculty-staff/">Faculty and Staff Directory</a><ul class="secondlevel"><li><a href="/chemistry/people-groups/faculty-staff/faculty/">Faculty</a></li><li><a href="/chemistry/people-groups/faculty-staff/adjunct/">Adjunct Faculty</a></li><li><a href="/chemistry/people-groups/faculty-staff/staff/">Staff</a></li><li><a href="/chemistry/people-groups/research/">Research Faculty</a></li><li><a href="/chemistry/people-groups/emeriti-faculty/">Emeriti Faculty</a></li></ul></li><li><a  href="/chemistry/people-groups/research/">Research Faculty</a></li><li><a  href="/chemistry/people-groups/emeriti-faculty/">Emeriti Faculty&nbsp;</a></li><li><a  href="/chemistry/people-groups/alumni/">Alumni and Friends</a></li><li><a  href="/chemistry/people-groups/directory/">Graduate Student Directory</a></li></ul>
+                              </div>
+                           </li>
+                        </ul>
+                     </nav>
                   </div>
                   <h1 class="pagetitle">Faculty and Staff Directory</h1>
                   <div id="content" class="content">
                      <article id="content_body" aria-label="content" class="main-content">
                         <div class="dept_unit">
-                           <div><!-- FROM CACHE resets at Tue, 05 Oct 2021 20:46:57 -- cache/%2Fchemistry%2Fpeople-groups%2Ffaculty-staff%2F-5ac389640276796c13b3fdf673bad873&number=29.txt --><!-- /chemistry/people-groups/faculty-staff/faculty/green/ -->							
+                           <div><!-- FROM CACHE resets at Thu, 24 Oct 2024 03:12:27 -- cache/%2Fchemistry%2Fpeople-groups%2Ffaculty-staff%2F-dd9d7da1270a06122193cfd1c8df80c1&amp;number=26.txt --><!-- /chemistry/people-groups/faculty-staff/faculty/ata/ - 200 -->							
 <div class="person">
-  <div class="photo"><a href="/chemistry/people-groups/faculty-staff/faculty/green/">  <img height="230" width="170" loading="lazy" alt="Sarah Green"  src="/chemistry/people-groups/faculty-staff/faculty/green/images/sarah-a-green-personnel.jpg" class="img"  />  </a>   
+  <div class="photo"><a href="/chemistry/people-groups/faculty-staff/faculty/ata/">  <img height="230" width="170" loading="lazy" alt="Athar Ata"  src="/chemistry/people-groups/faculty-staff/faculty/ata/images/athar-ata-personnel170.jpg" class="img"  />  </a>   
 	  	  
   </div>
   <div class="person_bio">
     <div class="personal">
-      <h2> <a href="/chemistry/people-groups/faculty-staff/faculty/green/">Sarah A. Green</a></h2>
+      <div class="name-and-pronouns"><h2> <a href="/chemistry/people-groups/faculty-staff/faculty/ata/">Athar Ata</a></h2><span class="pronouns" style="display:none;"></span></div>
 
-      <ul class="none"><li>Interim Department Chair, Chemistry</li><li>Professor, Chemistry</li>      </ul>    </div>
+      <ul class="none"><li>Department Chair, Chemistry</li><li>Professor, Chemistry</li>      </ul>    </div>
       
 	
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class="email-address"><a href="mailto:sgreen@mtu.edu">sgreen@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064872048">906-487-2048</a></li> 		  		<li class='place'>Chemical Sciences 607</li> 
+		  <li class="email-address"><a href="mailto:aata@mtu.edu">aata@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064872048">906-487-2048</a></li> 		  		<li class="place">Chem Sci 607</li> 
         	   </ul>
 	          </div>
-            <div class="left specialties"><h3>Links of Interest</h3>
-      <ul class="none">
-         
-         <li>
-            <a href="http://iopscience.iop.org/1748-9326/8/2/024024" target="_blank" rel="noopener">97% Consensus paper</a>
-         </li>
-         
-         <li>
-            <a href="https://www.youtube.com/watch?v=cjuGCJJUGsg" target="_blank" rel="noopener">John Oliver cites 97% consensus paper (video)</a>
-         </li>
-         
-         <li>
-            <a href="https://yeah-net.org/home/" target="_blank" rel="noopener">Youth Environmental Alliance for Higher Education</a>
-         </li>
-         
-         <li>
-            <a href="https://scholar.google.com/citations?user=Y0lA1SEAAAAJ&amp;hl=en" target="_blank" rel="noopener">Publications (Google Scholar)</a>
-         </li>
-         
-      </ul>
-   </div>		</div>	    
-	   <div class="right specialties"><h3>Research Interests</h3>
-      <ul>
-         
-         <li>Climate change communication</li>
-         
-         <li>Science-policy interface</li>
-         
-         <li>Youth engagement in climate policy</li>
-         
-         <li>Response of aquatic systems to climate change</li>
-         
-         <li>Great Lakes</li>
-         
-         <li>Fluorescence-based analytical methods</li>
-         
-         <li>Aerosol chemistry</li>
-         
-         <li>Origin and fate of dissolved organic carbon (DOC) in terrestrial, lake, and marine
-            environments
-         </li>
-         
-         <li>Methods for detection of free radicals, photochemical transformations of natural and
-            anthropogenic organic compounds in the environment
-         </li>
-         
-         <li>Integration of biological, geological, physical, and chemical data for understanding
-            global cycles.
-         </li>
-         
-      </ul>
-   </div>  </div>
+            		</div>	    
+	     </div>
   <div class="clearer"></div>
 </div>
-				
-<!-- /chemistry/people-groups/faculty-staff/faculty/bi/ -->							
+						
+<!-- /chemistry/people-groups/faculty-staff/faculty/bi/ - 200 -->							
 <div class="person">
   <div class="photo"><a href="/chemistry/people-groups/faculty-staff/faculty/bi/">  <img height="230" width="170" loading="lazy" alt="Lanrong Bi"  src="/chemistry/people-groups/faculty-staff/faculty/bi/images/lanrong-bi-personnel.jpg" class="img"  />  </a>   
 	  	  
   </div>
   <div class="person_bio">
     <div class="personal">
-      <h2> <a href="/chemistry/people-groups/faculty-staff/faculty/bi/">Lanrong Bi</a></h2>
+      <div class="name-and-pronouns"><h2> <a href="/chemistry/people-groups/faculty-staff/faculty/bi/">Lanrong Bi</a></h2><span class="pronouns" style="display:none;"></span></div>
 
       <ul class="none"><li>Associate Professor, Chemistry</li><li>Affiliated Associate Professor, Biological Sciences</li>      </ul>    </div>
       
@@ -317,187 +562,116 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class="email-address"><a href="mailto:lanrong@mtu.edu">lanrong@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064871868">906-487-1868</a></li> 		  		<li class='place'>Chem Sci 620A</li> 
+		  <li class="email-address"><a href="mailto:lanrong@mtu.edu">lanrong@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064871868">906-487-1868</a></li> 		  		<li class="place">Chem Sci 620A</li> 
         	   </ul>
 	          </div>
-            		</div>	    
-	   <div class="right"><div class="specialties"><h3>Research Interests</h3>
-      <ul>
-         
-         <li>Chemical biology: development of novel molecular probes for DNA sequencing analysis
-            and disease gene discovery
-         </li>
-         
-         <li>Medicinal chemistry: development of new imaging and therapeutic agents towards cancer
-            and cardiovascular disease; Design and synthesis of novel prodrugs of peptides and
-            peptide mimetics.
-         </li>
-         
-      </ul>
-   </div></div>  </div>
+            <div class="left specialties"><h3>Links Of Interest</h3><ul class="none">
+<li><a href="https://scholar.google.com/citations?user=KU1LrxcAAAAJ&amp;hl=en" aria-label="Lanrong Bi Publications (Google Scholar)">Publications (Google Scholar)</a></li>
+</ul></div>		</div>	    
+	   <div class="right specialties"><h3>Research Interests</h3><ul>
+<li>Chemical biology: development of novel molecular probes for DNA sequencing analysis and disease gene discovery</li>
+<li>Medicinal chemistry: development of new imaging and therapeutic agents towards cancer and cardiovascular disease; Design and synthesis of novel prodrugs of peptides and peptide mimetics.</li>
+</ul></div>  </div>
   <div class="clearer"></div>
 </div>
-				
-<!-- /chemistry/people-groups/faculty-staff/staff/brown.html -->							
-<div class="person">
-  <div class="photo"> <img height="230" width="170" loading="lazy" alt="Jeremy Brown"  src="/chemistry/people-groups/faculty-staff/staff/images/brown-personnel170.jpg" class="img"  />    
-	  	  
-  </div>
-  <div class="person_bio">
-    <div class="personal">
-      <h2> Jeremy Brown</h2>
-
-      <ul class="none"><li>Chemistry Learning Center, Director</li><li>Undergraduate Advisor</li>      </ul>    </div>
-      
-	
-     	<div class="left">      <div class="contact">
-      <ul class="none">
-       
-		  <li class="email-address"><a href="mailto:jelbrown@mtu.edu">jelbrown@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064872297">906-487-2297</a></li> 		  		<li class='place'>Chem Sci 206A</li> 
-        	   </ul>
-	          </div>
-            		</div>	    
-	     </div>
-  <div class="clearer"></div>
-</div>
-				
-<!-- /chemistry/people-groups/faculty-staff/faculty/charlesworth/ -->							
+						
+<!-- /chemistry/people-groups/faculty-staff/faculty/charlesworth/ - 200 -->							
 <div class="person">
   <div class="photo"><a href="/chemistry/people-groups/faculty-staff/faculty/charlesworth/">  <img height="230" width="170" loading="lazy" alt="Paul Charlesworth"  src="/chemistry/people-groups/faculty-staff/faculty/charlesworth/images/paul-charlesworth-personnel.jpg" class="img"  />  </a>   
 	  	  
   </div>
   <div class="person_bio">
     <div class="personal">
-      <h2> <a href="/chemistry/people-groups/faculty-staff/faculty/charlesworth/">Paul Charlesworth</a></h2>
+      <div class="name-and-pronouns"><h2> <a href="/chemistry/people-groups/faculty-staff/faculty/charlesworth/">Paul Charlesworth</a></h2><span class="pronouns" style="display:none;"></span></div>
 
-      <ul class="none"><li>Associate Professor, Chemistry</li><li>Affiliated Associate Professor, Cognitive and Learning
-      Sciences</li><li>
-   </li>      </ul>    </div>
+      <ul class="none"><li>Associate Professor, Chemistry</li><li>Affiliated Associate Professor, Psychology and Human Factors</li>      </ul>    </div>
       
 	
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class="email-address"><a href="mailto:pcharles@mtu.edu">pcharles@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064872702">906-487-2702</a></li> 		  		<li class='place'>Chem Sci 708A</li> 
+		  <li class="email-address"><a href="mailto:pcharles@mtu.edu">pcharles@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064872702">906-487-2702</a></li> 		  		<li class="place">Chem Sci 708A</li> 
         	   </ul>
 	          </div>
             		</div>	    
-	   <div class="right"><div class="specialties"><h3>Research Interests</h3>
-      <ul>
-         
-         <li>Chemical education</li>
-         
-         <li>Technology-supported learning</li>
-         
-         <li>Online and Blended Classrooms</li>
-         
-         <li>Flipped Classrooms</li>
-         
-         <li>Spatial Ability</li>
-         
-      </ul>
-   </div></div>  </div>
+	   <div class="right"><div class="specialties"><h3>Research Interests</h3><ul>
+<li>Chemical education</li>
+<li>Technology-supported learning</li>
+<li>Online and Blended Classrooms</li>
+<li>Flipped Classrooms</li>
+<li>Spatial Ability</li>
+</ul></div></div>  </div>
   <div class="clearer"></div>
 </div>
-				
-<!-- /chemistry/people-groups/faculty-staff/faculty/christov/ -->							
+						
+<!-- /chemistry/people-groups/faculty-staff/faculty/christov/ - 200 -->							
 <div class="person">
   <div class="photo"><a href="/chemistry/people-groups/faculty-staff/faculty/christov/">  <img height="230" width="170" loading="lazy" alt="Christo Christov"  src="/chemistry/people-groups/faculty-staff/faculty/christov/images/christov-personnel170.jpg" class="img"  />  </a>   
 	  	  
   </div>
   <div class="person_bio">
     <div class="personal">
-      <h2> <a href="/chemistry/people-groups/faculty-staff/faculty/christov/">Christo Z. Christov</a></h2>
+      <div class="name-and-pronouns"><h2> <a href="/chemistry/people-groups/faculty-staff/faculty/christov/">Christo Z. Christov</a></h2><span class="pronouns" style="display:none;"></span></div>
 
-      <ul class="none"><li>Associate Professor, Chemistry</li>      </ul>    </div>
+      <ul class="none"><li>Professor of Chemistry</li>      </ul>    </div>
       
 	
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class="email-address"><a href="mailto:christov@mtu.edu">christov@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064873233">906-487-3233</a></li> 		  		<li class='place'>Chem Sci 312C</li> 
+		  <li class="email-address"><a href="mailto:christov@mtu.edu">christov@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064873233">906-487-3233</a></li> 		  		<li class="place">Chem Sci 312C</li> 
         	   </ul>
 	          </div>
-            <div class="left specialties"><h3>Links of Interest</h3>
-      <p>
-         <a href="http://chem.sites.mtu.edu/christov/">Research Group Page</a>
-      </p>
-   </div>		</div>	    
-	   <div class="right specialties"><h3>Research Interests</h3>
-      <ul>
-         
-         <li>Enzyme Reaction Mechanisms and Dynamics</li>
-         
-         <li>Non-Heme Iron Histone Demethylases</li>
-         
-         <li>Multiscale Modeling of Epigenetic Mechanisms</li>
-         
-      </ul>
-   </div>  </div>
+            <div class="left specialties"><h3>Links of Interest</h3><p><a href="https://chem.sites.mtu.edu/christov/">Research Group Page</a></p></div>		</div>	    
+	   <div class="right specialties"><h3>Research Interests</h3><ul>
+<li>Enzyme Reaction Mechanisms and Dynamics</li>
+<li>Non-Heme Iron Histone Demethylases</li>
+<li>Multiscale Modeling of Epigenetic Mechanisms</li>
+</ul></div>  </div>
   <div class="clearer"></div>
 </div>
-				
-<!-- /chemistry/people-groups/faculty-staff/faculty/dam/ -->							
+						
+<!-- /chemistry/people-groups/faculty-staff/faculty/dam/ - 200 -->							
 <div class="person">
-  <div class="photo"><a href="/chemistry/people-groups/faculty-staff/faculty/dam/">  <img height="230" width="170" loading="lazy" alt="Tarun Dam"  src="/chemistry/people-groups/faculty-staff/faculty/dam/images/tarun-k-dam-personnel.jpg" class="img"  />  </a>   
+  <div class="photo"><a href="/chemistry/people-groups/faculty-staff/faculty/dam/">  <img height="230" width="170" loading="lazy" alt="Tarun Dam"  src="/chemistry/people-groups/faculty-staff/faculty/dam/images/tarun-k-dam-personnel340.jpg" class="img"  />  </a>   
 	  	  
   </div>
   <div class="person_bio">
     <div class="personal">
-      <h2> <a href="/chemistry/people-groups/faculty-staff/faculty/dam/">Tarun K. Dam</a></h2>
+      <div class="name-and-pronouns"><h2> <a href="/chemistry/people-groups/faculty-staff/faculty/dam/">Tarun K. Dam</a></h2><span class="pronouns" style="display:none;"></span></div>
 
-      <ul class="none"><li>Associate Professor, Chemistry</li><li>Director, Biochemistry and Molecular Biology (BMB)
-      Program</li><li>
-   </li>      </ul>    </div>
+      <ul class="none"><li>Professor, Chemistry</li><li>Director, Biochemistry and Molecular Biology (BMB) Program</li>      </ul>    </div>
       
 	
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class="email-address"><a href="mailto:tkdam@mtu.edu">tkdam@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064872940">906-487-2940</a></li> 		  		<li class='place'>Chem Sci 510C</li> 
+		  <li class="email-address"><a href="mailto:tkdam@mtu.edu">tkdam@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064872940">906-487-2940</a></li> 		  		<li class="place">Chem Sci 510C</li> 
         	   </ul>
 	          </div>
-            <div class="left specialties"><h3>Links of Interest</h3>
-      <ul class="none">
-         
-         <li>
-            <a href="http://chem.sites.mtu.edu/dam/">Research Group Page</a>
-         </li>
-         
-         <li>
-            <a href="/ctl/faculty-recognition/academy-of-teaching-excellence/index.html">Michigan Technological University Academy of Teaching Excellence</a>
-         </li>
-         
-      </ul>
-   </div>		</div>	    
-	   <div class="right specialties"><h3>Research Interests</h3>
-      <ul>
-         
-         <li>Molecular basis of glycan (carbohydrate)-mediated biological functions</li>
-         
-         <li>Glycan binding proteins or lectins</li>
-         
-         <li>Glycan detection</li>
-         
-         <li>Mechanistic glycobiology</li>
-         
-         <li>Macromolecular communication</li>
-         
-         <li>Biomolecular thermodynamics</li>
-         
-      </ul>
-   </div>  </div>
+            <div class="left specialties"><h3>Links of Interest</h3><ul class="none">
+<li><a href="https://chem.sites.mtu.edu/dam/">Research Group Page</a></li>
+<li><a href="/ctl/faculty-recognition/academy-of-teaching-excellence/index.html">Michigan Technological University Academy of Teaching Excellence</a></li>
+</ul></div>		</div>	    
+	   <div class="right specialties"><h3>Research Interests</h3><ul>
+<li>Molecular basis of glycan (carbohydrate)-mediated biological functions</li>
+<li>Glycan binding proteins or lectins</li>
+<li>Glycan detection</li>
+<li>Mechanistic glycobiology</li>
+<li>Macromolecular communication</li>
+<li>Biomolecular thermodynamics</li>
+</ul></div>  </div>
   <div class="clearer"></div>
 </div>
-				
-<!-- /chemistry/people-groups/faculty-staff/faculty/fang/ -->							
+						
+<!-- /chemistry/people-groups/faculty-staff/faculty/fang/ - 200 -->							
 <div class="person">
   <div class="photo"><a href="/chemistry/people-groups/faculty-staff/faculty/fang/">  <img height="230" width="170" loading="lazy" alt="Shiyue Fang"  src="/chemistry/people-groups/faculty-staff/faculty/fang/images/shiyue-fang-personnel.jpg" class="img"  />  </a>   
 	  	  
   </div>
   <div class="person_bio">
     <div class="personal">
-      <h2> <a href="/chemistry/people-groups/faculty-staff/faculty/fang/">Shiyue Fang</a></h2>
+      <div class="name-and-pronouns"><h2> <a href="/chemistry/people-groups/faculty-staff/faculty/fang/">Shiyue Fang</a></h2><span class="pronouns" style="display:none;"></span></div>
 
       <ul class="none"><li>Professor, Chemistry</li>      </ul>    </div>
       
@@ -505,69 +679,92 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class="email-address"><a href="mailto:shifang@mtu.edu">shifang@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064872023">906-487-2023</a></li> 		  		<li class='place'>Chem Sci 620C</li> 
+		  <li class="email-address"><a href="mailto:shifang@mtu.edu">shifang@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064872023">906-487-2023</a></li> 		  		<li class="place">Chem Sci 620C</li> 
         	   </ul>
 	          </div>
-            <div class="left specialties"><h3>Links of Interest</h3>
-      <ul class="none">
-         
-         <li>
-            <a href="http://chem.sites.mtu.edu/fang/">Research Group Page</a>
-         </li>
-         
-      </ul>
-   </div>		</div>	    
-	   <div class="right specialties"><h3>Research Interests</h3>
-      <ul>
-         
-         <li>Organic Synthesis</li>
-         
-         <li>Nucleic Acid and Peptide Chemistry</li>
-         
-         <li>Organometallic Chemistry</li>
-         
-         <li>Mechanochemistry</li>
-         
-         <li>Epigenetics and Chemical Biology</li>
-         
-         <li>Antisense Drug</li>
-         
-      </ul>
-   </div>  </div>
+            <div class="left specialties"><h3>Links of Interest</h3><ul class="none">
+<li><a href="https://chem.sites.mtu.edu/fang/">Research Group Page</a></li>
+</ul></div>		</div>	    
+	   <div class="right specialties"><h3>Research Interests</h3><ul>
+<li>Organic Synthesis</li>
+<li>Nucleic Acid and Peptide Chemistry</li>
+<li>Organometallic Chemistry</li>
+<li>Mechanochemistry</li>
+<li>Epigenetics and Chemical Biology</li>
+<li>Antisense Drug</li>
+</ul></div>  </div>
   <div class="clearer"></div>
 </div>
-				
-<!-- /chemistry/people-groups/faculty-staff/faculty/galerneau/ -->							
+						
+<!-- /chemistry/people-groups/faculty-staff/faculty/galerneau/ - 200 -->							
 <div class="person">
-  <div class="photo"> <img height="230" width="170" loading="lazy" alt="Andrew Galerneau"  src="/chemistry/people-groups/faculty-staff/faculty/galerneau/images/andrew-galerneau-personnel.jpg" class="img"  />    
+  <div class="photo"> <img height="230" width="170" loading="lazy" alt="Andrew Galerneau"  src="/chemistry/people-groups/faculty-staff/images/11-andrewgalerneau-02-personnel340.jpg" class="img"  />    
 	  	  
   </div>
   <div class="person_bio">
     <div class="personal">
-      <h2> Andrew Galerneau</h2>
+      <div class="name-and-pronouns"><h2> Andrew Galerneau</h2><span class="pronouns" style="display:none;"></span></div>
 
-      <ul class="none"><li>Senior Lecturer, Chemistry</li><li>Laboratory Supervisor</li>      </ul>    </div>
+      <ul class="none"><li>Associate Teaching Professor, Chemistry</li><li>Laboratory Supervisor</li>      </ul>    </div>
       
 	
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class="email-address"><a href="mailto:ajgalern@mtu.edu">ajgalern@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9062817725">906-281-7725</a></li> 		  		<li class='place'>Chem Sci 601B</li> 
+		  <li class="email-address"><a href="mailto:ajgalern@mtu.edu">ajgalern@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9062817725">906-281-7725</a></li> 		  		<li class="place">Chem Sci 601B</li> 
         	   </ul>
 	          </div>
             		</div>	    
 	     </div>
   <div class="clearer"></div>
 </div>
-				
-<!-- /chemistry/people-groups/faculty-staff/adjunct/heckman.html -->							
+						
+<!-- /chemistry/people-groups/faculty-staff/faculty/green/ - 200 -->							
+<div class="person">
+  <div class="photo"><a href="/chemistry/people-groups/faculty-staff/faculty/green/">  <img height="230" width="170" loading="lazy" alt="Sarah Green"  src="/chemistry/people-groups/faculty-staff/faculty/green/images/sarah-a-green-personnel.jpg" class="img"  />  </a>   
+	  	  
+  </div>
+  <div class="person_bio">
+    <div class="personal">
+      <div class="name-and-pronouns"><h2> <a href="/chemistry/people-groups/faculty-staff/faculty/green/">Sarah A. Green</a></h2><span class="pronouns" style="display:none;"></span></div>
+
+      <ul class="none"><li>Professor Emerita, Chemistry</li>      </ul>    </div>
+      
+	
+     	<div class="left">      <div class="contact">
+      <ul class="none">
+       
+		  <li class="email-address"><a href="mailto:sgreen@mtu.edu">sgreen@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064872048">906-487-2048</a></li> 		  		<li class="place">Chemical Sciences 607</li> 
+        	   </ul>
+	          </div>
+            <div class="left specialties"><h3>Links of Interest</h3><ul class="none">
+<li><a title="Youth Environmental Alliance For Higher Education" href="https://yeah-net.org/">Youth Environmental Alliance For Higher Education</a></li>
+<li><a href="https://www.youtube.com/watch?v=cjuGCJJUGsg" target="_blank" rel="noopener">John Oliver cites 97% consensus paper (video)</a></li>
+<li><a href="https://scholar.google.com/citations?user=Y0lA1SEAAAAJ&amp;hl=en" target="_blank" rel="noopener" aria-label="Sarah Green Publications (Google Scholar)">Publications (Google Scholar)</a></li>
+</ul></div>		</div>	    
+	   <div class="right specialties"><h3>Research Interests</h3><ul>
+<li>Climate change communication</li>
+<li>Science-policy interface</li>
+<li>Youth engagement in climate policy</li>
+<li>Response of aquatic systems to climate change</li>
+<li>Great Lakes</li>
+<li>Fluorescence-based analytical methods</li>
+<li>Aerosol chemistry</li>
+<li>Origin and fate of dissolved organic carbon (DOC) in terrestrial, lake, and marine environments</li>
+<li>Methods for detection of free radicals, photochemical transformations of natural and anthropogenic organic compounds in the environment</li>
+<li>Integration of biological, geological, physical, and chemical data for understanding global cycles.</li>
+</ul></div>  </div>
+  <div class="clearer"></div>
+</div>
+						
+<!-- /chemistry/people-groups/faculty-staff/adjunct/heckman.html - 200 -->							
 <div class="person">
   <div class="photo"> <img height="230" width="170" loading="lazy" alt="Katherine Heckman"  src="/chemistry/people-groups/faculty-staff/adjunct/images/katherine-heckman-personnel170.jpg" class="img"  />    
 	  	  
   </div>
   <div class="person_bio">
     <div class="personal">
-      <h2> Katherine Heckman</h2>
+      <div class="name-and-pronouns"><h2> Katherine Heckman</h2><span class="pronouns" style="display:none;"></span></div>
 
       <ul class="none"><li>Adjunct Assistant Professor, Chemistry</li>      </ul>    </div>
       
@@ -575,32 +772,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class="email-address"><a href="mailto:kaheckman@fs.fed.us">kaheckman@fs.fed.us</a></li>		  <li class="phone-number"><a href="tel:9064826303">906-482-6303</a></li> 		  		<li class='place'>USDA Forest Service, Northern Research Station</li> 
+		  <li class="email-address"><a href="mailto:kaheckman@fs.fed.us">kaheckman@fs.fed.us</a></li>		  <li class="phone-number"><a href="tel:9064826303">906-482-6303</a></li> 		  		<li class="place">USDA Forest Service, Northern Research Station</li> 
         	   </ul>
 	          </div>
             		</div>	    
-	   <div class="right"><div class="specialties"><h3>Specialties</h3>
-      <p>
-         <span style="font-weight: 400;">Heckman currently acts as administrator and  coordinator for the Radicoarbon Collaborative,
-            a program designed to increase earth system  researcher access to radiocarbon analysis.
-            Heckman works with academic and government  researchers to integrate radiocarbon analysis
-            into their climate change and carbon cycle research,  and also offers assistance with
-            data interpretation and manuscript preparation. Work supported  by the Radiocarbon
-            Collaborative ranges from wildlife conservation to terrestrial C cycle  research. 
-         </span>
-      </p>
-   </div></div>  </div>
+	   <div class="right"><div class="specialties"><h3>Specialties</h3><p>Heckman currently acts as administrator and  coordinator for the Radiocarbon Collaborative, a program designed to increase earth system  researcher access to radiocarbon analysis. Heckman works with academic and government  researchers to integrate radiocarbon analysis into their climate change and carbon cycle research,  and also offers assistance with data interpretation and manuscript preparation. Work supported  by the Radiocarbon Collaborative ranges from wildlife conservation to terrestrial C cycle  research.</p></div></div>  </div>
   <div class="clearer"></div>
 </div>
-				
-<!-- /chemistry/people-groups/faculty-staff/faculty/heiden/ -->							
+						
+<!-- /chemistry/people-groups/faculty-staff/faculty/heiden/ - 200 -->							
 <div class="person">
   <div class="photo"><a href="/chemistry/people-groups/faculty-staff/faculty/heiden/">  <img height="230" width="170" loading="lazy" alt="Patricia Heiden"  src="/chemistry/people-groups/faculty-staff/faculty/heiden/images/patricia-a-heiden-personnel.jpg" class="img"  />  </a>   
 	  	  
   </div>
   <div class="person_bio">
     <div class="personal">
-      <h2> <a href="/chemistry/people-groups/faculty-staff/faculty/heiden/">Patricia A. Heiden</a></h2>
+      <div class="name-and-pronouns"><h2> <a href="/chemistry/people-groups/faculty-staff/faculty/heiden/">Patricia A. Heiden</a></h2><span class="pronouns" style="display:none;"></span></div>
 
       <ul class="none"><li>Professor, Chemistry</li>      </ul>    </div>
       
@@ -608,78 +795,33 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class="email-address"><a href="mailto:paheiden@mtu.edu">paheiden@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064873452">906-487-3452</a></li> 		  		<li class='place'>Chem Sci 415</li> 
+		  <li class="email-address"><a href="mailto:paheiden@mtu.edu">paheiden@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064873452">906-487-3452</a></li> 		  		<li class="place">Chem Sci 415</li> 
         	   </ul>
 	          </div>
-            <div class="left specialties"><h3>Links of Interest</h3>
-      <ul class="none">
-         
-         <li>
-            <a href="https://maps.google.com/maps/ms?ie=UTF8&amp;hl=en&amp;msa=0&amp;msid=110120208177619965393.0004613d8aadebf2a4bc4&amp;ll=41.508577,-77.849121&amp;spn=167.740598,360&amp;z=1" target="_blank" rel="noopener">Map of Requesters</a>
-         </li>
-         
-         <li>
-            <a href="https://scholar.google.com/citations?user=dzO0_dMAAAAJ&amp;hl=en">Publications</a>
-         </li>
-         
-      </ul>
-   </div>		</div>	    
-	   <div class="right specialties"><h3>Research Interests</h3>
-      <ul>
-         
-         <li>Synthesizing, processing, and characterizing polymers and composites or nanoparticles</li>
-         
-         <li>Stimulus-response nanoparticles for drug delivery</li>
-         
-         <li>Electrospinning of nanofibers for tissue scaffolds</li>
-         
-         <li>Structured nanoparticles for low-leaching wood preservation</li>
-         
-         <li>Biocomposites and biofibers</li>
-         
-         <li>Studies of controlled nanoscale interfaces of rice-hull reinforced composites</li>
-         
-         <li>Engineered wood- or biopolymer-reinforced composites having improved processing, longevity,
-            moisture resistance, and mechanical properties
-         </li>
-         
-      </ul>
-   </div>  </div>
+            <div class="left specialties"><h3>Links of Interest</h3><ul class="none">
+<li><a href="https://maps.google.com/maps/ms?ie=UTF8&amp;hl=en&amp;msa=0&amp;msid=110120208177619965393.0004613d8aadebf2a4bc4&amp;ll=41.508577,-77.849121&amp;spn=167.740598,360&amp;z=1" target="_blank" rel="noopener">Map of Requesters</a></li>
+<li><a href="https://scholar.google.com/citations?user=dzO0_dMAAAAJ&amp;hl=en" aria-label="Patricia Heiden Publications">Publications</a></li>
+</ul></div>		</div>	    
+	   <div class="right specialties"><h3>Research Interests</h3><ul>
+<li>Synthesizing, processing, and characterizing polymers and composites or nanoparticles</li>
+<li>Stimulus-response nanoparticles for drug delivery</li>
+<li>Electrospinning of nanofibers for tissue scaffolds</li>
+<li>Structured nanoparticles for low-leaching wood preservation</li>
+<li>Biocomposites and biofibers</li>
+<li>Studies of controlled nanoscale interfaces of rice-hull reinforced composites</li>
+<li>Engineered wood- or biopolymer-reinforced composites having improved processing, longevity, moisture resistance, and mechanical properties</li>
+</ul></div>  </div>
   <div class="clearer"></div>
 </div>
-				
-<!-- /chemistry/people-groups/faculty-staff/staff/jarvi.html -->							
+						
+<!-- /chemistry/people-groups/faculty-staff/faculty/karabencheva-christova/ - 200 -->							
 <div class="person">
-  <div class="photo"> <img height="230" width="170" loading="lazy" alt="Megan Jarvi"  src="/chemistry/people-groups/faculty-staff/staff/images/jarvi-megan-new.jpg" class="img"  />    
+  <div class="photo"><a href="/chemistry/people-groups/faculty-staff/faculty/karabencheva-christova/">  <img height="230" width="170" loading="lazy" alt="Tatyana Karabencheva-Christova"  src="/chemistry/people-groups/faculty-staff/faculty/karabencheva-christova/images/tatyana-karabencheva-christova-2022.png" class="img"  />  </a>   
 	  	  
   </div>
   <div class="person_bio">
     <div class="personal">
-      <h2> Megan Jarvi</h2>
-
-      <ul class="none"><li>Administrative Aide</li><li>Graduate Program Assistant</li>      </ul>    </div>
-      
-	
-     	<div class="left">      <div class="contact">
-      <ul class="none">
-       
-		  <li class="email-address"><a href="mailto:mjarvi@mtu.edu">mjarvi@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064873210">906-487-3210</a></li> 		  		<li class='place'>Chem-Sci 607D</li> 
-        	   </ul>
-	   		<a class="noicon" href="/safeplace/"><img loading="lazy" src="/_resources/images/sitewide/safe-place-logo.jpg" alt="Huskies Safe Place" class="safeplace-logo"></a>
-	          </div>
-            		</div>	    
-	     </div>
-  <div class="clearer"></div>
-</div>
-				
-<!-- /chemistry/people-groups/faculty-staff/faculty/karabencheva-christova/ -->							
-<div class="person">
-  <div class="photo"><a href="/chemistry/people-groups/faculty-staff/faculty/karabencheva-christova/">  <img height="230" width="170" loading="lazy" alt="Tatyana Karabencheva-Christova"  src="/chemistry/people-groups/faculty-staff/faculty/karabencheva-christova/images/tatyana-karabencheva-christova-personnel.jpg" class="img"  />  </a>   
-	  	  
-  </div>
-  <div class="person_bio">
-    <div class="personal">
-      <h2> <a href="/chemistry/people-groups/faculty-staff/faculty/karabencheva-christova/">Tatyana G. Karabencheva-Christova</a></h2>
+      <div class="name-and-pronouns"><h2> <a href="/chemistry/people-groups/faculty-staff/faculty/karabencheva-christova/">Tatyana G. Karabencheva-Christova</a></h2><span class="pronouns" style="display:none;"></span></div>
 
       <ul class="none"><li>Associate Professor, Chemistry</li>      </ul>    </div>
       
@@ -687,59 +829,51 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class="email-address"><a href="mailto:tatyanak@mtu.edu">tatyanak@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064873512">906-487-3512</a></li> 		  		<li class='place'>Chem Sci 312B</li> 
+		  <li class="email-address"><a href="mailto:tatyanak@mtu.edu">tatyanak@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064873512">906-487-3512</a></li> 		  		<li class="place">Chem Sci 312B</li> 
         	   </ul>
 	          </div>
-            		</div>	    
-	   <div class="right"><div class="specialties"><h3>Research Interests</h3>
-      <ul>
-         
-         <li>Reaction Mechanisms of Enzymes</li>
-         
-         <li>Enzyme Dynamics and Inhibition</li>
-         
-         <li>Non-heme Iron DNA-modifying enzymes</li>
-         
-         <li>Collagenolysis and Matrix Metalloproteinases</li>
-         
-         <li>Enzymatic Halogenation</li>
-         
-      </ul>
-   </div></div>  </div>
+            <div class="left specialties"><h3>Links of Interest</h3><p><a href="https://chem.sites.mtu.edu/karabencheva-christova/" target="_blank" rel="noopener">Research Group Page</a></p>
+<p><a href="https://www.ncbi.nlm.nih.gov/myncbi/1P7g8XB0dLA5v/bibliography/public/" aria-label="Tatyana Karabencheva-Christova Publications">Publications</a></p></div>		</div>	    
+	   <div class="right specialties"><h3>Research Interests</h3><ul>
+<li>Computational Chemistry</li>
+<li>Computational Studies of Dynamics and Reaction Mechanisms of Metalloenzymes</li>
+<li>Collagenolysis and Matrix Metalloproteinases</li>
+<li>Non-heme Iron DNA-modifying Enzymes</li>
+</ul></div>  </div>
   <div class="clearer"></div>
 </div>
-				
-<!-- /chemistry/people-groups/faculty-staff/staff/lechner.html -->							
+						
+<!-- /chemistry/people-groups/faculty-staff/staff/liebau.html - 200 -->							
 <div class="person">
-  <div class="photo"> <img height="230" width="170" loading="lazy" alt="Hans Lechner, Ph.D."  src="/chemistry/people-groups/faculty-staff/staff/images/hans-lechner-personnel170.jpg" class="img"  />    
+  <div class="photo"> <img height="230" width="170" loading="lazy" alt="Susan Liebau"  src="/chemistry/people-groups/faculty-staff/staff/images/susan-liebau-personnel.jpg" class="img"  />    
 	  	  
   </div>
   <div class="person_bio">
     <div class="personal">
-      <h2> Hans Lechner, Ph.D.</h2>
+      <div class="name-and-pronouns"><h2> Susan Liebau</h2><span class="pronouns" style="display:none;"></span></div>
 
-      <ul class="none"><li>Research and Communications Facilitator</li>      </ul>    </div>
+      <ul class="none"><li>Director, Chemistry Learning Center</li><li>Chemistry Undergraduate Academic Advisor</li>      </ul>    </div>
       
 	
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class="email-address"><a href="mailto:hnlechne@mtu.edu">hnlechne@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064872634">906-487-2634</a></li> 		  		<li class='place'>Chem Sci 607C</li> 
+		  <li class="email-address"><a href="mailto:slliebau@mtu.edu">slliebau@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064872297">906-487-2297</a></li> 		  		<li class="place">Chem Sci 206A</li> 
         	   </ul>
 	          </div>
             		</div>	    
 	     </div>
   <div class="clearer"></div>
 </div>
-				
-<!-- /chemistry/people-groups/faculty-staff/faculty/liu/ -->							
+						
+<!-- /chemistry/people-groups/faculty-staff/faculty/liu/ - 200 -->							
 <div class="person">
   <div class="photo"><a href="/chemistry/people-groups/faculty-staff/faculty/liu/">  <img height="230" width="170" loading="lazy" alt="Haiying Liu"  src="/chemistry/people-groups/faculty-staff/faculty/liu/images/kaiying-liu-personnel.jpg" class="img"  />  </a>   
 	  	  
   </div>
   <div class="person_bio">
     <div class="personal">
-      <h2> <a href="/chemistry/people-groups/faculty-staff/faculty/liu/">Haiying Liu</a></h2>
+      <div class="name-and-pronouns"><h2> <a href="/chemistry/people-groups/faculty-staff/faculty/liu/">Haiying Liu</a></h2><span class="pronouns" style="display:none;"></span></div>
 
       <ul class="none"><li>Professor, Chemistry</li>      </ul>    </div>
       
@@ -747,48 +881,28 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class="email-address"><a href="mailto:hyliu@mtu.edu">hyliu@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064873451">906-487-3451</a></li> 		  		<li class='place'>Chem Sci 402E</li> 
+		  <li class="email-address"><a href="mailto:hyliu@mtu.edu">hyliu@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064873451">906-487-3451</a></li> 		  		<li class="place">Chem Sci 402E</li> 
         	   </ul>
 	          </div>
-            <div class="left specialties"><h3>Links of Interest</h3>
-      <ul class="none">
-         
-         <li>
-            <a href="http://pages.mtu.edu/~hyliu/">Research Group Page</a>
-         </li>
-         
-         <li>
-            <a href="https://scholar.google.com/citations?hl=en&amp;user=mxulFtYAAAAJ&amp;view_op=list_works&amp;sortby=pubdate">Publications</a>
-         </li>
-         
-         <li>
-            <a href="https://orcid.org/0000-0001-8351-2017">ORCID</a>
-         </li>
-         
-      </ul>
-   </div>		</div>	    
-	   <div class="right specialties"><h3>Research Interests</h3>
-      <ul>
-         
-         <li>Synthesis, characterization, biomedical sensing, imaging and therapeutic applications
-            of water-soluble conjugated glycopolymers, glycodendrimers, glyconanoparticles, conjugated
-            polyelectrolytes, small redox-active carbohydrate conjugates, and near-infrared fluorescent
-            probes
-         </li>
-         
-      </ul>
-   </div>  </div>
+            <div class="left specialties"><h3>Links of Interest</h3><ul class="none">
+<li><a href="https://pages.mtu.edu/~hyliu/">Research Group Page</a></li>
+<li><a href="https://scholar.google.com/citations?hl=en&amp;user=mxulFtYAAAAJ&amp;view_op=list_works&amp;sortby=pubdate" aria-label="Haiying Liu Publications">Publications</a></li>
+<li><a href="https://orcid.org/0000-0001-8351-2017" aria-label="Haiying Liu ORCID">ORCID</a></li>
+</ul></div>		</div>	    
+	   <div class="right specialties"><h3>Research Interests</h3><ul>
+<li>Synthesis, characterization, biomedical sensing, imaging and therapeutic applications of water-soluble conjugated glycopolymers, glycodendrimers, glyconanoparticles, conjugated polyelectrolytes, small redox-active carbohydrate conjugates, and near-infrared fluorescent probes</li>
+</ul></div>  </div>
   <div class="clearer"></div>
 </div>
-				
-<!-- /chemistry/people-groups/faculty-staff/faculty/luck/ -->							
+						
+<!-- /chemistry/people-groups/faculty-staff/faculty/luck/ - 200 -->							
 <div class="person">
   <div class="photo"><a href="/chemistry/people-groups/faculty-staff/faculty/luck/">  <img height="230" width="170" loading="lazy" alt="Rudy Luck"  src="/chemistry/people-groups/faculty-staff/faculty/luck/images/luck-personnel.jpg" class="img"  />  </a>   
 	  	  
   </div>
   <div class="person_bio">
     <div class="personal">
-      <h2> <a href="/chemistry/people-groups/faculty-staff/faculty/luck/">Rudy Lin Luck</a></h2>
+      <div class="name-and-pronouns"><h2> <a href="/chemistry/people-groups/faculty-staff/faculty/luck/">Rudy Lin Luck</a></h2><span class="pronouns" style="display:none;"></span></div>
 
       <ul class="none"><li>Associate Professor, Chemistry</li>      </ul>    </div>
       
@@ -796,63 +910,28 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class="email-address"><a href="mailto:rluck@mtu.edu">rluck@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064872309">906-487-2309</a></li> 		  <li class='cell-number'><a href="tel:9064872309">Cell: 906-370-7405</a></li> 		<li class='place'>Chem Sci 701B</li> 
+		  <li class="email-address"><a href="mailto:rluck@mtu.edu">rluck@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064872309">906-487-2309</a></li> 		  <li class='cell-number'><a href="tel:9064872309">Cell: 906-370-7405</a></li> 		<li class="place">Chem Sci 701B</li> 
         	   </ul>
 	          </div>
-            <div class="left specialties"><h3>Links of Interest</h3>
-      <p>
-         <a href="http://chem.sites.mtu.edu/luck/"> Luck Research Website</a>
-      </p>
-   </div>		</div>	    
-	   <div class="right specialties"><h3>Research Interests</h3>
-      <ul>
-         
-         <li>Low-valent molybdenum complexes capable of activating dinitrogen</li>
-         
-         <li>Synthesis and characterization of heteronuclear quadruply bonded metal-metal complexes</li>
-         
-         <li>Molecular dihydrogen compounds</li>
-         
-         <li>Catalytic applications of metal-oxo/peroxo systems in the area of epoxidation of olefins</li>
-         
-         <li>Construction of metallo-framework cluster materials</li>
-         
-      </ul>
-   </div>  </div>
+            <div class="left specialties"><h3>Links of Interest</h3><p><a href="https://chem.sites.mtu.edu/luck/">Luck Research Website</a></p></div>		</div>	    
+	   <div class="right specialties"><h3>Research Interests</h3><ul>
+<li>Low-valent molybdenum complexes capable of activating dinitrogen</li>
+<li>Synthesis and characterization of heteronuclear quadruply bonded metal-metal complexes</li>
+<li>Molecular dihydrogen compounds</li>
+<li>Catalytic applications of metal-oxo/peroxo systems in the area of epoxidation of olefins</li>
+<li>Construction of metallo-framework cluster materials</li>
+</ul></div>  </div>
   <div class="clearer"></div>
 </div>
-				
-<!-- /chemistry/people-groups/faculty-staff/staff/lutz.html -->							
-<div class="person">
-  <div class="photo"> <img height="230" width="170" loading="lazy" alt="Jerry Lutz"  src="/chemistry/people-groups/faculty-staff/staff/images/jerry-l-lutz-personnel.jpg" class="img"  />    
-	  	  
-  </div>
-  <div class="person_bio">
-    <div class="personal">
-      <h2> Jerry L. Lutz</h2>
-
-      <ul class="none"><li>Assistant Research Engineer / Scientist</li>      </ul>    </div>
-      
-	
-     	<div class="left">      <div class="contact">
-      <ul class="none">
-       
-		  <li class="email-address"><a href="mailto:jllutz@mtu.edu">jllutz@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9063707402">906-370-7402</a></li> 		  		<li class='place'>Chem Sci 701D</li> 
-        	   </ul>
-	          </div>
-            		</div>	    
-	     </div>
-  <div class="clearer"></div>
-</div>
-				
-<!-- /chemistry/people-groups/faculty-staff/faculty/mazzoleni/ -->							
+						
+<!-- /chemistry/people-groups/faculty-staff/faculty/mazzoleni/ - 200 -->							
 <div class="person">
   <div class="photo"><a href="/chemistry/people-groups/faculty-staff/faculty/mazzoleni/">  <img height="230" width="170" loading="lazy" alt="Lynn Mazzoleni"  src="/chemistry/people-groups/faculty-staff/faculty/mazzoleni/images/lynn-r-mazzoleni-personnel.jpg" class="img"  />  </a>   
 	  	  
   </div>
   <div class="person_bio">
     <div class="personal">
-      <h2> <a href="/chemistry/people-groups/faculty-staff/faculty/mazzoleni/">Lynn R. Mazzoleni</a></h2>
+      <div class="name-and-pronouns"><h2> <a href="/chemistry/people-groups/faculty-staff/faculty/mazzoleni/">Lynn R. Mazzoleni</a></h2><span class="pronouns" style="display:none;"></span></div>
 
       <ul class="none"><li>Associate Professor, Chemistry</li>      </ul>    </div>
       
@@ -860,214 +939,124 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class="email-address"><a href="mailto:lrmazzol@mtu.edu">lrmazzol@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064871853">906-487-1853</a></li> 		  		<li class='place'>Chem Sci 402D</li> 
+		  <li class="email-address"><a href="mailto:lrmazzol@mtu.edu">lrmazzol@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064871853">906-487-1853</a></li> 		  		<li class="place">Chem Sci 402D</li> 
         	   </ul>
 	          </div>
-            <div class="left specialties"><h3>Links of Interest</h3>
-      <ul class="none">
-         
-         <li>
-            <a href="http://chem.sites.mtu.edu/mazzoleni/">Research Group Page</a>
-         </li>
-         
-         <li>
-            <a href="https://scholar.google.com/citations?user=SGhCGKMAAAAJ&amp;hl=en">Google Scholar</a>
-         </li>
-         
-         <li>
-            <a href="https://works.bepress.com/l-mazzoleni/">Selected Works</a>
-         </li>
-         
-         <li>
-            <a href="http://maf.mtu.edu/">Microanalytical Core Facility</a>
-         </li>
-         
-         <li>
-            <a href="https://github.com/mazzolynn">GitHub</a>
-         </li>
-         
-      </ul>
-   </div>		</div>	    
-	   <div class="right specialties"><h3>Research Interests</h3>
-      <ul>
-         
-         <li>Understanding the identities, occurrence, and transformation of aerosol organic compounds</li>
-         
-         <li>Identifying organic aerosol constituents from a variety of atmospheric environments</li>
-         
-         <li>Exploration of new LC column chemistries with ultrahigh pressure pumps for fast and
-            thorough separations
-         </li>
-         
-         <li>Aqueous reaction pathways</li>
-         
-      </ul>
-   </div>  </div>
+            <div class="left specialties"><h3>Links of Interest</h3><ul class="none">
+<li><a href="https://chem.sites.mtu.edu/mazzoleni/">Research Group Page</a></li>
+<li><a href="https://scholar.google.com/citations?user=SGhCGKMAAAAJ&amp;hl=en">Google Scholar</a></li>
+<li><a href="https://works.bepress.com/l-mazzoleni/">Selected Works</a></li>
+<li><a href="https://maf.mtu.edu/">Microanalytical Core Facility</a></li>
+<li><a href="https://github.com/mazzolynn">GitHub</a></li>
+</ul></div>		</div>	    
+	   <div class="right specialties"><h3>Research Interests</h3><ul>
+<li>Understanding the identities, occurrence, and transformation of aerosol organic compounds</li>
+<li>Identifying organic aerosol constituents from a variety of atmospheric environments</li>
+<li>Exploration of new LC column chemistries with ultrahigh pressure pumps for fast and thorough separations</li>
+<li>Aqueous reaction pathways</li>
+</ul></div>  </div>
   <div class="clearer"></div>
 </div>
-				
-<!-- /chemistry/people-groups/faculty-staff/adjunct/minakata.html -->							
+						
+<!-- /chemistry/people-groups/faculty-staff/staff/meller.html - 200 -->							
+<div class="person">
+  <div class="photo"> <img height="230" width="170" loading="lazy" alt="Shannon Meller"  src="/chemistry/people-groups/faculty-staff/staff/images/shannon-meller-personnel170.jpg" class="img"  />    
+	  	  
+  </div>
+  <div class="person_bio">
+    <div class="personal">
+      <div class="name-and-pronouns"><h2> Shannon Meller</h2><span class="pronouns" style="display:none;"></span></div>
+
+      <ul class="none"><li>Department Coordinator</li>      </ul>    </div>
+      
+	
+     	<div class="left">      <div class="contact">
+      <ul class="none">
+       
+		  <li class="email-address"><a href="mailto:smmeller@mtu.edu">smmeller@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064873456">906-487-3456</a></li> 		  		<li class="place">Chem Sci 607D</li> 
+        	   </ul>
+	          </div>
+            		</div>	    
+	     </div>
+  <div class="clearer"></div>
+</div>
+						
+<!-- /chemistry/people-groups/faculty-staff/adjunct/minakata.html - 200 -->							
 <div class="person">
   <div class="photo"><a href="/chemistry/people-groups/faculty-staff/adjunct/minakata.html">  <img height="230" width="170" loading="lazy" alt="Daisuke Minakata"  src="/cege/people/faculty-staff/faculty/minakata/images/minakata-personnel.jpg" class="img"  />  </a>   
 	  	  
   </div>
   <div class="person_bio">
     <div class="personal">
-      <h2> <a href="/chemistry/people-groups/faculty-staff/adjunct/minakata.html">Daisuke Minakata</a></h2>
+      <div class="name-and-pronouns"><h2> <a href="/chemistry/people-groups/faculty-staff/adjunct/minakata.html">Daisuke Minakata</a></h2><span class="pronouns" style="display:none;"></span></div>
 
-      <ul class="none"><li>Associate Professor, Civil, Environmental, and Geospatial Engineering</li><li>Affiliated Associate
-      Professor, Department of Chemistry</li><li>Affiliated Associate Professor, Department of Physics</li><li>
-   </li>      </ul>    </div>
+      <ul class="none"><li>Associate Professor, Civil, Environmental, and Geospatial Engineering</li><li>Affiliated Associate Professor, Department of Chemistry</li><li>Affiliated Associate Professor, Department of Physics</li>      </ul>    </div>
       
 	
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class="email-address"><a href="mailto:dminakat@mtu.edu">dminakat@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064871830">906-487-1830</a></li> 		  		<li class='place'>Dow 801</li> 
+		  <li class="email-address"><a href="mailto:dminakat@mtu.edu">dminakat@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064871830">906-487-1830</a></li> 		  		<li class="place">Dow 801</li> 
         	   </ul>
 	          </div>
-            <div class="left specialties"><h3>Links of Interest</h3>
-      <ul class="none">
-         
-         <li>
-            <a href="http://www.dminakata.com/" target="_blank">Personal Website</a>
-         </li>
-         
-      </ul>
-   </div><div class="left specialties"><h3>Teaching Interests</h3>
-      <ul>
-         
-         <li>Physical-Chemical Treatment Processes</li>
-         
-         <li>Environmental Process and Design</li>
-         
-         <li>Computational Environmental Engineering and Chemistry</li>
-         
-      </ul>
-   </div>		</div>	    
-	   <div class="right specialties"><h3>Research Interests</h3>
-      <ul>
-         
-         <li>Sustainable water and wastewater treatment and management</li>
-         
-         <li>Development of assessing and predicting tools for water treatment technologies</li>
-         
-         <li>Innovative water and wastewater treatment technologies for energy saving and harvesting</li>
-         
-         <li>Systematic and integrated understanding of water and wastewater reuse</li>
-         
-         <li>Application of computational chemistry and molecular modeling</li>
-         
-      </ul>
-   </div>  </div>
+            <div class="left specialties"><h3>Links of Interest</h3><ul class="none">
+<li><a href="http://www.dminakata.com/" target="_blank">Personal Website</a></li>
+</ul></div><div class="left specialties"><h3>Teaching Interests</h3><ul>
+<li>Physical-Chemical Treatment Processes</li>
+<li>Environmental Process and Design</li>
+<li>Computational Environmental Engineering and Chemistry</li>
+</ul></div>		</div>	    
+	   <div class="right specialties"><h3>Research Interests</h3><ul>
+<li>Sustainable water and wastewater treatment and management</li>
+<li>Development of assessing and predicting tools for water treatment technologies</li>
+<li>Innovative water and wastewater treatment technologies for energy saving and harvesting</li>
+<li>Systematic and integrated understanding of water and wastewater reuse</li>
+<li>Application of computational chemistry and molecular modeling</li>
+</ul></div>  </div>
   <div class="clearer"></div>
 </div>
-				
-<!-- /chemistry/people-groups/faculty-staff/staff/page.html -->							
+						
+<!-- /chemistry/people-groups/faculty-staff/faculty/perrine/ - 200 -->							
 <div class="person">
-  <div class="photo"> <img height="230" width="170" loading="lazy" alt="Charlene Page"  src="/chemistry/people-groups/faculty-staff/staff/images/page-personnel.jpg" class="img"  />    
+  <div class="photo"><a href="https://www.mtu.edu/chemistry/people-groups/faculty-staff/faculty/perrine/index.html">   <img height="230" width="170" loading="lazy" alt="Kathryn Perrine"  src="/chemistry/people-groups/faculty-staff/faculty/perrine/images/perrineprofile2021.jpg" class="img"  />  </a>   
 	  	  
   </div>
   <div class="person_bio">
     <div class="personal">
-      <h2> Charlene Page</h2>
+      <div class="name-and-pronouns"><h2> <a href="https://www.mtu.edu/chemistry/people-groups/faculty-staff/faculty/perrine/index.html">Kathryn A. Perrine</a></h2><span class="pronouns" style="display:none;"></span></div>
 
-      <ul class="none"><li>Office Assistant</li>      </ul>    </div>
+      <ul class="none"><li>Associate Professor, Chemistry</li><li>Affiliated Associate Professor, Materials Science and Engineering</li>      </ul>    </div>
       
 	
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class="email-address"><a href="mailto:cpage@mtu.edu">cpage@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064872048">906-487-2048</a></li> 		  		<li class='place'>Chem Sci 607</li> 
+		  <li class="email-address"><a href="mailto:kaperrin@mtu.edu">kaperrin@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064873214">906-487-3214</a></li> 		  		<li class="place">Chem Sci 402C</li> 
         	   </ul>
 	          </div>
-            		</div>	    
-	     </div>
+            <div class="left specialties"><h3>Links of Interest</h3><ul class="none">
+<li><a href="https://chem.sites.mtu.edu/perrine/">Perrine Research Group</a></li>
+<li>Positions are open for undergraduate, masters, and PhD students.</li>
+<li><a href="https://scholar.google.com/citations?user=Qi5zGtIAAAAJ&amp;hl=en">Google Scholar Publications</a></li>
+<li><a href="https://orcid.org/0000-0002-5048-6411">ORCID</a></li>
+</ul></div>		</div>	    
+	   <div class="right specialties"><h3>Research Interests</h3><ul>
+<li>Surface chemistry and interfacial science </li>
+<li>Bridging reactions at the gas/solid and liquid/solid interfaces under model (ultra-high vacuum) and real (near ambient pressure) conditions</li>
+<li>Growth, properties, and reactions on complex surfaces for energy and environmental applications</li>
+<li>Designing metal and oxide architectures and nanostructured materials using tailored bottom-up approaches; growth techniques including, atomic layer deposition, physical vapor deposition, self-assembly, solution nucleation</li>
+</ul></div>  </div>
   <div class="clearer"></div>
 </div>
-				
-<!-- /chemistry/people-groups/faculty-staff/staff/apandey.html -->							
-<div class="person">
-  <div class="photo"> <img height="230" width="170" loading="lazy" alt="Aparna Pandey"  src="/chemistry/people-groups/faculty-staff/staff/images/aparna-pandey-personnel.jpg" class="img"  />    
-	  	  
-  </div>
-  <div class="person_bio">
-    <div class="personal">
-      <h2> Aparna Pandey</h2>
-
-      <ul class="none"><li>Laboratory Associate</li>      </ul>    </div>
-      
-	
-     	<div class="left">      <div class="contact">
-      <ul class="none">
-       
-		  <li class="email-address"><a href="mailto:apandey@mtu.edu">apandey@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064873481">906-487-3481</a></li> 		  		<li class='place'>Chem Sci 508A</li> 
-        	   </ul>
-	          </div>
-            		</div>	    
-	     </div>
-  <div class="clearer"></div>
-</div>
-				
-<!-- /chemistry/people-groups/faculty-staff/faculty/perrine/ -->							
-<div class="person">
-  <div class="photo"><a href="https://www.mtu.edu/chemistry/people-groups/faculty-staff/faculty/perrine/index.html">   <img height="230" width="170" loading="lazy" alt="Kathryn Perrine"  src="/chemistry/people-groups/faculty-staff/faculty/perrine/images/perrineprofilephoto2021v2.jpg" class="img"  />  </a>   
-	  	  
-  </div>
-  <div class="person_bio">
-    <div class="personal">
-      <h2> <a href="https://www.mtu.edu/chemistry/people-groups/faculty-staff/faculty/perrine/index.html">Kathryn A. Perrine</a></h2>
-
-      <ul class="none"><li>Assistant Professor, Chemistry</li>      </ul>    </div>
-      
-	
-     	<div class="left">      <div class="contact">
-      <ul class="none">
-       
-		  <li class="email-address"><a href="mailto:kaperrin@mtu.edu">kaperrin@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064873214">906-487-3214</a></li> 		  		<li class='place'>Chem Sci 402C</li> 
-        	   </ul>
-	          </div>
-            <div class="left specialties"><h3>Links of Interest</h3>
-      <ul class="none">
-         
-         <li>
-            <a href="http://chem.sites.mtu.edu/perrine/">Perrine Research Group</a>
-         </li>
-         
-         <li>Positions are open for undergraduate, masters, and PhD students.</li>
-         
-      </ul>
-   </div>		</div>	    
-	   <div class="right specialties"><h3>Research Interests</h3>
-      <ul>
-         
-         <li>Surface chemistry and interfacial science</li>
-         
-         <li>Bridging reactions at the gas/solid and liquid/solid interfaces under model (ultra-high
-            vacuum) and real (near ambient pressure) conditions
-         </li>
-         
-         <li>Designing metal-oxide architectures and nanostructures on various substrates; Atomic
-            Layer Deposition and tailored growth approaches
-         </li>
-         
-         <li>Growth, properties, and reactions on heterogeneous structures for energy and environmental
-            applications
-         </li>
-         
-      </ul>
-   </div>  </div>
-  <div class="clearer"></div>
-</div>
-				
-<!-- /chemistry/people-groups/faculty-staff/staff/reilly.html -->							
+						
+<!-- /chemistry/people-groups/faculty-staff/staff/reilly.html - 200 -->							
 <div class="person">
   <div class="photo"> <img height="230" width="170" loading="lazy" alt="Lorri Reilly"  src="/chemistry/people-groups/faculty-staff/staff/images/lorri-a-reilly-personnel.jpg" class="img"  />    
 	  	  
   </div>
   <div class="person_bio">
     <div class="personal">
-      <h2> Lorri A. Reilly</h2>
+      <div class="name-and-pronouns"><h2> Lorri A. Reilly</h2><span class="pronouns" style="display:none;"></span></div>
 
       <ul class="none"><li>Lab Supervisor</li>      </ul>    </div>
       
@@ -1075,71 +1064,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class="email-address"><a href="mailto:lareilly@mtu.edu">lareilly@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064872044">906-487-2044</a></li> 		  		<li class='place'>Chem Sci 508B</li> 
+		  <li class="email-address"><a href="mailto:lareilly@mtu.edu">lareilly@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064872044">906-487-2044</a></li> 		  		<li class="place">Chem Sci 508B</li> 
         	   </ul>
 	          </div>
             		</div>	    
 	     </div>
   <div class="clearer"></div>
 </div>
-				
-<!-- /chemistry/people-groups/faculty-staff/faculty/schum/ -->							
-<div class="person">
-  <div class="photo"> <img height="230" width="170" loading="lazy" alt="Simeon Schum"  src="/chemistry/people-groups/faculty-staff/faculty/schum/images/schum-personnel.jpg" class="img"  />    
-	  	  
-  </div>
-  <div class="person_bio">
-    <div class="personal">
-      <h2> Simeon K. Schum</h2>
-
-      <ul class="none"><li>Research Specialist, Chemistry</li>      </ul>    </div>
-      
-	
-     	<div class="left">      <div class="contact">
-      <ul class="none">
-       
-		  <li class="email-address"><a href="mailto:skschum@mtu.edu">skschum@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064871469">906-487-1469</a></li> 		  		<li class='place'>218 GLRC</li> 
-        	   </ul>
-	          </div>
-            <div class="left specialties"><h3>Links of Interest</h3>
-      <ul>
-         
-         <li>
-            <a href="/charm/index.html">Chemical Advanced Resolution Methods (ChARM) Lab</a>
-         </li>
-         
-         <li>
-            <a href="https://github.com/skschum/MFAssignR">MFAssignR</a>
-         </li>
-         
-      </ul>
-   </div>		</div>	    
-	   <div class="right specialties"><h3>Research Interests</h3>
-      <ul>
-         
-         <li>Research applications involving ultrahigh resolution Orbitrap Elite mass spectrometry,
-            tandem mass spectrometry, and other mass spectrometry measurements
-         </li>
-         
-         <li>Computational methods for analysis of ultrahigh resolution mass spectrometry data</li>
-         
-         <li>Method development for liquid chromatography, ion chromatography, gas chromatography</li>
-         
-         <li>Analysis of environmental and biological complex mixtures</li>
-         
-      </ul>
-   </div>  </div>
-  <div class="clearer"></div>
-</div>
-				
-<!-- /chemistry/people-groups/faculty-staff/staff/seppala.html -->							
+						
+<!-- /chemistry/people-groups/faculty-staff/staff/seppala.html - 200 -->							
 <div class="person">
   <div class="photo"> <img height="230" width="170" loading="lazy" alt="Dean Seppala"  src="/chemistry/people-groups/faculty-staff/staff/images/dean-w-seppala-personnel.jpg" class="img"  />    
 	  	  
   </div>
   <div class="person_bio">
     <div class="personal">
-      <h2> Dean W. Seppala</h2>
+      <div class="name-and-pronouns"><h2> Dean W. Seppala</h2><span class="pronouns" style="display:none;"></span></div>
 
       <ul class="none"><li>Research Associate</li>      </ul>    </div>
       
@@ -1147,71 +1087,76 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class="email-address"><a href="mailto:dwseppal@mtu.edu">dwseppal@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9063707404">906-370-7404</a></li> 		  		<li class='place'>Chem Sci S002</li> 
+		  <li class="email-address"><a href="mailto:dwseppal@mtu.edu">dwseppal@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9063707404">906-370-7404</a></li> 		  		<li class="place">Chem Sci S002</li> 
         	   </ul>
 	          </div>
             		</div>	    
 	     </div>
   <div class="clearer"></div>
 </div>
-				
-<!-- /chemistry/people-groups/faculty-staff/adjunct/shrivastava.html -->							
+						
+<!-- /chemistry/people-groups/faculty-staff/adjunct/shrivastava.html - 200 -->							
 <div class="person">
   <div class="photo"> <img height="230" width="170" loading="lazy" alt="ManishKumar B. Shrivastava"  src="/chemistry/people-groups/faculty-staff/adjunct/images/manishkumar-shrivastava-personnel170.jpg" class="img"  />    
 	  	  
   </div>
   <div class="person_bio">
     <div class="personal">
-      <h2> ManishKumar B. Shrivastava</h2>
+      <div class="name-and-pronouns"><h2> ManishKumar B. Shrivastava</h2><span class="pronouns" style="display:none;"></span></div>
 
-      <ul class="none"><li>Staff Scientist, Pacific Northwest National Laboratory</li><li>Adjunct Professor, Chemistry,
-      Michigan Technological University</li><li>
-   </li>      </ul>    </div>
+      <ul class="none"><li>Staff Scientist, Pacific Northwest National Laboratory</li><li>Adjunct Professor, Chemistry, Michigan Technological University</li>      </ul>    </div>
       
 	
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class="email-address"><a href="mailto:ManishKumar.Shrivastava@pnnl.gov">ManishKumar.Shrivastava@pnnl.gov</a></li>		  		  <li class='cell-number'><a href="tel:">Cell: 408-203-5311</a></li> 		<li class='place'>Pacific Northwest National Laboratory</li> 
+		  <li class="email-address"><a href="mailto:ManishKumar.Shrivastava@pnnl.gov">ManishKumar.Shrivastava@pnnl.gov</a></li>		  		  <li class='cell-number'><a href="tel:">Cell: 408-203-5311</a></li> 		<li class="place">Pacific Northwest National Laboratory</li> 
         	   </ul>
 	          </div>
             		</div>	    
-	   <div class="right"><div class="specialties"><h3>Specialties</h3>
-      <ul>
-         
-         <li>
-            <span style="font-weight: 400;">Atmospheric Chemistry</span>
-         </li>
-         
-         <li>
-            <span style="font-weight: 400;">Secondary Organic Aerosols</span>
-         </li>
-         
-         <li>
-            <span style="font-weight: 400;">Regional and Global Earth Systems Modeling</span>
-         </li>
-         
-         <li>
-            <span style="font-weight: 400;">Climate and Health impacts </span>
-         </li>
-         
-         <li>
-            <span style="font-weight: 400;">Environmental Sciences</span>
-         </li>
-         
-      </ul>
-   </div></div>  </div>
+	   <div class="right"><div class="specialties"><h3>Specialties</h3><ul>
+<li>Atmospheric Chemistry</li>
+<li>Secondary Organic Aerosols</li>
+<li>Regional and Global Earth Systems Modeling</li>
+<li>Climate and Health impacts</li>
+<li>Environmental Sciences</li>
+</ul></div></div>  </div>
   <div class="clearer"></div>
 </div>
-				
-<!-- /chemistry/people-groups/faculty-staff/faculty/tanasova/ -->							
+						
+<!-- /chemistry/people-groups/faculty-staff/staff/song/ - 200 -->							
+<div class="person">
+  <div class="photo"><a href="/chemistry/people-groups/faculty-staff/staff/song/">  <img height="230" width="170" loading="lazy" alt="Zhimin Song"  src="/charm/about/contact/images/zhimin-song-michigan-tech-personnel170.jpg" class="img"  />  </a>   
+	  	  
+  </div>
+  <div class="person_bio">
+    <div class="personal">
+      <div class="name-and-pronouns"><h2> <a href="/chemistry/people-groups/faculty-staff/staff/song/">Zhimin Song</a></h2><span class="pronouns" style="display:none;"></span></div>
+
+      <ul class="none"><li>Lab Manager, Chemical Advanced Resolution Methods (ChARM) Lab</li><li>Research Associate, Chemistry</li>      </ul>    </div>
+      
+	
+     	<div class="left">      <div class="contact">
+      <ul class="none">
+       
+		  <li class="email-address"><a href="mailto:zhimins@mtu.edu">zhimins@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064871469">906-487-1469</a></li> 		  		<li class="place">115 GLRC</li> 
+        	   </ul>
+	          </div>
+            		</div>	    
+	   <div class="right"><div class="specialties"><h3>Links of Interest</h3><ul>
+<li><a href="/charm/index.html">Chemical Advanced Resolution Methods (ChARM) Lab</a></li>
+</ul></div></div>  </div>
+  <div class="clearer"></div>
+</div>
+						
+<!-- /chemistry/people-groups/faculty-staff/faculty/tanasova/ - 200 -->							
 <div class="person">
   <div class="photo"><a href="/chemistry/people-groups/faculty-staff/faculty/tanasova/">  <img height="230" width="170" loading="lazy" alt="Marina Tanasova"  src="/chemistry/people-groups/faculty-staff/faculty/tanasova/images/marina-tanasova-personnel.jpg" class="img"  />  </a>   
 	  	  
   </div>
   <div class="person_bio">
     <div class="personal">
-      <h2> <a href="/chemistry/people-groups/faculty-staff/faculty/tanasova/">Marina Tanasova</a></h2>
+      <div class="name-and-pronouns"><h2> <a href="/chemistry/people-groups/faculty-staff/faculty/tanasova/">Marina Tanasova</a></h2><span class="pronouns" style="display:none;"></span></div>
 
       <ul class="none"><li>Associate Professor, Chemistry</li><li>Graduate Program Director</li>      </ul>    </div>
       
@@ -1219,54 +1164,33 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class="email-address"><a href="mailto:mtanasov@mtu.edu">mtanasov@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064871163">906-487-1163</a></li> 		  		<li class='place'>Chem Sci 620B</li> 
+		  <li class="email-address"><a href="mailto:mtanasov@mtu.edu">mtanasov@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064871163">906-487-1163</a></li> 		  		<li class="place">Chem Sci 620B</li> 
         	   </ul>
 	          </div>
-            <div class="left specialties"><h3>Links of Interest</h3>
-      <ul class="none">
-         
-         <li>
-            <a href="http://chem.sites.mtu.edu/tanasova/">Research Group Page</a>
-         </li>
-         
-      </ul>
-      
-      <ul>
-         
-         <li>Positions are open for undergraduate, M.S. and Ph.D. students and Postdocs</li>
-         
-      </ul>
-      
-      <p>
-         <a href="https://scholar.google.com/citations?user=r8s_G6AAAAAJ&amp;hl=en&amp;oi=ao">Publications</a>
-      </p>
-      
-      <p>
-         <a href="https://orcid.org/0000-0003-4771-9533">ORCID</a>
-      </p>
-   </div>		</div>	    
-	   <div class="right specialties"><h3>Research Interests</h3>
-      <ul>
-         
-         <li>Synthesis of molecular probes for evaluating substrate selection by carbohydrate transporters</li>
-         
-         <li>Development of platforms for tumor imaging and drug delivery</li>
-         
-         <li>Design and synthesis of bioreductively-activated DNA repair inhibitors</li>
-         
-      </ul>
-   </div>  </div>
+            <div class="left specialties"><h3>Links of Interest</h3><ul class="none">
+<li><a href="https://chem.sites.mtu.edu/tanasova/">Research Group Page</a></li>
+</ul>
+<ul>
+<li>Positions are open for undergraduate, M.S. and Ph.D. students and Postdocs</li>
+</ul>
+<p><a href="https://scholar.google.com/citations?user=r8s_G6AAAAAJ&amp;hl=en&amp;oi=ao" aria-label="Marina Tanasova Publications">Publications</a></p>
+<p><a href="https://orcid.org/0000-0003-4771-9533" aria-label="Marina Tanasova ORCID">ORCID</a></p></div>		</div>	    
+	   <div class="right specialties"><h3>Research Interests</h3><ul>
+<li>Synthesis of molecular probes for evaluating substrate selection by carbohydrate transporters</li>
+<li>Development of platforms for tumor imaging and drug delivery</li>
+<li>Design and synthesis of bioreductively-activated DNA repair inhibitors</li>
+</ul></div>  </div>
   <div class="clearer"></div>
 </div>
-				
-<!-- /chemistry/people-groups/faculty-staff/faculty/thompson/ -->							
+						
+<!-- /chemistry/people-groups/faculty-staff/faculty/thompson/ - 200 -->							
 <div class="person">
   <div class="photo"><a href="/chemistry/people-groups/faculty-staff/faculty/thompson/">  <img height="230" width="170" loading="lazy" alt="Martin Thompson"  src="/chemistry/people-groups/faculty-staff/faculty/thompson/images/martin-thompson-personnel.jpg" class="img"  />  </a>   
 	  	  
   </div>
   <div class="person_bio">
     <div class="personal">
-      <h2> <a href="/chemistry/people-groups/faculty-staff/faculty/thompson/">Martin Thompson</a></h2>
+      <div class="name-and-pronouns"><h2> <a href="/chemistry/people-groups/faculty-staff/faculty/thompson/">Martin Thompson</a></h2><span class="pronouns" style="display:none;"></span></div>
 
       <ul class="none"><li>Associate Professor, Chemistry</li>      </ul>    </div>
       
@@ -1274,97 +1198,58 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class="email-address"><a href="mailto:thompson@mtu.edu">thompson@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064873522">906-487-3522</a></li> 		  		<li class='place'>Chem Sci 510B</li> 
+		  <li class="email-address"><a href="mailto:thompson@mtu.edu">thompson@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064873522">906-487-3522</a></li> 		  		<li class="place">Chem Sci 510B</li> 
         	   </ul>
 	          </div>
-            <div class="left specialties"><h3>Links of Interest</h3>
-      <ul class="none">
-         
-         <li>
-            <a href="https://pages.mtu.edu/~thompson/">Research Group Page</a>
-         </li>
-         
-      </ul>
-   </div>		</div>	    
-	   <div class="right specialties"><h3>Research Interests</h3>
-      <ul>
-         
-         <li>Understanding the molecular recognition features and assembly mechanisms of gene regulation</li>
-         
-      </ul>
-   </div>  </div>
+            <div class="left specialties"><h3>Links of Interest</h3><ul class="none">
+<li><a href="https://pages.mtu.edu/~thompson/">Research Group Page</a></li>
+</ul></div>		</div>	    
+	   <div class="right specialties"><h3>Research Interests</h3><ul>
+<li>Understanding the molecular recognition features and assembly mechanisms of gene regulation</li>
+</ul></div>  </div>
   <div class="clearer"></div>
 </div>
-				
-<!-- /chemistry/people-groups/faculty-staff/faculty/tiwari/ -->							
+						
+<!-- /chemistry/people-groups/faculty-staff/faculty/tiwari/ - 200 -->							
 <div class="person">
-  <div class="photo"><a href="/chemistry/people-groups/faculty-staff/faculty/tiwari/">  <img height="230" width="170" loading="lazy" alt="Ashutosh Tiwari"  src="/chemistry/people-groups/faculty-staff/faculty/tiwari/images/ashutosh-tiwari-personnel.jpg" class="img"  />  </a>   
+  <div class="photo"><a href="/chemistry/people-groups/faculty-staff/faculty/tiwari/">  <img height="230" width="170" loading="lazy" alt="Ashutosh Tiwari"  src="/chemistry/people-groups/faculty-staff/faculty/tiwari/images/tiwariprofile2022.png" class="img"  />  </a>   
 	  	  
   </div>
   <div class="person_bio">
     <div class="personal">
-      <h2> <a href="/chemistry/people-groups/faculty-staff/faculty/tiwari/">Ashutosh Tiwari</a></h2>
+      <div class="name-and-pronouns"><h2> <a href="/chemistry/people-groups/faculty-staff/faculty/tiwari/">Ashutosh Tiwari</a></h2><span class="pronouns" style="display:none;"></span></div>
 
-      <ul class="none"><li>Associate Professor, Chemistry</li>      </ul>    </div>
+      <ul class="none"><li>Associate Dean for Graduate Research and Education, College of Sciences and Arts</li><li>Faculty Fellow (Research Integrity), Office of the Vice President for Research</li><li>Professor, Chemistry</li>      </ul>    </div>
       
 	
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class="email-address"><a href="mailto:tiwari@mtu.edu">tiwari@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064871840">906-487-1840</a></li> 		  		<li class='place'>Chem Sci 402B</li> 
+		  <li class="email-address"><a href="mailto:tiwari@mtu.edu">tiwari@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064871840">906-487-1840</a></li> 		  		<li class="place">Chem Sci 402B</li> 
         	   </ul>
 	          </div>
-            <div class="left specialties"><h3>Links of Interest</h3>
-      <ul class="none">
-         
-         <li>
-            <a href="https://chem.sites.mtu.edu/tiwari/" target="_blank" rel="noopener">Research Group Page</a>
-         </li>
-         
-         <li>
-            <a href="/biochemistry/index.html" target="_blank" rel="noopener">Biochemistry and Molecular Biology PhD Program</a>
-         </li>
-         
-         <li>
-            <a href="https://scholar.google.com/citations?hl=en&amp;user=A01F1tIAAAAJ&amp;sortby=pubdate" target="_blank" rel="noopener">Peer Reviewed Publications: Google Scholar</a>
-         </li>
-         
-         <li>
-            <a href="https://publons.com/researcher/1753282/ashutosh-tiwari/" target="_blank" rel="noopener">Peer Reviewed Publications: Publons</a>
-         </li>
-         
-      </ul>
-   </div>		</div>	    
-	   <div class="right specialties"><h3>Research Interests</h3>
-      <ul>
-         
-         <li>Identify experimental conditions that can generate diverse aggregated protein structures
-            from the same proteins.
-         </li>
-         
-         <li>Develop novel tools and techniques to differentiate amongst the varied aggregated
-            species of proteins.
-         </li>
-         
-         <li>Understand the relationship between aggregated protein species and its associated
-            cellular toxicity.
-         </li>
-         
-      </ul>
-   </div>  </div>
+            <div class="left specialties"><h3>Links of Interest</h3><ul class="none">
+<li><a href="https://chem.sites.mtu.edu/tiwari/" target="_blank" rel="noopener">Research Group Page</a></li>
+<li><a href="/biochemistry/index.html" target="_blank" rel="noopener">Biochemistry and Molecular Biology PhD Program</a></li>
+<li><a href="https://scholar.google.com/citations?hl=en&amp;user=A01F1tIAAAAJ&amp;sortby=pubdate" target="_blank" rel="noopener">Peer Reviewed Publications: Google Scholar</a></li>
+<li><a href="https://www.webofscience.com/wos/author/record/913558" target="_blank" rel="noopener">Web of Science ResearcherID</a></li>
+</ul></div>		</div>	    
+	   <div class="right specialties"><h3>Research Interests</h3><ul>
+<li>Identify experimental conditions that can generate diverse aggregated protein structures from the same proteins.</li>
+<li>Develop novel tools and techniques to differentiate amongst the varied aggregated species of proteins.</li>
+<li>Understand the relationship between aggregated protein species and its associated cellular toxicity.</li>
+</ul></div>  </div>
   <div class="clearer"></div>
 </div>
-				
-<!-- /chemistry/people-groups/faculty-staff/faculty/valenzano-slough/ -->							
+						
+<!-- /chemistry/people-groups/faculty-staff/faculty/valenzano-slough/ - 200 -->							
 <div class="person">
-  <div class="photo"><a href="/chemistry/people-groups/faculty-staff/faculty/valenzano-slough/">  <img height="230" width="170" loading="lazy" alt="Loredana Valenzano-Slough"  src="/chemistry/people-groups/faculty-staff/faculty/valenzano-slough/images/loredana-valenzano-personnel.jpg" class="img"  />  </a>   <div class="quote">"If you have built castles in the air, your work need not be lost; that is where they
-      should be. Now put the foundations under them."<br /> —"Walden" - H.D. Thoreau
-   </div>
+  <div class="photo"><a href="/chemistry/people-groups/faculty-staff/faculty/valenzano-slough/">  <img height="230" width="170" loading="lazy" alt="Loredana Valenzano-Slough"  src="/chemistry/people-groups/faculty-staff/faculty/valenzano-slough/images/loredana-valenzano-personnel.jpg" class="img"  />  </a>   <div class="quote">"If you have built castles in the air, your work need not be lost; that is where they should be. Now put the foundations under them."<br /> —"Walden" - H.D. Thoreau</div>
 	  	  
   </div>
   <div class="person_bio">
     <div class="personal">
-      <h2> <a href="/chemistry/people-groups/faculty-staff/faculty/valenzano-slough/">Loredana Valenzano-Slough</a></h2>
+      <div class="name-and-pronouns"><h2> <a href="/chemistry/people-groups/faculty-staff/faculty/valenzano-slough/">Loredana Valenzano-Slough</a></h2><span class="pronouns" style="display:none;"></span></div>
 
       <ul class="none"><li>Associate Professor, Chemistry</li>      </ul>    </div>
       
@@ -1372,53 +1257,28 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      	<div class="left">      <div class="contact">
       <ul class="none">
        
-		  <li class="email-address"><a href="mailto:lvalenza@mtu.edu">lvalenza@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064871602">906-487-1602</a></li> 		  		<li class='place'>Chem Sci 701A</li> 
+		  <li class="email-address"><a href="mailto:lvalenza@mtu.edu">lvalenza@mtu.edu</a></li>		  <li class="phone-number"><a href="tel:9064871602">906-487-1602</a></li> 		  		<li class="place">Chem Sci 701A</li> 
         	   </ul>
 	          </div>
-            <div class="left specialties"><h3>Links of Interest</h3>
-      <ul class="none">
-         
-         <li>
-            <a href="http://chem.sites.mtu.edu/valenzano/" target="_blank">Research Group Page</a>
-         </li>
-         
-      </ul>
-   </div><div class="left specialties"><h3>Reviewer for:</h3>
-      <ul>
-         
-         <li>ACS: JACS, J Phys Chem Lett, J Phys Chem A/C, Inor Chem</li>
-         
-         <li>RSC: J Mat Chem A/B/C, Dalton Trans, CrystEngComm, PCCP, New J Chem</li>
-         
-         <li>Elsevier: Chem Phys Lett, J Solid State Chem, Appl Surf Science, Comp Mat Science,
-            Physica B: Cond Matt
-         </li>
-         
-         <li>Springer: J Porous Mat</li>
-         
-         <li>AIP: J Chem Phys</li>
-         
-         <li>MDPI: Materials</li>
-         
-      </ul>
-   </div>		</div>	    
-	   <div class="right specialties"><h3>Research Interests</h3>
-      <ul>
-         
-         <li>Computational characterization of molecules and materials: energetic materials, nanoporous
-            materials, cementing materials, active pharmaceutical ingredients, crystal growth,
-            nucleation, surfaces, effect of defects on the structures and properties of materials,
-            effect of water/solvents on material evolution and degradation, biomolecules
-         </li>
-         
-      </ul>
-   </div>  </div>
+            <div class="left specialties"><h3>Links of Interest</h3><ul class="none">
+<li><a href="https://chem.sites.mtu.edu/valenzano/" target="_blank">Research Group Page</a></li>
+</ul></div><div class="left specialties"><h3>Reviewer for:</h3><ul>
+<li>ACS: JACS, J Phys Chem Lett, J Phys Chem A/C, Inor Chem</li>
+<li>RSC: J Mat Chem A/B/C, Dalton Trans, CrystEngComm, PCCP, New J Chem</li>
+<li>Elsevier: Chem Phys Lett, J Solid State Chem, Appl Surf Science, Comp Mat Science, Physica B: Cond Matt</li>
+<li>Springer: J Porous Mat</li>
+<li>AIP: J Chem Phys</li>
+<li>MDPI: Materials</li>
+</ul></div>		</div>	    
+	   <div class="right specialties"><h3>Research Interests</h3><ul>
+<li>Computational characterization of molecules and materials: energetic materials, nanoporous materials, cementing materials, active pharmaceutical ingredients, crystal growth, nucleation, surfaces, effect of defects on the structures and properties of materials, effect of water/solvents on material evolution and degradation, biomolecules</li>
+</ul></div>  </div>
   <div class="clearer"></div>
 </div>
-				
+						
 <script>
 							defer(function() {	
-								$.get("https://www.mtu.edu/mtu_resources/php/ou/profiles/display-n.php?path=%2Fchemistry%2Fpeople-groups%2Ffaculty-staff%2F&manual=sgreen&link=%2Fchemistry%2Fpeople-groups%2Ffaculty-staff%2Findex.html&additional=&type=pub&displaytype=&ct=3600", function(data) { console.log('Updated Listing.');});
+								$.get("https://www.mtu.edu/mtu_resources/php/ou/profiles/display-n.php?path=%2Fchemistry%2Fpeople-groups%2Ffaculty-staff%2F&manual=&link=%2Fchemistry%2Fpeople-groups%2Ffaculty-staff%2Findex.html&additional=&type=pub&displaytype=&ct=3600", function(data) { console.log('Updated Listing.');});
 							});
 						</script></div>
                            <div class="clearer"></div>
@@ -1429,117 +1289,121 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="clearer"></div>
                </div>
                		
-               	
-            </section>
+               	</section>
          </div>
          <div class="push"></div>
-      </div><footer xmlns:xlink="http://www.w3.org/1999/xlink" id="mtu-footer" class="mtu-footer">
+      </div>
+      <footer xmlns:xlink="http://www.w3.org/1999/xlink" id="mtu-footer" class="mtu-footer">
    <div class="footer__pre-nav-wrapper">
       <ul class="no-bullet footer__pre-nav row">
-         <li class="footer-button"><a aria-label="Request Information from Michigan Tech" href="/request/">Request Information</a></li>
-         <li class="footer-button"><a aria-label="Schedule a Visit at Michigan Tech" href="/visit/">Schedule a Visit</a></li>
-         <li class="footer-button-give"><a aria-label="Give to Michigan Tech" href="/giving/">Give</a></li>
-         <li class="footer-button-apply"><a aria-label="Apply to Michigan Tech" href="/applynow/">Apply</a></li>
+         <li class="footer-button"><a aria-label="Request Information from Michigan Tech" href="/request/index.html">Request Information</a></li>
+         <li class="footer-button"><a aria-label="Schedule a Visit at Michigan Tech" href="/visit/index.html">Schedule a Visit</a></li>
+         <li class="footer-button-give"><a aria-label="Give to Michigan Tech" href="/giving/index.html">Give</a></li>
+         <li class="footer-button-apply"><a aria-label="Apply to Michigan Tech" href="/apply/index.html">Apply</a></li>
       </ul>
    </div>
    <div class="footer row">
       <div class="footer-menu">
-         <h2 class="footer-menu__title">Academics</h2>
+         <h2 class="footer-menu__title">Admissions</h2>
          <ul class="no-bullet">
-            <li><a href="/admissions/">Undergraduate Admissions</a></li>
-            <li><a href="/gradschool/">Graduate Admissions</a></li>
-            <li><a href="/admissions/apply/international/">International Admissions</a></li>
-            <li><a href="/online/">Online Learning</a></li>
-            <li><a href="/virtual-tour/">Virtual Tour</a></li>
-            <li><a href="/finaid/">Financial Aid</a></li>
-            <li><a href="/library/">Library</a></li>
-            <li><a href="/provost/accreditation/">Accreditation</a></li>
+            <li><a href="/admissions/index.html">Undergraduate Admissions</a></li>
+            <li><a href="/gradschool/index.html">Graduate Admissions</a></li>
+            <li><a href="/globalcampus/index.html">Global Campus</a></li>
+            <li><a aria-label="Request Information from Michigan Tech" href="/request/index.html" class="footer-rfi">Request Information</a></li>
+            <li><a aria-label="Schedule a Visit to Michigan Tech" href="/visit/index.html" class="footer-visit">Schedule a Visit</a></li>
+            <li><a aria-label="Apply to Michigan Tech" href="/apply/index.html" class="footer-apply">Apply</a></li>
+            <li><a aria-label="Virtual Tours of Michigan Tech" href="/virtual-tours/index.html">Virtual Tours</a></li>
          </ul>
       </div>
       <div class="footer-menu">
-         <h2 class="footer-menu__title">People and Places</h2>
+         <h2 class="footer-menu__title">Study and Live</h2>
          <ul class="no-bullet">
-            <li><a href="https://map.mtu.edu/">Campus Map</a></li>
-            <li><a href="/directory/">Campus Directory</a></li>
+            <li><a href="/majors/index.html">Degrees / Majors</a></li>
+            <li><a href="/colleges-schools/index.html">Colleges and Departments</a></li>
+            <li><a href="/library/index.html">Library</a></li>
             <li><a href="https://events.mtu.edu/">Events Calendar</a></li>
-            <li><a href="/jobs/">Jobs</a></li>
-            <li><a href="/president/teams/council/">President's Council</a></li>
-            <li><a href="/success/" aria-label="Waino Wahtera Student Success Center">Student Success Center</a></li>
-            <li><a href="/title-ix/report/tix-staff/">Title IX Coordinator</a></li>
-            <li><a href="/webcams/">Webcams</a></li>
+            <li><a href="/arts/index.html">Arts and Entertainment</a></li>
+            <li><a href="/recreation/index.html">Fitness and Recreation</a></li>
+            <li><a href="/tour/index.html">Campus and Beyond</a></li>
          </ul>
       </div>
       <div class="footer-menu">
-         <h2 class="footer-menu__title">Support</h2>
+         <h2 class="footer-menu__title">Campus Info</h2>
          <ul class="no-bullet">
-            <li><a href="/accessibility/">Accessible Technology</a></li>
-            <li><a href="/equity/equal-opportunity/">Equal Opportunity</a></li>
-            <li><a href="/hr/">Human Resources</a></li>
-            <li><a href="/it/">Information Technology</a></li>
-            <li><a href="/equity/">Institutional Equity</a></li>
-            <li><a href="/equity/equal-opportunity/non-discrimination/">Notice of Non-Discrimination</a></li>
-            <li><a href="/well-being/" aria-label="Center for Student Mental Health and Well-being">Student Mental Health and Well-being</a></li>
-            <li><a href="/title-ix/">Title IX</a></li>
+            <li><a href="/about/index.html">About Michigan Tech</a></li>
+            <li><a href="/provost/accreditation/index.html" aria-label="University Accreditation">Accreditation</a></li>
+            <li><a href="https://www.michigantechhuskies.com/">Athletics</a></li>
+            <li><a href="https://map.mtu.edu/">Campus Map</a></li>
+            <li><a href="/directory/index.html">Campus Directory</a></li>
+            <li><a href="/jobs/index.html">Jobs at Michigan Tech</a></li>
+            <li><a href="/webcams/index.html">Webcams</a></li>
          </ul>
       </div>
       <div class="footer-menu">
          <h2 class="footer-menu__title">Policies and Safety</h2>
          <ul class="no-bullet">
-            <li><a href="https://www.mtu.edu/title-ix/resources/campus-safety/" aria-label="Campus Safety Information and Resources">Campus Safety Information</a></li>
-            <li><a href="/emergencycontacts/">Emergency Contacts / Safety Alerts</a></li>
-            <li><a href="/deanofstudents/students/concern/">Report a Concern</a></li>
-            <li><a href="/publicsafety/">Public Safety and Police Services</a></li>
-            <li><a href="https://www.mtu.edu/sds/">Safety Data Sheets</a></li>
-            <li><a href="/student-affairs/interests/student-disclosure/">Student Disclosure</a></li>
-            <li><a href="/policy/policies/">University Policies</a></li>
+            <li><a href="/title-ix/resources/campus-safety/index.html" aria-label="Campus Safety Information and Resources">Campus Safety Information</a></li>
+            <li><a href="/emergencycontacts/index.html">Emergency Contact Information</a></li>
+            <li><a href="/deanofstudents/concern/index.html">Report a Concern</a></li>
+            <li><a href="/publicsafety/index.html">Public Safety / Police Services</a></li>
+            <li><a href="/student-affairs/interests/student-disclosure/index.html">Student Disclosures</a></li>
+            <li><a href="/title-ix/index.html">Title IX</a></li>
+            <li><a href="/policy/policies/index.html">University Policies</a></li>
          </ul>
       </div>
    </div>
    <div class="row footer__contact">
       <div class="footer__contact-info"><script type="text/javascript">
-				var givingLink = "https://www.mtu.edu/chemistry/giving/index.html";
-				if (document.getElementsByClassName("footer-button-give").length != 0){
-					document.querySelector(".footer-button-give a").href = givingLink;
-				}
+				(function () {
+					let givingHostnames = ["www.mtu.edu", "give.mtu.edu"];
+					let givingHref = "\/chemistry\/giving\/index.html";
+					let givingBtn = document.querySelector(".footer-button-give a");
+					if (givingBtn === null) {
+						return;
+					}
+
+					let givingUrl = new URL(givingHref, "https://www.mtu.edu/");
+
+					if (Array.from(givingHostnames).includes(givingUrl.hostname)) {
+						givingBtn.href = givingUrl.toString();
+					}
+				})();
 			</script><style>
 				.footer__pre-nav li:nth-of-type(1), .footer__pre-nav li:nth-of-type(2), .footer__pre-nav li:nth-of-type(3), .footer__pre-nav li:nth-of-type(4) {
 					display: block;
 				}
-			</style><h2><a class="text-gold underline-on-hover" href="/chemistry/">Department of Chemistry</a></h2><div class="footer__contact-info-address">Chemical Sciences and Engineering Building<br />Houghton, MI 49931</div><div><ul class="bar-separator no-bullet"><li class="phone"><a href="tel:9064872048">906-487-2048</a></li><li class="fax"><a href="tel:9064872061">906-487-2061</a></li><li class="email"><a href="mailto:chemistry@mtu.edu">chemistry@mtu.edu</a></li></ul></div><a class="text-gold" href="/chemistry/department/contact/">Contact Us</a><ul class="social-icons no-bullet"><li><a class="facebook" href="https://www.facebook.com/chemistry.michigan.tech" target="_blank">Facebook</a></li><li><a class="twitter" href="https://twitter.com/MTU_chemistry" target="_blank">Twitter</a></li><li><a class="youtube" href="https://www.youtube.com/channel/UC2LGUv1R6AaO2yCaE2BCjPg" target="_blank">Youtube</a></li></ul>      </div>
+			</style><h2><a class="text-gold underline-on-hover" href="/chemistry/">Department of Chemistry</a></h2><div class="footer__contact-info-address">Chemical Sciences and Engineering Building<br />Houghton, MI 49931</div><div><ul class="bar-separator no-bullet"><li class="phone"><a href="tel:9064872048">906-487-2048</a></li><li class="fax"><a href="tel:9064872061">906-487-2061</a></li><li class="email"><a href="mailto:chemistry@mtu.edu">chemistry@mtu.edu</a></li></ul></div><a class="text-gold" href="/chemistry/department/contact/">Contact Us</a><ul class="social-icons no-bullet"><li><a class="facebook" href="https://www.facebook.com/chemistry.michigan.tech" target="_blank">Facebook</a></li><li><a class="twitter" href="https://twitter.com/MTU_chemistry" target="_blank">Twitter</a></li><li><a class="youtube" href="https://www.youtube.com/channel/UC2LGUv1R6AaO2yCaE2BCjPg" target="_blank">Youtube</a></li></ul></div>
       <div class="footer__contact-social">
-         <div class="mtu-logo logo"><a href="/" class="mtu-logo mtu-logo-footer">
-               <svg viewBox="0 200 600 200" width="200" height="100" preserveAspectRatio="xMinYMid meet">
-                  <title>Michigan Technological University</title>
-                  <use xlink:href="#icon"></use>
-                  <use xlink:href="#stacked"></use>
-               </svg></a></div>
+         <div class="mtu-logo logo"><a href="/" class="mtu-logo mtu-logo-footer"><img src="//www.mtu.edu/mtu_resources/images/logos/michigan-tech-logo-fullname-solid-old.svg" height="132" width="200" alt="Michigan Technological University" loading="lazy"></a></div>
       </div>
    </div>
    <div class="footer__post-info row">
-      <div><a href="mailto:webmaster@mtu.edu">Email the Webmaster</a></div>
+      <div>
+         <ul class="bar-separator no-bullet aside">
+            <li><a href="/accessibility/index.html">Accessibility</a></li>
+            <li><a href="/eo-compliance/equal-opportunity-hiring/index.html">Equal Opportunity</a></li>
+            <li><a href="mailto:webmaster@mtu.edu">Email the Webmaster</a></li>
+         </ul>
+      </div>
       <div>
          <ul class="bar-separator no-bullet">
-            <li><a href="/tomorrowneeds/"><strong>Tomorrow Needs Michigan Tech</strong></a></li>
-            <li><span id="directedit">©</span>2021 Michigan Technological University
-            </li>
+            <li><a href="/tomorrowneeds/index.html"><strong>Tomorrow Needs Michigan Tech</strong></a></li>
+            <li><span id="directedit">©</span>
+               2024 <a href="https://www.mtu.edu">Michigan Technological University</a></li>
          </ul>
       </div>
    </div>
 </footer>
 
-
 <!--[if (!IE)|(gt IE 8)]><!--> 
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
-	<script>window.jQuery || document.write('<script src="//www.mtu.edu/mtu_resources/script/n/jquery.js"><\/script>')</script> 
+	<script src="//www.mtu.edu/mtu_resources/script/n/jquery.js"></script> 
 <!--<![endif]-->
 
 <!--[if lte IE 8]>
 	<script src="//www.mtu.edu/mtu_resources/script/n/jquery-ie.js"></script>
 <![endif]-->
 
-<script src="//www.mtu.edu/mtu_resources/assets/js/app.js?v=21.092811"></script>
-
-<script src="/_resources/js/direct-edit.js"></script>
+<script src="//www.mtu.edu/mtu_resources/assets/js/app.js"></script>
 <script>
             var OUC = OUC || {};
             OUC.globalProps = OUC.globalProps || {};
@@ -1547,7 +1411,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             
             
                 OUC.globalProps['path'] = "/chemistry/people-groups/faculty-staff/index.html";
-                OUC.globalProps['domain'] = "http://www.mtu.edu";
+                OUC.globalProps['domain'] = "https://www.mtu.edu";
                 OUC.globalProps['index-file'] = "index";
                 OUC.globalProps['extension'] = "html";
             
@@ -1555,7 +1419,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             for (key in OUC.globalProps) {
             OUC.props[key] = OUC.globalProps[key];
             }
-        </script><script>
+        </script>
+      <script>
 	$(function(){
 		var $domain      = OUC.globalProps['domain'];
 		var $currentPage = OUC.globalProps['path'];
@@ -1596,8 +1461,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		});
 	});
 </script>
-<div id="hidden" style="display:none;">
-         <a id="de" href="https://a.cms.omniupdate.com/11/?skin=oucampus&amp;account=MTU&amp;site=www&amp;action=de&amp;path=/chemistry/people-groups/faculty-staff/index.pcf">©</a>
-      </div>
+<div id="hidden" style="display:none;"><a id="de" href="https://a.cms.omniupdate.com/11/?skin=oucampus&amp;account=MTU&amp;site=www&amp;action=de&amp;path=/chemistry/people-groups/faculty-staff/index.pcf">©</a></div>
    </body>
 </html>

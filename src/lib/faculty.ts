@@ -14,14 +14,19 @@ export const getAllFaculty = async (): Promise<IFaculty[]> => {
 
     const $ = cheerio.load(body);
 
-    const department = trim($('.site-title span > a').text());
+    const department = trim($('.title span > a').text());
 
     const people: IFaculty[] = [];
-
     $('.person').each((_, element) => {
       const node = $(element);
 
-      let name = trim(node.find('.personal > h2').text());
+      let nameElement = node.find('.personal h2 a');
+
+      if (nameElement.length === 0) {
+        nameElement = node.find('.personal h2');
+      }
+
+      let name = trim(nameElement.text());
 
       // Remove any attributes after name
       if (name.includes(',')) {
